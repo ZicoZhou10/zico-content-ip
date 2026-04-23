@@ -1,6 +1,7 @@
 ---
 date: 2026-04-23
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/004-protocol-moment-xhs.md
 ---
 
 # Today's Candidates
