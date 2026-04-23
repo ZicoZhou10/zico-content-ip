@@ -1,52 +1,53 @@
 ---
 date: 2026-04-23
-status: written
-selected: candidate 2 → drafts/004-protocol-moment-xhs.md
+status: pending_selection
+scan_run: 2
+note: First scan (run 1) produced draft 004-protocol-moment-xhs.md from A2A/Google Cloud Next. These are fresh candidates from a second scan pass.
 ---
 
-# Today's Candidates
+# Today's Candidates (Scan Run 2)
 
-## Candidate 1: 当 AI 巨头说"别听我的"——LeCun 公开反驳 Amodei 背后的认知权力游戏
+## Candidate 1: 当"限制访问"失败之后——一家 AI 安全公司最危险模型的泄露事件
 
-- **Event**: 4月18日，Meta AI 前首席科学家 Yann LeCun 在 X 上公开反驳 Anthropic CEO Dario Amodei 关于 AI 将消除50%白领岗位的预测，直接写道："Dario 是错的。他对技术革命对劳动市场的影响一无所知。不要听他的，也不要听 Sam（Altman）、Yoshua（Bengio）、Geoff（Hinton）或我的——去听花了一辈子研究这个问题的经济学家的。" 同日，英伟达 CEO Jensen Huang 也表示"基本上不同意 Amodei 说的所有内容"。
-- **Source**: https://startupnews.fyi/2026/04/19/ai-pioneer-yann-lecun-rejects-anthropics-50-percent-job-loss-prediction-destructive-and-dangerous/ | https://www.businesstoday.in/technology/story/dario-is-wrong-knows-absolutely-nothing-yann-lecun-slams-anthropic-ceo-over-ai-job-loss-warning-526372-2026-04-19
-- **Timeliness**: 5 days ago (April 18, 2026)
-- **Topic pillar**: 深层思考（Deep AI thinking）/ 组织形式变革（Org evolution）
-- **Zico's angle**: 表面上这是两个 AI 大佬在吵架。但 LeCun 最有意思的一句话不是"Dario 错了"，而是"也不要听我的"——他在用认知权威来拆解认知权威本身。一个顶级 AI 实验室 CEO 声称 AI 会消灭50%岗位，另一个 AI 研究巨头说他没资格说这件事，只有经济学家才有资格。这里有一个没人说破的结构性问题：建造 AI 的人，为什么是预测 AI 社会影响最不可信的人？一家顶级 AI 安全公司的品牌定位，本身就嵌入在"AI 很危险、需要安全"的叙事中。放大 AI 对就业的威胁，不仅是观点，也是品牌基础设施。Zico 在产品一线做 AI 决策，对"谁的预测应该被信任，为什么"有切身感受。这篇文章可以从认知权威的边界写起，而不是站队谁对谁错。
-- **Resonance hook**: 中文 AI 圈大量转述了这场争吵的表面（谁说了什么），但几乎没有人写那个更深的问题：AI 实验室的人，有没有利益上的理由去夸大或淡化 AI 的社会威胁？读者会停下来想：那我该信谁？
+- **Event**: 4月7日，Anthropic 宣布 Claude Mythos Preview，一个被官方认定为"危险程度超过公开发布标准"的 AI 模型——在测试中，它能在所有主流操作系统和浏览器中自主发现并利用零日漏洞。Anthropic 采取"限制访问"策略：通过 Project Glasswing，仅向 Apple、Google、Microsoft、Amazon AWS、Cisco、CrowdStrike 等约 12 家机构授权，附赠 1 亿美元使用额度。然而，4月21日，一个 Discord 频道的用户组通过猜测 Anthropic URL 格式 + 利用共享的第三方承包商账户和 API key，获取了对 Mythos 的非授权访问。Anthropic 确认正在调查，表示"在 Anthropic 自身系统中未发现影响"。
+- **Source**: https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/ | https://www.euronews.com/next/2026/04/22/hackers-breach-anthropics-too-dangerous-to-release-mythos-ai-model-report | https://red.anthropic.com/2026/mythos-preview/
+- **Timeliness**: 2 days ago (April 21–22, 2026)
+- **Topic pillar**: 深层思考（Deep AI thinking）/ AI 产品战略（AI product strategy）
+- **Zico's angle**: 不写成"安全事件"，而是写成"治理模型的第一次真实压力测试"。这家公司的逻辑是：模型太危险 → 限制访问 → 只给可信机构 → 安全。但事实证明，最强的 AI 模型只有最弱的承包商账户那么安全。不是模型出了问题——是"信任链"出了问题。这对所有做 AI 产品的人都有一个具体的启示：你的系统的安全边界，不是你自己的代码，而是所有接触你系统的人的最薄弱处。Zico 在一线做 AI 产品，对"谁能访问什么、访问权限如何管理"有真实感受——可以从产品设计视角写"限制访问作为安全策略的结构性问题"，而不是复述黑客故事。（匿名化：不具名公司，写"一家专注 AI 安全的顶级实验室"）
+- **Resonance hook**: 中文报道把这当成"黑客入侵"。真正的问题是：世界上最在乎 AI 安全的机构，刚刚证明了"把危险 AI 锁起来"这个策略在现实世界里有多脆弱。停下来的理由："模型太危险不能发布，但 Discord 用户两周后拿到了。"
 - **Recommended priority**: high
 
 ---
 
-## Candidate 2: Agent 互联网的 TCP/IP 时刻——A2A 协议进入生产部署
+## Candidate 2: GPTs 死了，Workspace Agents 来了——OpenAI 把 ChatGPT 从聊天工具变成了组织基础设施
 
-- **Event**: 4月22日 Google Cloud Next 2026 大会（拉斯维加斯）上，Google 宣布 Agent2Agent（A2A）协议升级至 v1.2，已有150个组织在生产环境（非测试）中运行跨平台 Agent 协作。协议现由 Linux Foundation 旗下的 Agentic AI Foundation 治理，支持 Salesforce、SAP、ServiceNow、微软、AWS 等平台的 Agent 之间无缝交接任务。同日，Google 将 Vertex AI 重组为 Gemini Enterprise Agent Platform，并宣布 7.5 亿美元基金用于帮助麦肯锡、埃森哲等咨询公司部署 Agentic AI。
-- **Source**: https://thenextweb.com/news/google-cloud-next-ai-agents-agentic-era | https://cloud.google.com/blog/products/ai-machine-learning/agent2agent-protocol-is-getting-an-upgrade | https://www.bloomberg.com/news/articles/2026-04-22/google-releases-new-ai-agents-to-challenge-openai-and-anthropic
+- **Event**: 4月22日，OpenAI 正式发布 Workspace Agents，将其定性为 Custom GPTs 的直接替代品（Custom GPTs 将被下线）。Workspace Agents 由 Codex 驱动，支持团队共享的自主 Agent：在云端持续运行（不需要用户在线）、能访问代码库和文件、集成 Slack、完成多步骤工作流、在关键节点请求人类审批。面向 ChatGPT Business/Enterprise/Edu 用户，研究预览阶段免费至5月6日，之后按 credit 计费。
+- **Source**: https://openai.com/index/introducing-workspace-agents-in-chatgpt/ | https://9to5mac.com/2026/04/22/openai-updates-chatgpt-with-codex-powered-workspace-agents-for-teams/ | https://the-decoder.com/openai-launches-workspace-agents-that-turn-chatgpt-from-a-chatbot-into-a-team-automation-platform/
 - **Timeliness**: 1 day ago (April 22, 2026)
-- **Topic pillar**: Agent 经济（Agent economy）
-- **Zico's angle**: 草稿 #001 写了 Agent 作为消费者、作为"用户"的时刻。这篇写另一层：当不同平台的 Agent 之间有了标准通信协议，"Agent 经济"就从概念变成了基础设施。就像 TCP/IP 标准化之后，互联网才真正爆发——不是因为某一家公司的产品更好，而是因为协议让所有人的产品能连在一起。A2A 进入生产部署，意味着 Agent 之间的分工协作不再需要定制化集成，而是像调 API 一样标准化。Zico 在产品一线接触过跨系统 AI 集成的工程复杂度，对"协议标准化"意味着什么有直接感受——这不只是技术新闻，是 Agent 生态的基础设施时刻。
-- **Resonance hook**: 中文报道这次 Google 大会大多集中在"Google 向 OpenAI 和 Anthropic 发起挑战"的竞争叙事上，很少人注意到 A2A 进入生产部署这件事的历史意义。读者会停下来问：那我们公司的 Agent 什么时候可以和别人家的 Agent 直接对话？
+- **Topic pillar**: 组织形式变革（Org evolution）/ Agent 经济（Agent economy）
+- **Zico's angle**: Custom GPTs 在2023年底发布时是"AI 应用商店时刻"，18个月后悄然失败，被 Workspace Agents 取代。区别不只是产品功能——是工作单元的根本变化：GPTs 处理的是"提示 → 回复"，Workspace Agents 处理的是"流程 → 结果"。AI 不再是帮你做一件事的工具，而是替你持有一个流程。这是一个真实的组织设计问题：当一个团队的某个流程被 Agent 接管，谁对结果负责？设置 Agent 的人？还是 Agent？Zico 可以从"人类在生产活动中的角色"这个框架切入——这是 GPTs→Workspace Agents 转变背后真正值得讨论的问题，而不是"新功能好不好用"。（匿名化：不具名 OpenAI，写"一家头部 AI 公司"）
+- **Resonance hook**: "GPTs 静静地死了。它的继任者不是'更好的 GPTs'，而是一种根本不同的东西——AI 开始替你持有流程，不只是回答问题。谁对 Agent 的决策负责？"
 - **Recommended priority**: high
 
 ---
 
-## Candidate 3: 世界模型开始进工厂了——Physical AI 从实验室到生产线
+## Candidate 3: 一个做出过真正历史性突破的人，说他对"聊天机器人战争"有一种挥之不去的焦虑
 
-- **Event**: 4月20-24日德国汉诺威工业博览会（Hannover Messe）上，NVIDIA 发布了 Isaac GR00T N1.7、Alpamayo 1.5 和 Cosmos 3 三个最新 Physical AI 模型，其中 GR00T N1.7 被官方定性为"已具备商业部署可行性"（commercially viable）的人形机器人推理模型。NVIDIA 正式提出以 Omniverse 作为工厂 AI 的统一技术基础，将仿真、视觉 AI、Agent 和机器人整合到同一平台，并明确将 2026 年定义为 "Large World Models 为物理 AI 奠基的第一年"。
-- **Source**: https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-AI-models-as-global-partners-unveil-next-generation-robots | https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/ | https://www.nvidia.com/en-us/events/hannover-messe/
-- **Timeliness**: 3 days running (April 20–24, 2026, ongoing today)
-- **Topic pillar**: 深层思考（Deep AI thinking）/ 空间智能前沿（Spatial intelligence）
-- **Zico's angle**: Zico 在一线做过 3DGS 和空间智能产品（如 Aholo），有真实的判断：世界模型进入物理场景，最难跨越的不是模型能力，而是"信任门槛"——当仿真环境生成的训练数据和真实物理世界之间的误差足够小，工程师才会把决策权交给它。一家顶级 GPU 公司说 GR00T "commercially viable"，这个措辞的分量不只是技术突破，而是在宣告一个信任门槛已经越过。这与从事 AI 产品的人高度相关：什么时候"够用"才算真正够用？Zico 可以从产品验收和信任建立的角度，给出一个一线视角，而不是复述发布会内容。
-- **Resonance hook**: 中文 AI 圈大量报道人形机器人融资、具身智能概念，但极少从"世界模型的信任门槛"这个产品视角切入。读者（尤其做 AI 产品的人）会停下来思考：我怎么知道我的 AI 系统"够用"了？
+- **Event**: 4月16日，Fortune 封面文章《Forget the chatbot wars. Demis Hassabis is thinking about something far bigger》。Google DeepMind CEO Demis Hassabis 表示："在我脑子的某个角落，有一种挥之不去的感觉——有某件事远比商业竞争更重要、更大——那就是让 AGI 安全地越过终点线。我会尽力。" 他同时描述了 ChatGPT 发布如何"改变了整个行业的节奏"，使 AI 从基础科学研究转向了产品竞争。同周（4月6日），他的 600 页传记《The Infinity Machine》出版，记录了 AlphaFold 和 DeepMind 的完整历程。
+- **Source**: https://fortune.com/2026/04/16/demis-hassabis-google-deepmind-chatbot-wars-ai-safety/ | https://thenextweb.com/news/google-deepmind-hassabis-startup-pace
+- **Timeliness**: 7 days ago (April 16, 2026)
+- **Topic pillar**: 深层思考（Deep AI thinking）/ 组织形式变革（Org evolution）
+- **Zico's angle**: 这个人带队解决了蛋白质折叠问题（匿名化为"一项从根本上改变了药物研发的 AI 突破"）——目前为止对人类影响最真实的 AI 成就。他亲眼看着一个竞争对手的聊天机器人产品，把整个行业——包括他自己——拉进了一场不同的竞赛。他说的"挥之不去的焦虑"，是使命漂移（mission drift）从内部感受到的样子，在文明尺度上。Zico 可以从组织设计角度切入：当商业紧迫性和科学使命发生冲突，你怎么设计组织来抵抗这个引力？这不只是大实验室的问题——每一个做 AI 产品的团队，每天都在做这个选择：追当下的数据指标，还是坚持能带来真实价值的事？
+- **Resonance hook**: "做出过真正历史性科学突破的人，说自己对聊天机器人战争有一种挥之不去的焦虑。他知道一些我们不知道的事。"
 - **Recommended priority**: medium-high
 
 ---
 
 ## Scan summary
 
-- Sources scanned: X/Twitter（Karpathy, LeCun, Altman, Fan, Amodei），GitHub Trending（AI agents, evolver/EvoMap, visual builders），Hacker News（April 20-22），Anthropic/OpenAI/Google DeepMind 官方博客，Bloomberg，TechCrunch，The Next Web，NVIDIA Newsroom，arXiv（multiagent systems April 2026）
-- Total signals found: 12 distinct events evaluated（含 Moltbook 安全漏洞 Feb'26、Karpathy slopacolypse/RSS Jan-Feb'26、Dario Amodei "Adolescence of Technology" essay Jan'26——均因超出7天窗口或时效性不足排除）
+- Sources scanned: TechCrunch, Euronews, The Next Web, Cybernews, TechRadar, red.anthropic.com（Mythos breach）| openai.com, 9to5Mac, The Decoder（Workspace Agents）| Fortune, thenextweb.com（Hassabis）| X/Twitter: Karpathy, Hassabis indirect references | GitHub Trending AI April 2026 | HN front page April 20-23
+- Total signals found: 11 evaluated（含 OpenAI ChatGPT Images 2.0 April 21——排除，属于工具测评类；含 Karpathy incumbents tweet——排除，无法确认7天内精确日期；含 Physical AI Hannover Messe——排除，已在 Run 1 candidates file 中评估）
 - Why these 3:
-  - **Candidate 1（LeCun vs Amodei）**：时效性强（4天前），有真实的 X 言论锚点，表面争吵下有更深的认知权威和利益冲突结构，切入角度（谁有资格预测 AI 的社会影响）在中文圈几乎空白，与 Zico 的"组织形式变革"和"深层思考"柱高度匹配。
-  - **Candidate 2（A2A 协议生产部署）**：时效性最强（昨天），是 Agent 经济从概念到基础设施的真实里程碑，中文报道普遍停留在"Google 竞争"叙事，没有捕捉到协议标准化的历史意义，与 Zico Agent 经济柱直接对应且不重复 Draft #001 的消费者角度。
-  - **Candidate 3（Physical AI Hannover Messe）**：今天仍在进行，Zico 有空间智能一线经验可以提供真实视角，"信任门槛"角度在中文 AI 讨论中几乎没有出现，符合"深层思考"和"AI 产品战略"两个柱。
+  - **Candidate 1（Mythos Breach）**：时效性最强（2天前），中文圈把这当黑客故事而非治理失败，"安全策略的结构性局限"角度几乎无人写，与 Zico"AI 产品决策"和"深层思考"柱高度匹配。避免与已用草稿重合（#003 Karpathy，#004 A2A）。
+  - **Candidate 2（Workspace Agents）**：时效性最强（1天前），GPTs 失败→Workspace Agents 的产品演化是真实的组织形式变革故事，"谁对 Agent 决策负责"是 Zico 写过的"人类退出生产环节"框架的具体落地。角度区别于 #004 A2A（那是 Agent 间基础设施，这是 Agent 与人的组织关系）。
+  - **Candidate 3（Hassabis）**：刚好在7天窗口内，"使命漂移在文明尺度上的感受"这个角度在中文圈极少有人写，连结 AlphaFold→聊天机器人的叙事线非常有力，与 Zico"深层思考"柱天然契合。
