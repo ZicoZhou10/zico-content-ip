@@ -1,6 +1,7 @@
 ---
 date: 2026-04-24
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/005-workflow-embedding-xhs.md
 ---
 
 # Today's Candidates
