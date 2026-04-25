@@ -1,6 +1,7 @@
 ---
 date: 2026-04-25
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/006-world-model-wave-xhs.md
 ---
 
 # Today's Candidates
