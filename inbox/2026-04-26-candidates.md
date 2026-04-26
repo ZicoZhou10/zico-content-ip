@@ -1,6 +1,7 @@
 ---
 date: 2026-04-26
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/007-execution-layer-collapse-xhs.md
 ---
 
 # Today's Candidates
