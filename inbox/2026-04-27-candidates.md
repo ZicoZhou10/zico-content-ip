@@ -1,6 +1,7 @@
 ---
 date: 2026-04-27
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/008-parallel-infra-xhs.md
 ---
 
 # Today's Candidates
