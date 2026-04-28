@@ -123,3 +123,147 @@
 1. X 侧的提炼方向你认不认可？特别是"我们 #003-005 全是硬新闻路径，下一次挑反共识自白式素材试试"——这个建议你 buy in 吗？
 2. 小红书侧选 Option 1 / 2 / 3？
 3. 这份 `viral-patterns.md` 的格式（5 字段提取 + 可复用模板表）你看了之后想改吗？
+
+---
+
+## Week 2026-W18 · 自动提炼（2026-04-28）
+
+### 本周信号强度说明
+
+X 侧 moderate：April 21–28 窗口内直接可验证样本 3 条；另有 4 条 early-April（W13–W15）结构富集样本附 ⚠️ 日期标注，作为参考。Karpathy LLM Wiki（April 3）已在 A1 节记录，本期不重复提取，仅引用。
+
+小红书侧：`raw/viral-samples-xhs/2026-W18.md` 存在但仅含模板头（10 行，无实际样本，`wc -l > 10` 不满足），**Part B 跳过**。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线
+
+**A-W18-KOL-1 · @levelsio（Pieter Levels）2026-04-27**
+
+- **量级**：具体数字未在搜索结果中出现；但 levelsio 当日表示不得不 double php_max_workers 以应对 widget 流量，可作为量级指示
+- **帖子 ID**：x.com/levelsio/status/2048771177145930146
+- **钩子类型**：个人见证式——"the first game in 2026 #vibejam that goes absolutely viral and I see shared in almost every chat group I'm in"
+- **Complication 句型**："I also had to add double my php_max_workers because the Vibe Jam widget.js was getting overloaded"——服务器被打爆作为规模反差的证据，不说数字，用技术后果代替
+- **中段推进**：极短，无明显中段
+- **收尾形态**：无，开放性背书
+- **可复用模板**：弱。这是 KOL 背书帖，结构信号被粉丝基数污染，不适合中小号复用
+- **备注**：W18 levelsio 活动是转发/背书周，无独立结构性高价值帖
+
+---
+
+**A-W18-KOL-2 · @sama（Sam Altman）2026-04-23**
+
+- **量级**：未验证
+- **内容**：转帖 Jakub Pachocki（OpenAI 首席研究员）语录，无独立论述
+- **钩子类型**：借势他人式——权威人物语录 + 创始人背书
+- **Complication 句型**：无（一条语录帖，无冲突结构）
+- **中段推进**：无
+- **收尾形态**：无
+- **可复用模板**：不可移植到无粉丝基础账号；结构信号 = 0
+- **备注**：sama W18 是安静周，本期无可提炼的独立结构帖
+
+---
+
+#### Mid-tier outliers（重点信号）
+
+**A-W18-OT-1 · @Fried_rice（Chaofan Shou，Solayer Labs 实习生）⚠️ W13 · 2026-03-31**
+
+- **粉丝量**：未验证（实习生级账号，发帖时估计 < 20K）
+- **互动量**：21M+ views（Axios、The Register、VentureBeat、InfoQ 均有覆盖）
+- **钩子类型**：🆕 **发现式**——"The source code of Claude Code has been leaked through a map file in its npm registry!"——我是发现者，不是报道者；信息不对称帧
+- **Complication 句型**：即刻说 HOW，不停在 WHAT——"through a .map file in their npm registry"——泄露机制本身就是 complication，比"泄露了"多一层技术精确性
+- **中段推进**：单线推进——发现 → 技术机制（.npmignore 漏配） → 规模（512K 行，59.8 MB）
+- **收尾形态**：真问题（隐性）——accident? PR stunt? incompetence?——问题由读者在 reply 中自发生成，帖子本身不提问
+- **可复用模板**：`"[已知产品/工具] 的 [意外机制] 暴露了 [内部细节]。[一句话技术精确描述，让读者 30 秒内可自行验证]。"`
+- **⭐ WHY 中小号能爆**：技术精确性创造了"自我传播的验证行为"——每个开发者都能立刻 `npm show @anthropic-ai/claude-code` 验证，验证完就分享；模糊声明做不到这一点。**结论：发现式帖子的护城河是可独立验证的精确细节，不是观点本身**
+
+---
+
+**A-W18-OT-2 · @om_patel5（Om Patel）⚠️ W14 · 2026-04-07**
+
+- **粉丝量**：未验证（Claude Code 内容聚合器风格账号）
+- **互动量**：viral；popularized "AI shrinkflation" 标签——无精确 RT/like 数在搜索结果中
+- **帖子原文**："SOMEONE ACTUALLY MEASURED HOW MUCH DUMBER CLAUDE GOT. THE ANSWER IS 67%."
+- **帖子 ID**：x.com/om_patel5/status/2041704763188793793
+- **钩子类型**：**数字反差式**——百分比作为开头，ALL CAPS 放大，"实际量了"作为可信度锚点
+- **Complication 句型**："anthropic said nothing until the numbers went public. then suddenly Boris Cherny (creator of Claude Code) shows up on the GitHub issue"——机构沉默 → 数字曝光 → 被迫现身，三步张力递进；点名 Boris Cherny 而非"Anthropic 官方"——具体人名比组织名更有冲突感
+- **中段推进**：单线推进 + 递进：数据公布 → 机构沉默 → 被迫回应 → 社区铸造标签
+- **收尾形态**：标签铸造式——"AI shrinkflation" 作为可传播单元，帖子生命周期靠标签延续
+- **可复用模板**：`"有人实际量了 [争议现象]。结果是 [X]%。[机构名] 沉默，直到数字公开。然后 [具体人名] 出现在 GitHub issue 里。"`
+- **⭐ WHY 中小号能爆**：ALL CAPS + 具体百分比 + 具体人名 = 三重可信度堆叠，替代了账号权威。无机构背景的账号用"实际量了"四个字声索了独立核查的道德高地
+
+---
+
+**A-W18-OT-3 · @om_patel5（Om Patel，同账号）W17–W18 · 2026-04-25 / 04-27**
+
+- **两条帖子 ID**：2047127129767203220（video plugin）/ 2048922354168770694（jcode harness）
+- **粉丝量**：未验证
+- **Pattern 观察**：同一账号在 W17–W18 连续使用相同三段式结构
+
+  | 段落 | jcode 帖 | video plugin 帖 |
+  |---|---|---|
+  | ① ALL CAPS 公告 | "SOMEONE JUST DROPPED A NEW AGENT HARNESS THAT CLAIMS TO BLOW PAST CLAUDE CODE AND CODEX" | "THIS GUY JUST GAVE CLAUDE CODE THE ABILITY TO WATCH VIDEOS" |
+  | ② 括号式教育段 | "quick context: an agent harness is the layer between you and the AI and it handles prompts, tools, memory, and parallel sessions" | "claude code can't natively see video or hear audio which means every time you want it to 'look at this video' you have to screenshot frames manually and transcribe the audio yourself" |
+  | ③ GitHub link 收尾 | ✓ | ✓ |
+
+- **钩子类型**（两帖共通）：硬新闻式（工具发布）
+- **中段推进**：单线推进——空白（知识缺口）→ 解决方案 → 链接
+- **收尾形态**：召唤式 GitHub link
+- **可复用模板**：`"有人刚开源了一个声称超越 [已知工具] 的 [工具类型]。背景：[一句话解释技术概念，括号举已知例子]。它的核心差异是 [一句话]。[link]"`
+- **备注**：这是内容聚合器公式，不是第一人称观点格式；Om Patel 把它跑成了可重复模板。对于"我们自己的内容"，这个格式适合放大他人作品，不适合作为主创内容
+
+---
+
+**A-W18-OT-4 · @Yuchenj_UW（Yuchen Jin）⚠️ W14 · 2026-04-03–04**
+
+- **粉丝量**：未验证；Karpathy 在后续帖中亲自 acknowledge 此帖"went very viral"
+- **帖子原文**："Karpathy's 'LLM Wiki' pattern: stop using LLMs as search engines over your docs. Use them as tireless knowledge engineers who compile, cross-reference, and maintain a living wiki."
+- **帖子 ID**：x.com/Yuchenj_UW/status/2040482771576197377
+- **钩子类型**：🆕 **概念提炼式**——把原帖蒸馏成一对对立动词指令（Stop X / Start Y），原帖的 16M view 背景不是必需条件，句子本身就能自我流通
+- **Complication 句型**：无显性冲突句——"search engine vs. knowledge engineer" 的二元对立本身即是 complication，读者的旧行为模式就是隐性对手
+- **中段推进**：极短；以 Claude agent 生成的架构图替代文字中段
+- **收尾形态**：图表（diagram 充当视觉收尾）
+- **可复用模板**：`"停止把 [工具/LLM] 当 [低价值用途 X]。开始把它当 [高价值用途 Y]，让它 [具体动作动词：编译 / 交叉引用 / 维护]。"`
+- **⭐ WHY 中小号能爆**：把一个 16M 帖的核心提炼成两句对立指令，**脱离原帖也能单独传播**。关键是对立动词要具体（"knowledge engineer who compiles and cross-references" > "使用 AI"）。概念提炼式的护城河是提炼精度，不是原帖流量
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本月（W13–W18）主导钩子类型：**
+
+| 类型 | 代表样本 | 核心机制 |
+|---|---|---|
+| 反共识自白式 | Karpathy LLM Wiki（A1，已记录） | 最高上限（16M views）；要求自白足够具体，不能泛指 |
+| 数字反差式 | Om Patel 67% drop | 百分比 + 机构沉默 + 具体人名 = 三重可信度堆叠 |
+| **发现式（新）** | @Fried_rice Claude Code 泄露 | 精确技术细节 → 自我传播的验证行为 |
+| 概念提炼式（新） | Yuchen Jin LLM Wiki | Stop X / Start Y 对立指令；脱离原帖也可流通 |
+
+**新钩子类型建议加入 typology：**
+
+> **发现式**——"我发现了 / 量了 / 挖了 X，这个结果不应该是公开的"——说话人是发现者，不是报道者；创造信息不对称帧。关键要件：帖子必须包含让读者 30 秒内可独立验证的精确路径（文件名、URL、命令），否则退化为软性声明。
+
+> **概念提炼式**——把已有概念浓缩为一对对立动词指令（Stop X / Start Y）——不需要原创性，提炼精度本身就是价值。
+
+**列表反模式的边界条件补充：**
+本月可见一条 @Python_Dv 的"2026 免费 AI 技术栈"清单帖（68K views / 1.4K likes，账号粉丝数未验证）在列表格式下获得显著传播。澄清边界：
+- **列表作为参考产物（bookmarkable artifact）**：清单、工具合集、stack 汇总——列表本身就是价值，不违反反模式规则
+- **列表作为说服线索（persuasion thread 的中段）**：用列表推进论点——这才是反模式；弱化了单线推进的冲击
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W18.md` 存在但内容为模板头（10 行），不满足 `wc -l > 10` 条件。跳过。下周日重新检查。
+
+---
+
+### 本周 actionable
+
+1. **Draft #006 优先试反共识自白式**：`"我停止用 [工具] 来 [常规用途]，改用它做 [更深层用途]"` 开头——Karpathy 已验证此结构可跨越粉丝数限制，前提是 confession 足够具体（不能是"我开始用 AI 了"这种泛指）。匹配素材：下周有工作流类或认知翻转类事件时优先套用。
+
+2. **发现式 + 概念提炼式加入 voice-style-guide 的合法开头列表**：`"有人实际量了..."` / `"有人挖了一遍..."` / `"停止把 X 当 Y，开始把它当 Z"` ——本月多条 mid-tier outlier 用这两种格式在无粉丝背书下获得大量传播。两种格式的共同护城河是精确度，不是观点强度。
+
+3. **下一篇工作流类内容测试 gist 收尾**：Karpathy "idea file" 模式显示 GitHub gist 作为 CTA 能显著延长内容生命周期（gist 被反复转发，独立于原帖存活）。下一篇写 agent 配置或工作流的内容，考虑以 CLAUDE.md snippet 或 gist 链接替代纯文字结论。
