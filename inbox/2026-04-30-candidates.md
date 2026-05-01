@@ -1,6 +1,7 @@
 ---
 date: 2026-04-30
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/010-behavior-programming-xhs.md
 ---
 
 # Today's Candidates
