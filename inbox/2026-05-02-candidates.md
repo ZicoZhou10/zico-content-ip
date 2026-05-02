@@ -1,6 +1,7 @@
 ---
 date: 2026-05-02
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/011-arpu-divergence-xhs.md
 ---
 
 # Today's Candidates
