@@ -1,6 +1,7 @@
 ---
 date: 2026-05-05
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/014-floor-line-fallacy-xhs.md
 ---
 
 # Today's Candidates
