@@ -1,6 +1,7 @@
 ---
 date: 2026-05-06
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/015-default-aesthetic-xhs.md
 ---
 
 # Today's Candidates
