@@ -1,6 +1,7 @@
 ---
 date: 2026-05-08
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/016-endpoint-optimism-trap-xhs.md
 ---
 
 # Today's Candidates
