@@ -380,3 +380,158 @@ X_MANUAL_SAMPLES=no（样本文件存在但行数 ≤ 10，跳过）。XHS_SAMPL
 2. **Ole Lehmann 的内容飞轮值得借鉴**：他每条帖的结构固定——认知空白 → Claude skill → copy-paste CTA。建议在下一篇工作流类内容里套用：`"大多数人做 [X] 是错的。我把正确做法写成了一个 Claude skill。[2-3 行 skill 核心逻辑]。完整版可直接粘贴进 Claude：[snippet 或 Gist link]。"`
 
 3. **Karpathy "from a ~week ago" 轻描淡写法**：在参加了某个活动/读了某本书/用了某个工具之后，不必实时发帖——等 1 周后总结反而制造"你可能错过了这个"的信息差。模板：`"[X] from a ~week ago. [3 bullet highlights]. The one-liner that stuck: '[短命题]'."` 适合总结 AI 行业活动、工具评测、播客精华。
+
+---
+
+## Week 2026-W19 · 自动提炼（2026-05-10）
+
+### 本周信号强度说明
+
+覆盖窗口：2026-04-26 至 2026-05-10（14 天）。X_MANUAL_SAMPLES=no（样本文件不存在）。XHS_SAMPLES=no（同上）。
+
+直接可验证样本：7 条（4 KOL 基线 + 3 mid-tier outlier，其中 1 条标注 ⚠️ W17 为窗口外补录）。mid-tier 侧信号偏弱——本周 Anthropic "Code with Claude" 开发者大会（5 月 6 日）产生了大量机构/品牌内容，形成 KOL 引力中心，压制了中小号的独立爆发空间；搜索结果以官方媒体放大为主，难以截获独立结构信号。如实汇报，不填充。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线（4 条）
+
+**A-W19-KOL-1 · @sama（Sam Altman）2026-04-26**
+
+- **量级**：多媒体跟进（digit.in、The Hans India、Repute Today、comparos.in 等），表明全球传播规模；具体 RT/like 数未提取
+- **帖子 URL**：x.com/sama/status/2048426122854228141
+- **帖子原文**：`"post-AGI, no one is going to work and the economy is going to collapse" / "i am switching to polyphasic sleep because GPT-5.5 in codex is so good that i can't afford to be sleeping for such long stretches and miss out on working"`
+- **钩子类型**：**反共识并置式**——两句话构成内部矛盾：第一句是"AGI 导致无人工作"的悲观预言，第二句是 CEO 本人因 AI 太好而 FOMO 地改变睡眠习惯。Complication 内嵌于钩子本身：信奉者与受害者是同一个人。
+- **Complication 句型**：两句话的并置即是 complication，无需第二段显式设置——"经济要崩溃"与"我要分段睡觉才能多用 AI"之间的矛盾不需要解释
+- **中段推进**：无中段（纯两行对比帖）
+- **收尾形态**：无，对比本身让读者脑补余震
+- **可复用模板**：`"[关于 X 的悲观大判断]。[创始人/当事人自己的真实行为与该判断形成反差]。"` 前提：两句话的主体必须是同一个人，矛盾才有力度
+- **备注**：这是 sama 本周三条帖子的第一条，与后两条形成叙事矩阵（见 cross-sample summary）
+
+---
+
+**A-W19-KOL-2 · @sama（Sam Altman）~2026-05-01**
+
+- **量级**：Axios 覆盖（"Sam Altman, AI leaders lose the joy of AI thanks to Claude, Codex" 及后续稿件），表明主流媒体量级；具体 RT/like 未验证
+- **帖子 URL**：x.com/sama/status/2049493609028923826
+- **帖子原文**：`"feels like codex is having a chatgpt moment"`
+- **钩子类型**：**金句判断式**——一句话，一个类比，无解释
+- **Complication 句型**：无（一句帖，判断本身就是信息）
+- **中段推进**：无
+- **收尾形态**：无，判断自封闭；读者自行填充"那意味着什么"
+- **可复用模板**：`"feels like [X] is having a [known inflection reference] moment"` ——类比传播：用已知爆发节点（ChatGPT 时刻）定义当前，读者不需要理解技术，只需要认出参照系
+- **备注**：一句话帖的杀伤力来自 Altman 的账号权威；直接移植给无权威背书的账号效果会大幅衰减。但"X 正在经历 [已知时刻]"的类比句式本身可以拿来嫁接到有粉丝基础的时刻
+
+---
+
+**A-W19-KOL-3 · @sama（Sam Altman）2026-05-09**
+
+- **量级**：blockchain.news、digit.in 有覆盖，媒体传播确认；具体 RT/like 未验证
+- **帖子原文**：`"kicking off a bunch of codex tasks, running around with my kid in the sunshine, and then coming back at naptime to find them all completed makes me very optimistic for the future"`
+- **钩子类型**：**日常生活画面式（新变体）**——不写工作流，不写数字，用一段普通生活场景（带孩子晒太阳）来承载 AI agent 自主完成任务这个技术事实。生活场景是情感载体，技术结果是惊喜。
+- **Complication 句型**：无显性冲突——冲突隐在读者自己的脑补里：等你"回来发现都完成了"的那一刻，普通日常与 AI 自主性产生了认知落差
+- **中段推进**：无（单句）
+- **收尾形态**：情绪判断式——"makes me very optimistic for the future"——把场景收束成个人情感，比"这说明 AI 很强"更有感染力
+- **可复用模板**：`"[启动 AI 任务]，[去做了生活里的普通场景（散步/带孩子/做饭）]，[回来的生活节点] 发现都完成了。这让我 [情绪判断]。"` 关键：生活节点必须具体（"naptime"比"回来后"有力），情绪判断必须简洁不夸张
+- **备注**：这是本周 sama 三条帖子的第三条，与 KOL-1（FOMO polyphasic sleep）形成弧线：从焦虑（睡不着）到优雅（享受生活 + AI 干活）。两条在情绪上是对立的，但都在描述同一个现实：Codex 的自主性已经渗入日常
+
+---
+
+**A-W19-KOL-4 · @DarioAmodei（Dario Amodei）2026-05-06（Code with Claude 大会现场语）**
+
+- **量级**：VentureBeat、New York Times（Techmeme转播 x.com/Techmeme/status/2052336620934979663）、TechCrunch、Storyboard18 覆盖；大会规模 = 全球媒体同步
+- **原话**：`"We tried to plan very well for a world of 10x growth per year. We saw 80x. I hope 80x growth doesn't continue because that's just crazy and it's too hard to handle."`
+- **钩子类型**：**反预期硬新闻式**——这不是一条独立发出的帖子，而是大会现场语录，但其传播形态与高互动帖子等价（媒体将原话截取为独立引文在 X 上传播）。钩子是"计划 10x，实际 80x"的数字反差
+- **Complication 句型**：`"We tried to plan for X, we saw Y"` ——公司自己是受害者（计划失效），却是"好的受害者"（超越预期的受害者）
+- **中段推进**：无（语录帖无中段）
+- **收尾形态**：自嘲式金句——"I hope 80x doesn't continue because it's too hard to handle"——把荣耀包装成麻烦，反向操作对读者更有亲近感
+- **可复用模板**：`"我们按 [X] 规模规划。结果是 [Y]。我希望 [Y] 不要继续，因为这根本 handle 不了。"` 结构：计划 → 实际反差 → 轻描淡写的自嘲（而不是自夸）
+
+---
+
+#### Mid-tier outliers（重点信号）— 本期 3 条
+
+**A-W19-OT-1 · @GenAI_is_real（Chayenne Zhao，Founding Member at Radix Ark，LMSYS sGLang 贡献者）2026-04-27**
+
+- **粉丝量**：9,100（已验证 < 50K）
+- **互动量**：未验证精确数字；帖子被多个 AI 内容聚合器截取引用，表明有机传播
+- **帖子 URL**：x.com/GenAI_is_real/status/2048826154023596417
+- **帖子原文**：`"polyphasic sleep to maximize codex usage is the most honest thing sam has ever tweeted. forget the AGI philosophy for a second - the revealed preference is that the CEO of the company building these tools literally cannot stop using them because the output per hour is too [good]"`
+- **钩子类型**：**概念提炼式 + 揭示性逻辑式**——不是报道 sama 的行为，而是给它命名：`"revealed preference"`（揭示性偏好）。这个经济学概念让一条搞笑帖变成了认知框架
+- **Complication 句型**：`"forget the [大叙事/官方立场] for a second"` ——显式要求读者切换视角，从宏大叙事切到行为证据，这是 Complication 的元操作：挑战读者理解事件的框架本身
+- **中段推进**：单线推进——揭示性逻辑：大叙事 → 行为证据 → 结论（output per hour is too good）
+- **收尾形态**：概念落地式——`"the revealed preference is..."` 这一短语本身就是可传播的概念单元，脱离原帖也能流通
+- **可复用模板**：`"暂时忘掉 [大叙事/官方声明]——[某人] 的真实行为在告诉你：[行为描述]。这才是真实的 revealed preference。"`
+- **⭐ WHY 中小号能爆**：技术/经济学概念（revealed preference）的介入，让一条 reply 从"说了一句俏皮话"升格为"提供了分析框架"。中小号用概念命名当武器，可以在评论区建立超越粉丝量的智识权威——这是一种小号可学习的杠杆：**给他人行为命名，比自己行动更易传播**
+
+---
+
+**A-W19-OT-2 · @dlimeng192048（Meng Li，AI content aggregator / distiller）2026-05-08**
+
+- **粉丝量**：未验证（账号内容风格为 AI 行业信息聚合，估计 < 50K；帖子出现在多家 Boris Cherny 报道的搜索结果中，有自然索引）
+- **互动量**：未验证精确数字
+- **帖子 URL**：x.com/dlimeng192048/status/2052286902779404709
+- **帖子原文**：`"Claude Code founder Boris Cherny hasn't hand written a line of code in 2026. He merges 50-150 PRs daily from his phone using hundreds of agents and loops. He says coding is solved for him. The real gap is organizational, not technical. SaaS switching costs will drop. Startups [...]"`
+- **背景**：Boris Cherny 在 Sequoia AI Ascent 2026 活动（4 月底/5 月初）上发表的观点，此帖是蒸馏版摘要
+- **钩子类型**：**概念提炼式**——用精确数字（`50-150 PRs daily`，`hundreds of agents`）取代模糊描述，让蒸馏本身有信息增量
+- **Complication 句型**：`"hasn't hand written a line of code in 2026"` ——不说"他大量使用 AI"，说"他一行手写代码都没有"。"0" 比"100%"更有冲击力：绝对否定比百分比更清晰
+- **中段推进**：列表（数字堆积 → 概念预测 → 结构性影响）——这是**参考产物型列表**（见 W18 边界澄清），不是说服线索，合法
+- **收尾形态**：概念预测式——`"The real gap is organizational, not technical. SaaS switching costs will drop."` 以反常识判断收尾，给读者带走一句可以在别处复述的观点
+- **可复用模板**：`"[知名人物] [绝对化行为描述：一行X都没/从未做Y]。他 [量化的日常行为：每天合并50-150个PR]。他说 [核心结论]。真正的 gap 不是 [表面问题]，是 [更深层问题]。"`
+- **⭐ WHY 中小号能爆**：两层加速：① 精确数字（50-150 PRs）提供了可引用的事实锚点；② `"The real gap is organizational, not technical"` 提供了一个反常识判断，这对于想在 reply 里转发的人来说是"让我看起来聪明的子弹"——**别人转发不是因为你写得好，是因为转发了你的观点让他自己看起来有洞察力**
+
+---
+
+**A-W19-OT-3 · @scottastevenson（Scott Stevenson，Spellbook CEO）⚠️ W17 · 2026-04-17**
+
+- **粉丝量**：未验证（初创公司创始人账号，估计 < 50K）
+- **互动量**：Fast Company、Yahoo Finance、Artificial Lawyer、LegalTech.ca 等 4+ 垂直媒体覆盖；Equal Ventures 合伙人 Rick Zullo 在 reply 中写 "This is rampant"——头部 VC 背书 reply 本身就是传播加速器
+- **帖子 URL**：x.com/scottastevenson/status/2045195115388600354
+- **帖子原文**：`"It's time to expose a huge scam in AI startups: Contracted ARR / The reason many AI startups are crushing revenue records is because they are using a dishonest metric / The biggest funds in the world are supporting this and misleading journalists for PR coverage."`
+- **⚠️ 日期标注**：April 17，在本次 14 天窗口（4/26–5/10）外，但未被任何先前 W18/W18b 扫描覆盖。首次入库，标注日期
+- **钩子类型**：**内幕揭发式**——`"It's time to expose a huge scam"` 开头，说话人声索了举报者/吹哨人的道德高地；同时自我定位为圈内人（不是局外批评者，而是知道内情的人）
+- **Complication 句型**：`"The biggest funds in the world are supporting this"` ——把指控对象从"一些 AI 创业公司"升级到"最大的基金"，一句话把读者对谁是坏人的预期彻底升级；VC 本应是守门人，成为同谋反转了信任结构
+- **中段推进**：单线推进——定义问题（CARR vs ARR）→ 规模估计（gap 最高 3-5x）→ 具体机制（在 deck 里分开报，给媒体时合并）
+- **收尾形态**：召唤式——帖子结构开放，鼓励行业内的人在 reply 中举手认同（Rick Zullo 的 reply 证明这个收尾有效）
+- **可复用模板**：`"是时候揭露 [行业] 里的一个大骗局了：[具体名称]。[行业] 之所以看起来 [数字光鲜]，是因为用了 [不诚实的计算方式]。最大的 [机构/基金/公司] 也在支持这套叙事。"` 关键要件：① 给骗局起具名（CARR 而不是"某些做法"）；② 指名最高层级的同谋（最大基金，不只是小公司）
+- **⭐ WHY 中小号能爆**：圈内吹哨人格式的核心优势——**说话人不需要外部权威，权威来自声称拥有内部信息**。"I know 100% of confirmed cases where the gap is as much as 3-5x" 这一句以第一人称数据声索可信度，绕过了账号粉丝数
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本周（4/26–5/10）主导叙事：AI coding agents 的自主性越过"生活方式渗透"阈值**
+
+这是本窗口最明显的主题收束：三条 @sama 帖子从三个角度（FOMO → 里程碑宣布 → 生活场景）共同构建了"Codex 已经自然地融入日常生活"的叙事。这不是单条帖子的成功，而是创始人有意识地用多条帖子组合构建一个叙事矩阵。Dario 的"计划 10x，结果 80x"语录是同一叙事的机构背书版本。
+
+| 模式 | 代表样本 | 核心机制 |
+|---|---|---|
+| **反共识并置式**（KOL 专属？）| sama polyphasic sleep | 两句话放在一起，主体是同一个人，内部矛盾 = 钩子 |
+| **日常生活画面式（新变体）** | sama sunshine/naptime | 用生活场景承载 AI 技术事实；普通 → 意外 → 情绪结尾 |
+| **计划/实际反差式**（Dario）| "We planned 10x, saw 80x" | 比"增长很快"更有力：公司成为自身成功的意外受害者 |
+| **揭示性逻辑式**（mid-tier）| Chayenne Zhao revealed preference | 给他人行为命名 > 自己行动；概念命名让小号建立智识权威 |
+| **绝对否定 + 量化数字式**（mid-tier）| Meng Li "0 行手写代码" | 绝对否定（0/never）比百分比（100%）更清晰；精确数字提供可引用锚点 |
+| **内幕揭发式**（⚠️ W17）| @scottastevenson CARR scam | 吹哨人格式；给骗局起名 + 指名最高级同谋 = 可信度的双重加速 |
+
+**🆕 新钩子变体建议补入 typology：**
+
+> **日常生活画面式**：把 AI agent 的自主行为嵌入一段具体的日常生活场景（带孩子/吃饭/散步），不描述工作流，不展示数字，用"你去生活，AI 在干活，你回来发现完成了"这个结构体验 → 创造情感落差。护城河不是技术精确性，而是**场景的具体度**（"naptime"比"稍后"有力，"running around with my kid"比"休息时"有力）。适合有真实 agent delegation 经验时使用。
+
+> **揭示性逻辑式**：对他人行为（尤其是 KOL 行为）给出一个概念命名，让读者换一个框架来解读。句式：`"forget the [官方/宏大叙事] — the [概念名] is that [行为描述]"`。价值不来自原创性，而来自命名精度；这是小号与大号同台的杠杆点。
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W19.md` 不存在。跳过。
+
+---
+
+### 本周 actionable
+
+1. **测试"日常生活画面式"钩子**：如果 Zico 有真实的 AI agent delegation 体验（启动任务 → 去做日常事 → 回来发现完成），用这个结构写一条帖子：`"挂了几个 Claude 任务，[去做了生活里的具体场景]，[生活节点：喝完咖啡/孩子睡着后] 回来发现都写完了。"` 加一句不夸张的情绪收尾。关键：场景要像 naptime、sunshine 一样具体，不能写成"休息了一下"。
+
+2. **"揭示性逻辑"句式加入 complication 备选库**：`"暂时忘掉 [大叙事] — [某人/某公司]的 revealed preference 是：[行为描述]。"` 下一篇写 AI 工具评测或观点稿时，可以用这个句式作为 Complication 段的开头，把单纯的评论升级为分析框架，绕过"我只是在说观点"的局限。
+
+3. **下一篇硬新闻稿试"计划/实际反差式"开头**：Dario 的句式结构可直接复用于下一次有数字的行业新闻。模板：`"[公司/团队] 按 [X] 规模规划。结果看到了 [Y]。[Dario / Zico 或其他当事人] 说：这 handle 不了。"` 把意外收益包装成意外麻烦，避免自吹自擂感，同时传递出数字的冲击力。
