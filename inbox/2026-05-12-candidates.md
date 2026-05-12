@@ -1,6 +1,7 @@
 ---
 date: 2026-05-12
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/017-ai-zero-day-xhs.md
 ---
 
 # Today's Candidates
