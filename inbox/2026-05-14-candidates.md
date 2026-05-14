@@ -1,6 +1,7 @@
 ---
 date: 2026-05-14
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/018-ai-molecule-trial-xhs.md
 ---
 
 # Today's Candidates
