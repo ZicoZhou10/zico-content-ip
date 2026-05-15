@@ -1,6 +1,7 @@
 ---
 date: 2026-05-15
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/019-agent-swarm-production-xhs.md
 ---
 
 # Today's Candidates
