@@ -535,3 +535,167 @@ X_MANUAL_SAMPLES=no（样本文件存在但行数 ≤ 10，跳过）。XHS_SAMPL
 2. **"揭示性逻辑"句式加入 complication 备选库**：`"暂时忘掉 [大叙事] — [某人/某公司]的 revealed preference 是：[行为描述]。"` 下一篇写 AI 工具评测或观点稿时，可以用这个句式作为 Complication 段的开头，把单纯的评论升级为分析框架，绕过"我只是在说观点"的局限。
 
 3. **下一篇硬新闻稿试"计划/实际反差式"开头**：Dario 的句式结构可直接复用于下一次有数字的行业新闻。模板：`"[公司/团队] 按 [X] 规模规划。结果看到了 [Y]。[Dario / Zico 或其他当事人] 说：这 handle 不了。"` 把意外收益包装成意外麻烦，避免自吹自擂感，同时传递出数字的冲击力。
+
+---
+
+## Week 2026-W20 · 自动提炼（2026-05-17）
+
+### 本周信号强度说明
+
+覆盖窗口：2026-05-03 至 2026-05-17（14 天）。X_MANUAL_SAMPLES=no（样本文件不存在）。XHS_SAMPLES=no（同上）。
+
+直接可验证样本：7 条（4 KOL 基线 + 3 mid-tier outlier，其中 1 条标注 ⚠️ W17 补录）。本周有两条明显的叙事引力中心：① Anthropic vs OpenAI 产品/定价对决（May 13 双方同日对弈，Sam Altman 同日在 Musk 诉讼中出庭）；② 个人 AI 奇遇故事（Bitcoin recovery）跨圈层传播。sama 本周主要曝光来自法庭证词被 meme 化，而非独立发帖——结构信号弱，如实记录，不虚报。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线（4 条）
+
+**A-W20-KOL-1 · @sama（Sam Altman）2026-05-12 / 05-15（Musk v. OpenAI 法庭证词周）**
+
+- **量级**：Fortune、CNBC、The Ringer、CBS News、NBC Bay Area 全程覆盖；OpenAI 创始人 vs. Elon Musk 诉讼是本周全美最关注的科技新闻
+- **帖子形式**：不是 Altman 的独立发帖，而是 2023 年私信在法庭上被引用 → 成为 meme 原料。Altman 问 Mira Murati："can you indicate directionally good or bad"，Murati 回："Sam this is very bad"
+- **钩子类型**：**私信公开化式**（新观察）——私下对话被迫进入公开法律程序，读者获得"偷看到 CEO 慌了那一刻"的窥私感；是"发现式"的机构变体，信息来源是法庭，不是泄露
+- **Complication 句型**：`"The most viral artifact of the trial: Mira saying 'Sam this is very bad'"` ——冲突来自 CEO 公众形象（自信、掌控）与私信内容（懵）的落差；外部媒体的包装本身就是 complication 句
+- **中段推进**：无（meme 格式，自封闭）
+- **收尾形态**：无，读者脑补余震
+- **可复用模板**：不可直接移植（依赖 KOL 身份 + 重大新闻事件）；结构洞察：**私下场合 × 被迫公开化 = 窥私感 = 最高分享动力之一**——适用于"AI 公司内部邮件 / 聊天记录被曝光"类素材；具体机构名 + 具体人名 + 具体语气比模糊表述强 10 倍
+- **备注**：sama 本周无结构值得提炼的独立帖；法庭 meme 属于新闻消费，不是内容创作
+
+---
+
+**A-W20-KOL-2 · @DarioAmodei（Dario Amodei）2026-05-05（摩根大通金融服务发布会，下曼哈顿）**
+
+- **量级**：Fortune（"Dario Amodei spent last year warning of an AI white-collar bloodbath. Now he's changing the narrative"）、Yahoo Finance、ION Analytics 质疑文章（"white-collar doomsaying perfect pre-IPO theatre"）
+- **原话**：`"If you automate 90% of the job, then everyone does the 10% of the job."` 及 Jevons Paradox 框架引用
+- **钩子类型**：🆕 **叙事大翻转式（KOL 版）**——同一人，同一议题，在不同场合公开翻转自己的核心论点。"他上个月还在警告白领血洗，现在和 JPMorgan CEO 并肩坐着说就业会增加"——矛盾本身是钩子，读者不需要认识 Dario 也能感受到冲突
+- **Complication 句型**：`"He spent last year warning of [catastrophe]. Now, sitting next to [authoritative figure], he's [contradicting that with an economic concept]."` ——新场合（金融服务发布会 + Jamie Dimon）的权威性 × 新论点（Jevons）的反转 × 旧论点被隐性否定
+- **中段推进**：语录帖（单句信息密度极高，无中段）
+- **收尾形态**：ION Analytics 的反驳 (`"perfect pre-IPO theatre"`) 成为二次传播收尾——他人的反应本身成为内容的延伸，帖子生命周期靠争议续命
+- **可复用模板**：`"[人物] 一年前在 [场合 A] 警告了 [X 灾难]。这周他在 [场合 B，更权威的场合，且 B 与 A 目的相反] 说的是 [Y 相反论点]。一个叫 [经济学/科学名词] 的概念出现了。"` ——叙事翻转 + 权威新场合 + 概念命名三件套
+
+---
+
+**A-W20-KOL-3 · @ClaudeDevs（Anthropic 官方开发者账号）2026-05-08**
+
+- **量级**：帖子 x.com/ClaudeDevs/status/2052818282294726699；Claude Code 追踪博客大量覆盖，被描述为在开发者社区引发病毒式传播
+- **帖子原文**：`"/radio [附图]"` ——全文仅此，零解释
+- **背景**：`/radio` 是 Claude Code 的官方 slash command，调用 Claude FM——一个 Anthropic 托管的 lo-fi 背景音乐页面，与长时间 coding session 配套
+- **钩子类型**：🆕 **零解释式发布（Zero-comment Drop）**——官方账号发一个内部命令，什么也不说，强制读者自己去发现意义。沉默 = 谜面，点击/运行 = 谜底
+- **Complication 句型**：帖子本身就是 complication——读者完全不知道这是什么，低摩擦的验证动作（直接在 Claude Code 里打 `/radio`）无法被跳过
+- **中段推进**：无（两个词的帖子）
+- **收尾形态**：无；意义在读者发现 `/radio` 之后才产生
+- **可复用模板**：`"[单个命令/操作/链接，不加任何解释文字]"` ——适用于已经有技术受众基础的账号推广新功能；核心机制：**知识缺口 + 低摩擦可验证 = 必须点**
+- **备注**：这是 Om Patel 风格的括号教育段的极端反面——Om Patel 总是解释"quick context: ..."，@ClaudeDevs 什么都不说。两种策略的适用场景相反：不懂的受众需要 context，已经在用的受众不需要
+
+---
+
+**A-W20-KOL-4 · @DataChaz（Charly Wargnier，169K followers，AI agents 内容账号）2026-05-14**
+
+- **粉丝量**：169.2K（已验证，> 50K，KOL 级；前 Streamlit / Snowflake，现专注 AI agents 内容）
+- **互动量**：未验证精确数字；同一句式在 5 月内发出两个版本（status/2050114234973863975 和 2054225085100151163），后者状态 ID 对应约 5 月 14-15 日
+- **帖子 URL**：x.com/DataChaz/status/2054225085100151163
+- **帖子原文**：`"🚨 Karpathy was right. He warned that 90% of AI advice dies in 6 months. spoiler: most tools won't even survive 90 days. this guy is literally giving away the exact 2026 playbook for AI Agents. he covers exactly what to learn, build, and ignore entirely 👀"`
+- **钩子类型**：**权威引用压缩式**——借用已知 KOL 的预测（Karpathy），加一句强化（"90 天"比"6 个月"更短、更急），转化为对受众有用的行动框架（"what to learn, build, and ignore"）
+- **Complication 句型**：`"He warned that 90% of AI advice dies in 6 months. spoiler: most tools won't even survive 90 days."` ——用"spoiler"暗示自己知道更多，把 Karpathy 的 6 个月压缩到 90 天 = 二次加速，读者的工具栈比他们以为的过时得更快
+- **中段推进**：极短，无中段（结构与 sama 的一句话帖类似，但用"spoiler"句型加了一层内幕感）
+- **收尾形态**：召唤式——`"this guy is literally giving away the exact 2026 playbook"` + 👀 emoji，将读者指向外部内容
+- **可复用模板**：`"[KOL] was right. He/she warned that [预测/警告]. spoiler: [实际情况比预测更极端，具体化到更短时间/更大数字]. [一句话说明为什么这对读者现在很重要]."` ——适用于扩大已有 KOL 预测的影响范围；"spoiler + 具体化"句型让放大者本身有信息增量
+
+---
+
+#### Mid-tier outliers（重点信号）— 本期 3 条（含 1 条 ⚠️ W17 补录）
+
+**A-W20-OT-1 · @cprkrn（加密社区个人用户）2026-05-13**
+
+- **粉丝量**：未验证（非 KOL；为加密社区个人用户，无行业身份背书）
+- **互动量**：6M+ views（Tom's Hardware、CoinDesk、Sherwood News、Interesting Engineering、Dexerto、AndroidHeadlines 等 7+ 媒体覆盖，跨至非 AI 受众）
+- **帖子核心要素**：
+  - 事件：2014 年用药时改了 Bitcoin 钱包密码，忘记后锁了 11 年，5 BTC（约 40 万美元）；把旧电脑所有文件上传给 Claude，Claude 找到了修改密码之前的旧钱包文件，并发现了 btcrecover 的一个 bug（共享密钥拼接顺序错误）
+  - 传播句：`"Just mega dump all of your computers and notebooks into Claude."` ——一句可复制操作指令
+- **钩子类型**：**个人奇遇故事式 + 数字反差式**——11 年 × 3.5 万亿次密码尝试 × 40 万美元 × "因为当时嗨了" ——每个数字都是独立冲击点
+- **Complication 句型**：`"I've been trying to get in for more than 11 years."` ——时间跨度量化失败规模，比"我一直没成功"强 10 倍；11 年 > 任何情绪描述
+- **中段推进**：单线推进（失败定义 → 操作方法论 → 技术细节 → 结果揭晓）；带"意外发现"叙事弧（原以为是密码问题，实为 bug 问题）
+- **收尾形态**：CTA 式——`"Just mega dump all of your computers and notebooks into Claude."` ——把极端个人奇遇压缩为人人可复制的操作指令
+- **可复用模板**：`"[X 年前] 我 [具体的人类弱点/意外行为] 导致 [有量化价值的东西] 消失了 [X 年]。[时间节点]，我 [极简的 AI 操作，可独立复制]，Claude [具体找到/解决了什么，附技术精确细节]。[一句人人可复制的操作指令]。"`
+- **⭐ WHY 中小号能爆**：三重跨圈层引擎——① 加密圈（钱包恢复技术话题）② AI 圈（Claude 技术细节 + btcrecover bug 发现）③ 泛读者（"嗨了忘密码 11 年" 的 humour + 40 万美元的数字）。任何一圈的受众看到都会发给另两圈——这是真正的跨圈层传播结构。关键结构件：**具体人类弱点（stoned，可认同）+ 具体时间损失（11 年，可量化）+ 可复制操作（mega dump，可行动）**，三件同时成立
+
+---
+
+**A-W20-OT-2 · @akshay_pachaar（Akshay，Claude Code 技术科普创作者）2026-05-10**
+
+- **粉丝量**：未验证（账号风格为 Claude Code 技术科普，估计 < 50K；参考：26 replies / 106 RTs / 449 likes / 616 bookmarks）
+- **互动量**：26 replies / 106 RTs / 449 likes / 616 bookmarks（**bookmarks > likes = 参考产物型内容的典型信号**）
+- **帖子 URL**：x.com/akshay_pachaar/status/2053480693733433797
+- **帖子原文（节选）**：`"Claude Code's architecture, mapped. Claude Code is one of the most powerful agent harnesses out there, it's a lot more than 'a CLI that calls claude.' the actual system has six layers, and the model is just one node inside the loop. the diagram breaks down every component:"`
+- **钩子类型**：**发现式（架构层 reveal）**——"你以为它是 X（一个 CLI），其实它是 Y（六层系统，模型只是其中一个节点）"——帮读者重新理解已经在用的工具；认知降维打击
+- **Complication 句型**：`"it's a lot more than 'a CLI that calls claude.'"` ——用引号引用读者脑子里的旧认知，然后直接打脸。旧认知 vs. 真实架构 = 最干净的 complication 结构，不需要外部事件
+- **中段推进**：图表驱动（diagram 替代文字中段，六层架构可视化）——不用文字推进，用视觉推进；W18 Yuchen Jin 的"图表收尾"在这里演化为"图表中段"
+- **收尾形态**：无明确收尾；图表自封闭（需要截图保存 = 天然高 bookmark 率）
+- **可复用模板**：`"[已知工具]'s [核心机制], mapped. It's a lot more than '[读者的旧认知/简化认知].' The actual system has [N] layers, and [你以为的核心] is just one [节点/组件] inside the loop. [图表]"`
+- **⭐ WHY 中小号能爆**：bookmark > like 的比例（616 vs 449）说明内容被当工具书收藏，不是情感消费。传播不靠即时转发，靠**收藏 + 后续场景复发**（开会前翻 → 跟同事分享）。护城河：精确图表作为不可替代的参考产物——文字可以被转述，图表不能不截图地被复制
+
+---
+
+**A-W20-OT-3 · @minchoi（Min Choi，AI 内容创作者）⚠️ W17 · 2026-04-22**
+
+- **粉丝量**：未验证（AI 内容创作账号，估计 < 50K）
+- **互动量**：Tom's Hardware、InfoWorld、The New Stack、Medium 多平台覆盖；Pato Molina（Belo 公司 CEO）西班牙语 reply 放大；Axios 在 5 月 14 日后续报道中仍在引用此事；事件详情：Anthropic 的自动系统向 Belo 公司 60+ 名员工同时暂停 Claude 访问，15 小时后因"误报"恢复
+- **帖子 URL**：x.com/minchoi/status/2045542832241262602
+- **帖子原文**：`"Anthropic shut down an entire company's Claude access overnight. 60+ employees. No explanation. Just an email. Want to appeal? Fill out a Google Form. Integrations gone. Histories gone. Everything built on Claude... gone. Never let one vendor own your workflow."`
+- **⚠️ 日期标注**：April 22（W17）；未被 W18 / W19 先前扫描覆盖，首次入库，标注日期
+- **钩子类型**：**灾难见证式**——说话人是事件传播者（非当事公司），以第三人称见证 + 第一人称立场组合声索道德高地；不需要是受害者就能发出最有力的谴责
+- **Complication 句型**：`"Want to appeal? Fill out a Google Form."` ——把"不公正"的规模通过讽刺句型呈现：60+ 人的企业，申诉渠道是一个 Google 表单。具体细节（Google Form）比"客服态度差"有 10 倍冲击力；讽刺不靠情绪词，靠细节本身
+- **中段推进**：三连短句（无中段）——`"60+ employees. No explanation. Just an email. Want to appeal? Fill out a Google Form."` ——每句递进冲击力，节奏感替代论证
+- **收尾形态**：**金句 + 原则陈述**——`"Never let one vendor own your workflow."` ——把具体事件升华为普遍规则，帖子超越了新闻生命周期；这句话已经脱离原帖在各种供应商 lock-in 讨论中独立流通
+- **可复用模板**：`"[平台/公司] [对 X 人/机构做了 Y 不公正行为]。没有解释。就是一封邮件。想申诉？[具体的荒诞渠道]。[被删除/消失的东西列表]。永远不要让 [一个供应商] 拥有你的 [工作流/数据/资产]。"`
+- **⭐ WHY 中小号能爆**：**三连短句 + 讽刺细节 + 普遍金句**三件套——节奏制造愤怒积累，讽刺细节替代情绪词（不说"离谱"，说"Google Form"），金句让帖子有可脱离全文单独传播的单元。话题可转发 + 观点可引用，两件事同时成立
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本周（5/3–5/17）叙事重心：Claude Code 作为基础设施的双重张力**
+
+本窗口围绕 Anthropic / Claude Code 产生了三个独立但指向同一底层问题的病毒事件：
+- 🔒 Access cut（@minchoi，⚠️ W17 补录）：一家公司被无预警断开，申诉渠道是 Google Form
+- 🏗️ Architecture revealed（@akshay_pachaar）：Claude Code 不是 CLI，是六层系统
+- 🎵 Easter egg（@ClaudeDevs）：`/radio` 是一个藏在产品里的 lo-fi 频道
+
+三条共同反映：Claude Code **既是 60 人公司的工作流依赖，也是待探索的黑箱**——这个张力正在产生持续的内容势能，且方向相反（脆弱性 vs 神秘性）。
+
+同期，@cprkrn 的 Bitcoin recovery 是本周唯一触达非 AI 受众的帖子，也是本月 outlier 爆款质量最高的一条。
+
+| 模式 | 代表样本 | 核心机制 |
+|---|---|---|
+| **叙事大翻转式（新变体）** | Dario Jevons Paradox | 同一人在不同场合公开翻转自己的核心论点；新场合权威性越高，翻转越有力；争议性反驳成为二次传播收尾 |
+| **零解释式发布（新变体）** | @ClaudeDevs /radio | 官方账号发命令零解释；沉默 = 谜面；知识缺口 + 低摩擦验证 = 必须点。是发现式的机构极简版 |
+| **个人奇遇 + 可复制操作式（新变体）** | @cprkrn Bitcoin | 具体人类弱点 + 具体时间损失 + 可复制操作指令 = 跨圈层传播三件套；缺一不可 |
+| **三连短句 + 讽刺细节 + 金句** | @minchoi Anthropic shutdown | 短句节奏积累愤怒，讽刺细节（Google Form）替代情绪词，金句收尾让帖子超越新闻生命周期 |
+| **bookmark 型图表发布** | @akshay_pachaar Claude Code architecture | bookmark > like = 参考产物信号；可视化图表不能被文字复述，强制截图保存 |
+| **权威引用压缩式** | @DataChaz "Karpathy was right" | 引用 KOL 预测 + "spoiler: 实际比预测更极端" = 放大者本身有信息增量；适合 mid-tier 账号借力已验证的权威观点 |
+
+**🆕 新钩子变体建议补入 typology：**
+
+> **零解释式发布（Zero-comment Drop）**：发布一个命令 / 链接 / 图表，什么也不说。沉默创造知识缺口，低摩擦的点击/运行验证行为本身就是传播。前提：受众有动机验证（开发者账号 ✅；泛读者账号 ❌）。与"发现式"的区别：发现式有文字解释，Zero-comment Drop 完全依赖读者自行解码。
+
+> **叙事大翻转式（Narrative U-Turn）**：同一人在不同场合公开翻转自己的核心论点。格式：`"他上次说了 [X]；这次他在 [更权威的场合] 说了 [Y]。"` 翻转人知名度越高、原始论点越广为人知，传播倍数越大。争议性的反驳（如 ION Analytics 的 pre-IPO theatre 论）往往成为二次传播收尾，进一步延长帖子生命周期。
+
+> **个人奇遇 + 可复制操作式**：把个人的极端经历（11 年、40 万美元、"当时嗨了"）压缩为一条人人可复制的操作指令（"Just mega dump all of your computers"）。极端经历提供可信度和 entertainment，操作指令提供分享动力（"我要让朋友知道这个"）。两者缺一不可——只有故事没有指令 = 新闻；只有指令没有故事 = 教程。
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W20.md` 不存在。跳过。
+
+---
+
+### 本周 actionable
+
+1. **测试"零解释式发布"**：如果 Zico 有一个 Claude skill / GitHub gist / 命令行操作想推，考虑只发操作本身，不加说明文字。前提：帖子受众中有相当比例的技术从业者（有 Claude Code 使用上下文）。反例：对泛读者发 `/radio` 会死寂，因为他们没有 Claude Code 上下文。低成本测试方案：先用这个格式在技术受众的帖子下面 reply，观察反应率，再决定是否单独发帖。
+
+2. **"叙事大翻转式"素材雷达**：遇到行业人物公开改变大立场时（AI 会灭掉就业 → AI 会创造就业；vibe coding 是未来 → vibe coding 是反模式），在 24 小时内准备一篇 `"他上次说 [X]，这次他说 [Y]，差别在哪里"` ——不需要判断谁对，对比本身就是价值。Dario 的 Jevons 翻转（5/5）是本周最强素材，但时机已过。**建立监控习惯**，下次不错过。
+
+3. **"三连短句 + 讽刺细节 + 金句"句式加入 Complication 备选库**：@minchoi 的结构（`"No explanation. Just an email. Want to appeal? Fill out a Google Form."`）是本月观察到的最可复制的 complication 句式。适用场景：下一次写"平台/机构做了一件不公正的事"类内容，用这个格式替代情绪化描述：① 量化规模 ② `"No explanation. Just [具体渠道/细节]."` ③ 讽刺性申诉路径 ④ 普遍化金句（`"Never let one X own your Y."`）。
