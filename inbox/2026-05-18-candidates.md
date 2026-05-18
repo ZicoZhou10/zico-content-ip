@@ -1,6 +1,7 @@
 ---
 date: 2026-05-18
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/021-token-routing-layer-xhs.md
 ---
 
 # Today's Candidates
