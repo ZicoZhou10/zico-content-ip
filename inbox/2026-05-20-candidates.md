@@ -1,6 +1,7 @@
 ---
 date: 2026-05-20
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/022-karpathy-reverse-path-xhs.md
 ---
 
 # Today's Candidates
