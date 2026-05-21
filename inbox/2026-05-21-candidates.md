@@ -1,6 +1,7 @@
 ---
 date: 2026-05-21
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/023-unipolar-illusion-xhs.md
 ---
 
 # Today's Candidates
