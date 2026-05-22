@@ -1,6 +1,7 @@
 ---
 date: 2026-05-22
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/024-path-blindspot-xhs.md
 ---
 
 # Today's Candidates
