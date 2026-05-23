@@ -1,6 +1,7 @@
 ---
 date: 2026-05-23
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/025-outcome-pricing-xhs.md
 ---
 
 # Today's Candidates
