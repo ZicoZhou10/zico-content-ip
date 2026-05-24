@@ -699,3 +699,126 @@ X_MANUAL_SAMPLES=no（样本文件存在但行数 ≤ 10，跳过）。XHS_SAMPL
 2. **"叙事大翻转式"素材雷达**：遇到行业人物公开改变大立场时（AI 会灭掉就业 → AI 会创造就业；vibe coding 是未来 → vibe coding 是反模式），在 24 小时内准备一篇 `"他上次说 [X]，这次他说 [Y]，差别在哪里"` ——不需要判断谁对，对比本身就是价值。Dario 的 Jevons 翻转（5/5）是本周最强素材，但时机已过。**建立监控习惯**，下次不错过。
 
 3. **"三连短句 + 讽刺细节 + 金句"句式加入 Complication 备选库**：@minchoi 的结构（`"No explanation. Just an email. Want to appeal? Fill out a Google Form."`）是本月观察到的最可复制的 complication 句式。适用场景：下一次写"平台/机构做了一件不公正的事"类内容，用这个格式替代情绪化描述：① 量化规模 ② `"No explanation. Just [具体渠道/细节]."` ③ 讽刺性申诉路径 ④ 普遍化金句（`"Never let one X own your Y."`）。
+
+---
+
+## Week 2026-W21 · 自动提炼（2026-05-24）
+
+### 本周信号强度说明
+
+覆盖窗口：2026-05-10 至 2026-05-24（14 天）。X_MANUAL_SAMPLES=no（文件不存在）。XHS_SAMPLES=no（同上）。
+
+**KOL 侧：强**——本窗口内出现两个量级级别的 KOL 事件：Karpathy 加入 Anthropic（5 月 19 日）和 Jack Clark 牛津 Cosmos 讲座（5 月 20 日），两条均可精确日期验证，覆盖范围从开发者社区到主流媒体。
+
+**Mid-tier 侧：弱**——WebSearch + 二级索引（HN、Reddit、ThreadReaderApp）扫描未能找到粉丝数 < 5 万但互动量 > 5K 的可验证 outlier 帖子。原因推断：Karpathy 公告（5/19）在 AI Twitter 上产生了引力井效应——5 月 17–24 期间 AI 空间的注意力高度收束，中小号的有机爆发空间被压缩，且时效过短导致媒体聚合尚未将 mid-tier 反应帖索引完全。附 2 条部分可验证的候选 mid-tier 样本，但日期或粉丝量无法独立确认，以 ⚠️ 标注。
+
+如实汇报：本周可验证样本 2 条 KOL + 0 条完整数据 mid-tier outlier + 2 条部分数据候选。不填充。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线（2 条）
+
+**A-W21-KOL-1 · @karpathy（Andrej Karpathy）2026-05-19**
+
+- **帖子 ID**：x.com/karpathy/status/2056753169888334312
+- **量级**：148K likes / 18K RT / 7.8K replies / 14K bookmarks / 约 3M views（首小时内）；TechCrunch、Axios、Fortune、CNBC、VentureBeat 等 10+ 主流媒体同日跟进
+- **帖子原文**：`"Personal update: I've joined Anthropic. I think the next few years at the frontier of LLMs will be especially formative. I am very excited to join the team here and get back to R&D. I remain deeply passionate about education and plan to resume my work on it in time."`
+- **钩子类型**：🟡 **极简个人硬发布式**——四句话，无背景铺垫，不提 OpenAI，不解释为什么。消息本身就是钩子，没有情绪表演。与 sama 的 BLUF 一句话帖不同：Karpathy 保留了 4 句，但每句都在做结构性工作，不冗余
+- **Complication 句型**：`"I think the next few years at the frontier of LLMs will be especially formative."` ——隐性冲突：OpenAI 的名字被故意省略，这个空白比任何指名道姓的解释都更有冲突感；"especially formative" 承载了 "现在这个节点很关键，我做了一个非显而易见的选择" 的全部意思，不说破
+- **中段推进**：无中段（4 句线性推进：事实 → 战略判断 → 情绪状态 → 使命延续）
+- **收尾形态**：使命延续式——`"I remain deeply passionate about education and plan to resume my work on it in time."` ——把教育使命作为人设锚点，不承诺时间线，轻描淡写；收尾让帖子有了比单纯人事公告更长的生命周期
+- **可复用模板**：`"Personal update: [硬事实一句话]. I think [战略判断，不解释理由]. I am [情绪状态] to [新动作]. I remain deeply [使命/价值观] and plan to [继续做的事] in time."` ——关键：第二句的战略判断不对原来的地方做评价；第四句把"未变的那部分"放到收尾，让帖子既完整又有余音
+- **备注**：这是 Karpathy 的"三定律发布"——①我去了哪 ②为什么是现在（隐性）③我还是谁。这 4 句话里最值得逆向学习的是他**对 OpenAI 的完全沉默**：不说离开原因，不致谢旧东家，不为新东家过度背书。沉默本身就是最有力的声明，且不给任何媒体摘句的锚点，只剩"加入 Anthropic"这个事实在传播
+
+---
+
+**A-W21-KOL-2 · @importai（Jack Clark，Anthropic 联合创始人）2026-05-20–21**
+
+- **来源**：牛津大学 2026 Cosmos Lecture "Change is inevitable. Autonomy is not."（5/20）+ Axios Behind the Curtain 专访（5/7）+ Anthropic Institute 研究议程（同期公开）+ Time、Channel 4、TechCentral.ie 密集覆盖（5/21–22）
+- **量级**：未验证单条 tweet 精确 RT/like 数；媒体覆盖密度（6+ 主流国际媒体在 48 小时内跟进）表明帖子传播触达广泛；Substack @importai note 同期发布，读者群独立传播
+- **核心原话（可引用）**：① `"AI will co-produce a Nobel prize-winning discovery within 12 months."` ② `"By the end of 2028, it's more likely than not that we have an AI system where you would be able to say to it: 'Make a better version of yourself.' And it just goes off and does that completely autonomously."` ③ `"Change is inevitable. Autonomy is not."` （讲座标题）
+- **钩子类型**：🆕 **级联时间预测式**——不是一个预测，是一个 12 个月 → 18 个月 → 2028 年的时间阶梯，每一级都比上一级更不可想象；读者被逼着在脑中构建一条不可逆的时间线
+- **Complication 句型**：`"Change is inevitable. Autonomy is not."` ——标题即 complication：不说"AI 危险"，说"AI 变革是必然的，但 AI 自主性不是——只要我们做对了选择"；把命运感与能动性放在同一个对立句里，前半句认命，后半句给出行动空间
+- **中段推进**：单线推进 + 阶梯递进——Nobel（12 个月）→ AI 全自动运营公司（18 个月）→ AI 训练其继承者（2028）→ "智能爆炸"概念从理论进入官方 Anthropic 研究文件
+- **收尾形态**：**标签铸造式 + 概念升格式**——`"intelligence explosion"` 从 AI 安全理论圈的边缘词汇，进入 Anthropic Institute 官方研究议程；这个"概念升格"动作本身就是新闻：帖子/讲座不只在说一件事，还在宣告一个词汇的身份变化
+- **可复用模板**：`"[领域] 里有一件事 [时间线 A（最近，可信）] 就会发生。接下来 [时间线 B（中期，更大）]。到 [时间线 C（最远，最不可想象）]，[终极论点]. [标题句：X 是必然的，Y 不是.]"`
+- **⭐ 结构洞察**：Clark 的"级联时间预测"之所以有传播力，不是因为预测本身正确，而是因为**把三件事绑在同一条时间线上强迫读者 pattern-match**——"这三件事的共同逻辑是什么？"这个问题推动读者去分享帖子。与 W19 @sama "feels like Codex is having a ChatGPT moment"（类比传播）不同，这是**时间线压迫传播**。
+
+---
+
+#### Mid-tier outliers（重点信号）— ⚠️ 本期 mid-tier 侧弱，2 条候选样本，均标注不确定性
+
+**A-W21-OT-1 · @erichustls ⚠️ 日期未验证，约 2026 年 5 月**
+
+- **粉丝量**：未验证（引用来源未提供账号量级；帖子出现在多篇讨论"solo founder AI 商业模式"的文章中）
+- **互动量**：未验证精确数字；多篇英文商业博客在 5 月份将其作为 "solo founder $1M ARR" 浪潮的代表案例引用
+- **帖子原文（转引，原帖未直接访问）**：`"Sam Altman once said: 'With AI, you could soon start a one-person billion-dollar company.' So I decided to give it a shot and made $914K in one year."`
+- **钩子类型**：**借势预言 + 个人验证式**——用 KOL 的预言（Altman）作为钩子，自己作为验证者出现；不需要自己有粉丝基础，借用的是 Altman 的可信度，贡献的是自己的数字
+- **Complication 句型**：`"So I decided to give it a shot"` ——把"有人说可以做到"和"我就真的去做了"之间的差距作为 complication；大多数人会点头"对，可以"但不行动，这条帖的冲突是"我不一样"
+- **中段推进**：极短（一句话帖，无中段）
+- **收尾形态**：数字金句——`"$914K in one year"` 是自封闭的收尾，不需要解释
+- **可复用模板**：`"[KOL 名字] 曾说：'[预言]'. 所以我决定试一试，做到了 [具体数字结果]."`
+- **⭐ 为什么中小号可能爆**（候选分析）：① 借用了 Altman 的名字作为权威锚点（免费引用权威）；② "gave it a shot" 是最反精英的措辞——不是"我有系统，我有方法论"，而是"我试了试"；③ $914K 不是整数（$1M 太圆，$914K 更可信）。三件事同时成立
+- **⚠️ 不确定性**：帖子原文未独立验证，日期未确认在 5/10–5/24 窗口内，粉丝数未验证。此条为候选样本，不计入完整 pattern 库，待下次有 Zico 手动确认后升级
+
+---
+
+**A-W21-OT-2 · @frankdilo（Francesco Di Lorenzo，Typefully 联合创始人）⚠️ 约 2026 年 5 月**
+
+- **粉丝量**：未验证（Typefully 是 X 上 mid-tier 创作者常用的发帖工具，@frankdilo 在创作者/开发者圈有一定知名度，但精确粉丝数未独立确认）
+- **互动量**：未验证
+- **帖子原文（转引）**：`"More and more drafts are being created while interacting with agents, not typed into our editor by a human."` 同期公告：Typefully 达到 10,000 付费用户，推出 `npx typefully` CLI agent skill
+- **钩子类型**：**产品数据式**——用自己产品的用户行为数据作为钩子，不是观点，是观察；说话人是数据的天然持有者，可信度来自数据本身而非账号权威
+- **Complication 句型**：无显性冲突句——但 complication 隐含在数据里：你以为用户在用编辑器打字，实际他们在和 agent 对话；工具的使用方式已经悄悄改变了，产品方还没正式宣布这件事
+- **中段推进**：极短，无中段（观察 + 产品公告）
+- **收尾形态**：产品发布式召唤——`npx typefully` 作为可操作的 CTA
+- **可复用模板**：`"越来越多的 [行为 X] 是通过 [新方式 Y] 完成的，而不是 [旧方式 Z]。"` ——用自己产品数据声索一个行为趋势的第一观察者地位，不需要外部权威
+- **⚠️ 不确定性**：帖子日期未确认在本窗口内，粉丝数未验证 < 50K。候选样本，待验证
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本周（5/10–5/24）叙事重心：Anthropic 变成了一个引力场**
+
+三条信号共同指向同一结构：
+
+- 🏃 人才流入：Karpathy 从 OpenAI 加入 Anthropic pretraining 团队（5/19）
+- 🧠 概念升格：Jack Clark 在牛津讲座将 "intelligence explosion" 从边缘词汇推入主流话语（5/20）
+- 🔧 基础设施信号：Typefully CLI 显示创作工作流已经从"人打字"变为"人与 agent 对话"（5 月，日期待验）
+
+三条都不是关于"AI 又发布了什么新功能"——而是关于 **AI 改变谁/改变什么/改变怎样的速度**。这是本月 X 侧叙事从"产品发布"向"范式迁移"的结构性转变。
+
+| 模式 | 代表样本 | 核心机制 |
+|---|---|---|
+| **极简个人硬发布式（新变体）** | @karpathy Anthropic | 4 句话：事实 → 判断 → 情绪 → 使命延续；缺席（不提 OpenAI）比存在（解释原因）更有力 |
+| **级联时间预测式（新变体）** | @importai Oxford lecture | 12 个月 → 18 个月 → 2028 年阶梯迫使读者 pattern-match；时间线压迫传播而非类比传播 |
+| **借势预言 + 个人验证式（⚠️ 候选）** | @erichustls $914K | KOL 预言作为权威锚，自己的数字作为验证；绕过账号权威，直接声索验证者地位 |
+| **产品数据式（⚠️ 候选）** | @frankdilo agentic drafts | 自有产品行为数据 = 趋势第一观察者地位；不需要论证，数据本身是 complication |
+
+**🆕 新钩子变体建议补入 typology：**
+
+> **极简个人硬发布式（Minimalist Hard Drop）**：事实 → 判断 → 情绪 → 使命延续，四句不多。最关键的结构件是**缺席**：不提被离开的地方，不解释选择，让读者自己脑补冲突。适用场景：个人工作/立场的重大转变（新工作、新方向、放弃某事）。护城河不是叙述，是**有价值的省略**。
+
+> **级联时间预测式（Cascading Timeline）**：把三个时间点的预测串成一条阶梯（近期可信 → 中期震惊 → 远期不可想象），让读者无法只接受一个而拒绝其他。核心不是预测是否准确，而是**时间线的内部逻辑是否一致**——一致则读者被卷入，不一致则被质疑。适合有充分话语权的场合（研究者、创始人）；中小号移植此格式需要先建立某一维度的具体可信度。
+
+**列表使用说明（W21 再次确认）：**
+- Jack Clark 的 12/18/2028 预测在结构上是列表，但以**时间线阶梯**的方式呈现（而非"三个原因"），维持了单线推进的冲击。这个区别微妙但重要：时间线有方向性，"原因列表"是平铺的——前者有节奏，后者像 PPT。
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W21.md` 不存在。跳过。
+
+---
+
+### 本周 actionable
+
+1. **测试"极简个人硬发布式"的"有价值的省略"机制**：下一次 Zico 有真实的工作/立场转变要宣布，试用 Karpathy 的四句结构：`"个人更新：[硬事实]. [战略判断，不解释理由]. [情绪状态 + 新方向]. [使命延续，用 'I remain' 或 '我仍然']."` 关键测试点：把"为什么"完全删掉，看读者是否自己在 reply 里补上——如果他们在问，说明省略成功；如果没人关心，说明这件事本身值得被关心的前提不成立。
+
+2. **下一篇趋势稿试"级联时间预测式"开头**：把一个你认为会发生的趋势分解为"3 个月内 → 12 个月内 → 3 年内"三层，第一层必须是可信且具体的（否则整条阶梯失去支撑）。不要求三层都有把握——Jack Clark 自己也只是 "60%+ chance"——关键是**三层内部逻辑一致**，读者接受第一层就会被第二层拖入。适合写 "AI 将改变 X 行业" 类内容时作钩子。
+
+3. **建立"概念升格"雷达**：本周 Jack Clark 将 "intelligence explosion" 从 AI 安全理论圈词汇升格为 Anthropic 官方研究文件用词——这个时刻本身就是一篇稿子。未来若有类似"某个 fringe 概念被某个权威机构/人物正式采用"的事件（如某家大公司第一次在年报里用了某个 AI 词汇），在 24 小时内写 "X 这个词刚刚从 [A 圈] 进入了 [B 圈]，这意味着什么"——这类稿子的信息增量很强，且媒体不会写（他们只会报道技术本身，不会报道词汇的社会迁移）。
