@@ -1,6 +1,7 @@
 ---
 date: 2026-05-24
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/026-extraction-sequence-xhs.md
 ---
 
 # Today's Candidates
