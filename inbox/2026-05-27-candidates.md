@@ -1,6 +1,7 @@
 ---
 date: 2026-05-27
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/029-glasswing-bottleneck-xhs.md
 ---
 
 # Today's Candidates
