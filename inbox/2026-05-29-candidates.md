@@ -1,6 +1,7 @@
 ---
 date: 2026-05-29
-status: pending_selection
+status: written
+selected: candidate 3 → drafts/031-narrative-engineering-xhs.md
 ---
 
 # Today's Candidates
