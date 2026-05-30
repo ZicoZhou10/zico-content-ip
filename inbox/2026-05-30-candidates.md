@@ -1,6 +1,7 @@
 ---
 date: 2026-05-30
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/032-licensing-absorption-xhs.md
 ---
 
 # Today's Candidates
