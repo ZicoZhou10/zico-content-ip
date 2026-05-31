@@ -822,3 +822,116 @@ X_MANUAL_SAMPLES=no（样本文件存在但行数 ≤ 10，跳过）。XHS_SAMPL
 2. **下一篇趋势稿试"级联时间预测式"开头**：把一个你认为会发生的趋势分解为"3 个月内 → 12 个月内 → 3 年内"三层，第一层必须是可信且具体的（否则整条阶梯失去支撑）。不要求三层都有把握——Jack Clark 自己也只是 "60%+ chance"——关键是**三层内部逻辑一致**，读者接受第一层就会被第二层拖入。适合写 "AI 将改变 X 行业" 类内容时作钩子。
 
 3. **建立"概念升格"雷达**：本周 Jack Clark 将 "intelligence explosion" 从 AI 安全理论圈词汇升格为 Anthropic 官方研究文件用词——这个时刻本身就是一篇稿子。未来若有类似"某个 fringe 概念被某个权威机构/人物正式采用"的事件（如某家大公司第一次在年报里用了某个 AI 词汇），在 24 小时内写 "X 这个词刚刚从 [A 圈] 进入了 [B 圈]，这意味着什么"——这类稿子的信息增量很强，且媒体不会写（他们只会报道技术本身，不会报道词汇的社会迁移）。
+
+---
+
+## Week 2026-W22 · 自动提炼（2026-05-31）
+
+### 本周信号强度说明
+
+覆盖窗口：2026-05-17 至 2026-05-31（14 天）。X_MANUAL_SAMPLES=no（文件不存在）。XHS_SAMPLES=no（同上）。
+
+**KOL 侧：中等**——本窗口最显著的叙事引力中心是"双 CEO IPO 翻转节"（5 月 26 日，Altman + Amodei 同一周公开承认对就业预警"pretty wrong"）和 Cognition $1B 融资（5 月 27 日）。Karpathy 加入 Anthropic（5/19）和 Jack Clark 牛津讲座（5/20）已在 W21 记录，本次不重复。Ole Lehmann 的 Andreessen Rogan 总结帖（5/22）在 W21 的 14 天窗口内但 W21 未收录，首次入库，标注日期。
+
+**Mid-tier 侧：弱**——WebSearch + HN + Reddit + ThreadReaderApp 多轮扫描均未找到粉丝数 < 5 万但互动量 > 5K 的独立可验证 mid-tier 爆款帖。本窗口叙事引力场被 Altman/Amodei 双翻转和 Cognition 融资公告压缩；"高密度新闻周"的典型特征：KOL 信号密集，中小号独立爆发空间被挤压。附 1 条 ⚠️ 候选样本（账号粉丝数未独立验证）。如实汇报，不填充。
+
+直接可验证样本：3 条 KOL + 1 条部分数据候选。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线（3 条）
+
+**A-W22-KOL-1 · @sama（Sam Altman）2026-05-26（澳大利亚联邦银行 Accelerate AI 大会，悉尼，视频连线）**
+
+- **量级**：Fortune、Time、Euronews、TechSpot、Yahoo Finance、PYMNTS、Business Magazines 等 10+ 媒体在 24 小时内覆盖；Liberty Daily、NaturalNews 独立评析放大；多家 Substack 分析文章连锁传播
+- **原话**：`"I thought there would have been more impact on entry-level white-collar jobs being eliminated by now than has actually happened. I'm delighted to be wrong about this."` / `"pretty wrong on the social and economic implications"`（CBA CEO Matt Comyn 现场对谈，广泛引用）
+- **钩子类型**：**叙事大翻转式（Narrative U-Turn）**——同一人，同一议题（AI 灭掉白领工作），在不同场合公开翻转：2025 年全年频繁预警（"entry-level white-collar roles at serious risk"）→ 2026 年 5 月 IPO 前夕（"pretty wrong"）。与 W20 Dario Jevons Paradox 翻转不同：这次是 Altman 亲口说 "I was wrong"，不是隐性重构，是显性承认
+- **Complication 句型**：`"I'm delighted to be wrong."` ——"被证伪"的情感被包装成"轻松释怀"；但 IPO 时间线（OpenAI 5 月机密申请上市）是真实的 complication 来源——媒体自动填充了"你为什么恰好在 IPO 前夕变对了"这个问题；Altman 不需要承认动机，读者会代劳
+- **中段推进**：无（演讲引用帖，无独立中段）
+- **收尾形态**：Fortune 标题式金句——`"Sam Altman and Dario Amodei are both walking back their AI jobs apocalypse prophecies as they eye blockbuster IPOs"` ——第三方媒体标题成为该叙事的真实收尾，帖子生命周期靠争议性解读续命
+- **可复用模板**：`"I thought [X] would have happened by now more than it actually has. I'm [反直觉的正面情绪] about being wrong."` ——承认错误 + 正面情绪化 + 故意省略解释原因，让解释权留给读者
+
+---
+
+**A-W22-KOL-2 · @sama + @DarioAmodei 双翻转组合（2026-05-26，Fortune 标题叙事层）**
+
+- **量级**：Fortune 标题直接点名两人（"both walking back"）；Breitbart、HR Executive、MSNBC、Technology Magazine、AI Magazine 等多媒体联动；Fortune 文章本身成为 X 上被广泛转发的 link-tweet 单元
+- **帖子形式**：不是两人各自发帖，而是媒体将两件独立事件并列报道，形成的"双翻转叙事"在 X 上以媒体标题截图/link 形式传播——这是本周新观察到的传播机制：**媒体标题本身成为 X 上的病毒传播单元，无需当事人发帖**
+- **钩子类型**：🆕 **平行翻转式（Parallel U-Turn）**——当两个顶级 KOL 在同一周（< 7 天内）做出相同方向的立场大翻转，pair 本身比每人单独的翻转更有病毒性：三重巧合（相同行为 + 相同方向 + 相同时机）让读者脑中自动生成"协调"假设，媒体不需要指控，读者自己会说
+- **Complication 句型**：Fortune 标题直接构成 complication——`"[A] and [B] are both walking back [X] as they eye [IPO]"` ——两人 + 相同动作 + 相同利益动机，三重并列让"巧合"变成"模式"
+- **中段推进**：Fortune 文章提供证据链（原预测原话 → 当前翻转声明 → IPO 时间线 → 数据显示就业实际未大幅变化），读者由标题吸引点入，中段信息自取
+- **收尾形态**：开放式——Fortune 文章无结论，由读者 reply/QT 自发生成
+- **可复用模板**：`"[A] 和 [B] 在同一周都做了 [X]。[共同的外部动机：IPO/大会/监管]。此前他们各自说了什么：[A 的原话]. [B 的原话]."` ——平行结构 + 触发动机 + 历史存档，比单人报道 virality 强
+- **⭐ 结构洞察**：这是样本库中首次捕获到"媒体标题成为 X 传播单元"的完整机制。Fortune/TechCrunch 的标题被截图或 link-tweet，不需要 KOL 独立发帖——媒体叙事成了内容本身。对 Zico 的直接启示：一篇文章若能写出一句"让人觉得不转不行"的标题式断语，这句话本身就是内容，脱离正文也能流通
+
+---
+
+**A-W22-KOL-3 · @itsolelehmann（Ole Lehmann，141.9K followers）2026-05-22（⚠️ 日期在 W21 的 14 天窗口内，但 W21 扫描未收录，首次入库）**
+
+- **帖子 ID**：x.com/itsolelehmann/status/2057909733491937555
+- **量级**：584 replies / 2.4K RT / 13K QT / 23K likes（已验证）
+- **帖子原文**：`"marc andreessen just went on Rogan and casually dropped a TON of AI alpha. full pod is 3 hours and 20 minutes, but i pulled out his most interesting takes here: 1. AGI is here. he thinks the line was crossed about 3 months ago with the new GPT-5.5, claude 4.6, gemini 3, and grok [...]"`
+- **背景**：Marc Andreessen JRE 第 2501 集（2026-05-19，3 小时 26 分钟）。Andreessen 声称 AGI 在约 3 个月前（约 2026 年 2 月）已经跨越阈值；定义为"99% 的情况下，顶级 AI 给出的答案优于他能联系到的世界级专家"
+- **钩子类型**：**聚合蒸馏式（Distillation Aggregator）**——"X 说了很多，内容很长，我帮你编号提炼"；时效性是卖点之一（播客上线当天或次日发帖）。区别于 W18b 的 Karpathy "from a ~week ago" 回顾式：这是实时聚合（播客上线同日），不制造信息差，制造的是"节省注意力"价值
+- **Complication 句型**：`"casually dropped a TON of AI alpha"` ——"casually"（轻描淡写）× "TON of alpha"（高密度价值信号）的反差构成 complication：正因为"随口就说"而非"高调发布"，你反而不敢错过；低调 + 高信号密度 = 最强 FOMO 触发器
+- **中段推进**：列表（编号+逐条展开）——**参考产物型列表**（播客内容汇总），不违反反模式规则；13K QT 远超 2.4K RT（QT/RT 比 = 5x），说明列表格式激活了多线辩论：读者在各自的 QT 里对某条 take 单独展开
+- **收尾形态**：开放式——帖子以最后一条 take 结束，没有金句收尾；但 13K QT 说明读者以自己的 QT 充当收尾
+- **可复用模板**：`"[知名人物] 刚[出现在某个长格式场合]，随口说了一大堆干货。完整内容 [时长]，但最值得关注的 take 是这些：1. [最反常识的一条]. 2. [第二条，附具体细节]. 3. [带数字锚点的一条]."`
+- **备注**：**QT > RT 是罕见信号**——QT/RT = 5x（13K vs 2.4K）通常出现在内容成为辩论场地的帖子里，而非单纯信息传递类。这条帖的高 QT 来自"AGI 是否已经到来"这个本身有争议的核心 take；列表格式把一篇长播客拆成了多个独立辩论触发点
+
+---
+
+#### Mid-tier outliers（重点信号）— ⚠️ 本期 mid-tier 侧弱，1 条候选样本
+
+**A-W22-OT-1 · @ScottWu46（Scott Wu，Cognition CEO）2026-05-27（⚠️ 账号粉丝数未验证）**
+
+- **粉丝量**：未验证（AI coding startup CEO，估计 < 50K；TechCrunch 记者采访报道于 2026-05-29）
+- **互动量**：未验证具体 tweet RT/like 数字；融资公告本身由 TechCrunch、The Next Web、The Decoder、TechFundingNews 等 8+ 媒体覆盖（$1B at $26B valuation, May 27）
+- **最具病毒性的数字锚点**：`"89% of all code committed at Cognition is now written by Devin — up from 13% in December 2025"` ——5 个月内从 13% → 89%，加速度是冲击点
+- **CEO 同期矛盾声明（TechCrunch 2026-05-29）**：`"Scott Wu says AI coding agents shouldn't replace humans"` ——公司产品在做"AI 写 89% 代码"的事，CEO 在说"AI 不应取代人"；这正是"叙事大翻转式"的产品层版本
+- **钩子类型**：**数字加速度式 + 叙事内在矛盾式**——加速度（13→89 在 5 个月）制造终态数字无法单独给出的紧迫感；CEO 声明与产品数据的内在矛盾制造了"你信哪个"问题
+- **Complication 句型**：`"89% of all code committed at Cognition is now written by Devin. Up from 13% in December 2025."` ——两句话，时序结构，没有修辞，加速度自己说话
+- **中段推进**：融资公告 + 内部指标 + CEO 访谈；单线推进（公告 → 数字揭示 → CEO 修正叙事）
+- **收尾形态**：真问题（隐性）——公司本身是 AI 取代工程师最彻底的证据，CEO 说的却是"不应取代"；帖子不回答这个矛盾，读者自动问
+- **可复用模板**：`"[公司] [X 个月前]，[指标] 是 [低值]. 现在是 [高值]. [公司创始人/CEO] 说：[与数字矛盾的声明]."`
+- **⭐ WHY 这个结构有力**：两层矛盾同时出现——① 数字的加速度（13→89 让人问"这会停在哪里"）；② CEO 口头声明与产品数据的反差（让人问"他们自己信吗"）。两层矛盾都不需要作者评价，读者自己完成归因
+- **⚠️ 不确定性**：@ScottWu46 粉丝数未独立验证；具体 tweet 的 engagement 数字未确认。候选样本，记录结构分析，待下次验证升级
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本周（5/17–5/31）叙事重心：IPO 前夕，AI 大厂的"预言翻车季"**
+
+本窗口最强的叙事结构是：多个 AI 大厂领袖在同一周内公开翻转他们过去 12 个月的核心预警叙事（"AI 会灭掉白领工作"），而翻转时机恰好与各公司 IPO 准备期高度重合。外部媒体把两件独立事件打包成"双翻转"叙事，Fortune 的标题本身成为 X 上的病毒传播单元。
+
+| 模式 | 代表样本 | 核心机制 |
+|---|---|---|
+| **平行翻转式（新变体）** | Altman + Amodei 同周双翻 | 两人相同动作 + 相同时机 + 可识别共同动机 → 读者自动生成"协调"解读；pair 的 virality > 各自之和 |
+| **聚合蒸馏式（确认）** | Ole Lehmann Rogan 总结 | 实时聚合长格式内容 → 编号 take list → 13K QT（QT/RT=5x）证明列表触发多线辩论 |
+| **数字加速度式（新变体）** | Cognition 13%→89% | 时序两点数字（X 个月前 vs 现在）比终态百分比更有力；加速度激活"这会停在哪里"的焦虑 |
+| **媒体标题传播式（新观察）** | Fortune "both walking back" | 第三方媒体标题成为 X 传播单元；无需当事人发帖，标题质量决定 X 传播宽度 |
+
+**🆕 新钩子变体建议补入 typology：**
+
+> **平行翻转式（Parallel U-Turn）**：两个高知名度人物在 7 天内做出相同方向的立场大翻转，pair 本身是钩子，而非各自的转变。句式：`"[A] 和 [B] 在同一周都 [做了 X]。[共同的可识别外部动机]。"` 不需要声称"协调"——读者自己会说。适用条件：两人知名度相当、立场转变方向一致、有可识别的共同外部动机（IPO / 监管 / 市场压力）。
+
+> **数字加速度式（Acceleration Hook）**：不报道终态数字，报道从起点到终态的速度：`"[X 个月前] 是 [低值]。今天是 [高值]。"` 两行，不解释，让读者感受速度。Cognition 的 13%→89% 在 5 个月示范了这个公式——加速度感比终态数字更紧迫，更难被"还不是 100%"的理性化所稀释。这是"数字反差式"的时序变体：数字反差式靠两个同时存在的对比；数字加速度式靠同一指标在时间轴上的运动速度。
+
+> **媒体标题传播式（Headline-as-content）**：第三方媒体的标题本身成为 X 上的病毒传播单元，当事人无需发独立帖。触发条件：标题必须有"让人觉得不转不行"的断语——通常是揭示隐性矛盾（"两人同周翻转"）或命名一个读者已经感受到但没有语言的现象。对内容创作者的启示：写稿时先问"这个标题脱离全文，能在 X 上单独传播吗？"
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W22.md` 不存在。跳过。
+
+---
+
+### 本周 actionable
+
+- **测试"平行翻转式"素材策略**：下一次在 AI 行业观察到两家公司/两个人同一周做相同的立场转变（同时翻转预测、同时涨价、同时裁员），用 `"[A] 和 [B] 在同一周都 [做了 X]"` 作为开头，合并报道而非分开。平行结构 + 读者自发归因共同动机，是让评论帖超越单一新闻事件生命周期的最短路径。本周 Altman + Amodei 是教科书级示范，但时效已过——下次不错过。
+- **"数字加速度式"写法加入开头工具箱**：下一篇有增长数据的稿子，不要直接说"现在是 X%"，改成 `"[时间节点 A]，[指标] 是 [低值]. [时间节点 B]，[高值]."` 两行，无修饰，让速度本身说话。Cognition 的 13→89（5 个月）示范了这个公式——加速度感比终态数字更紧迫，且难被理性化稀释。
+- **"聚合蒸馏式"作为降成本发帖策略**：Ole Lehmann 的 Andreessen Rogan 总结帖（23K likes / 13K QT）说明：把长格式内容（播客/演讲/文章）当天压缩成编号 take list，可以绕过自己产出原创内容的门槛。匹配场景：下次有 Lex Fridman/Rogan/Y Combinator 类 AI 播客上线，当天发一条 `"[人名] 刚[出现在某长格式场合]，[时长]。提炼 3 个最反常识的 take：1. [..] 2. [..] 3. [..]"` ——护城河是实时性（同日发）+ 提炼准确度，不是原创洞察。注意：QT/RT 比高说明此格式天然触发多线辩论，适合想要互动率的帖子。
