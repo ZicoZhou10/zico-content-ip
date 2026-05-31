@@ -1,6 +1,7 @@
 ---
 date: 2026-05-31
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/033-agent-billing-blowout-xhs.md
 ---
 
 # Today's Candidates
