@@ -1,6 +1,7 @@
 ---
 date: 2026-06-02
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/035-model-parasitism-xhs.md
 ---
 
 # Today's Candidates
