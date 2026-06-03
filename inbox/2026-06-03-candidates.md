@@ -1,6 +1,7 @@
 ---
 date: 2026-06-03
-status: pending_selection
+status: written
+selected: candidate 3 → drafts/036-coverage-density-moat-xhs.md
 ---
 
 # Today's Candidates
