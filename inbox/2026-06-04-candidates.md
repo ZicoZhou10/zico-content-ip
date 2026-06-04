@@ -1,6 +1,7 @@
 ---
 date: 2026-06-04
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/037-channel-lock-in-xhs.md
 ---
 
 # Today's Candidates
