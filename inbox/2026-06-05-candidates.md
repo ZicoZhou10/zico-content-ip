@@ -1,6 +1,7 @@
 ---
 date: 2026-06-05
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/038-chatgpt-ads-fork-xhs.md
 ---
 
 # Today's Candidates
