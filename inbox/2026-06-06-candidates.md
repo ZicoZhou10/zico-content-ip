@@ -1,6 +1,7 @@
 ---
 date: 2026-06-06
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/039-pause-game-theory-xhs.md
 ---
 
 # Today's Candidates
