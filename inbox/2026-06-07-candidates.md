@@ -1,6 +1,7 @@
 ---
 date: 2026-06-07
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/040-apple-ai-os-xhs.md
 ---
 
 # Today's Candidates
