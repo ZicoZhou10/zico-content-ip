@@ -935,3 +935,161 @@ X_MANUAL_SAMPLES=no（样本文件存在但行数 ≤ 10，跳过）。XHS_SAMPL
 - **测试"平行翻转式"素材策略**：下一次在 AI 行业观察到两家公司/两个人同一周做相同的立场转变（同时翻转预测、同时涨价、同时裁员），用 `"[A] 和 [B] 在同一周都 [做了 X]"` 作为开头，合并报道而非分开。平行结构 + 读者自发归因共同动机，是让评论帖超越单一新闻事件生命周期的最短路径。本周 Altman + Amodei 是教科书级示范，但时效已过——下次不错过。
 - **"数字加速度式"写法加入开头工具箱**：下一篇有增长数据的稿子，不要直接说"现在是 X%"，改成 `"[时间节点 A]，[指标] 是 [低值]. [时间节点 B]，[高值]."` 两行，无修饰，让速度本身说话。Cognition 的 13→89（5 个月）示范了这个公式——加速度感比终态数字更紧迫，且难被理性化稀释。
 - **"聚合蒸馏式"作为降成本发帖策略**：Ole Lehmann 的 Andreessen Rogan 总结帖（23K likes / 13K QT）说明：把长格式内容（播客/演讲/文章）当天压缩成编号 take list，可以绕过自己产出原创内容的门槛。匹配场景：下次有 Lex Fridman/Rogan/Y Combinator 类 AI 播客上线，当天发一条 `"[人名] 刚[出现在某长格式场合]，[时长]。提炼 3 个最反常识的 take：1. [..] 2. [..] 3. [..]"` ——护城河是实时性（同日发）+ 提炼准确度，不是原创洞察。注意：QT/RT 比高说明此格式天然触发多线辩论，适合想要互动率的帖子。
+
+---
+
+## Week 2026-W23 · 自动提炼（2026-06-07）
+
+### 本周信号强度说明
+
+覆盖窗口：2026-05-24 至 2026-06-07（14 天）。X_MANUAL_SAMPLES=no（文件不存在）。XHS_SAMPLES=no（同上）。
+
+**KOL 侧：中等**——本窗口有 3 条可精确验证的 KOL 结构性帖子：Aaron Levie"AI psychosis"标签铸造（5/24）、Ole Lehmann 算法小创作者洞察（~5/27-28）、swyx 的 PewDiePie 里程碑回顾（~6/2-3）。注意：W22 的 14 天窗口（5/17–5/31）与本窗口有 5/24–5/31 的重叠，Altman/Amodei 双翻转和 Cognition 融资已在 W22 记录，本次不重复。Aaron Levie 和 Ole Lehmann 的帖子在 W22 窗口内但 W22 未收录，首次入库，标注 ⚠️。
+
+**Mid-tier 侧：弱**——本窗口被两个引力事件（特朗普 AI 行政令 6/2 + Claude 全球宕机 6/2）和一个跨圈层事件（PewDiePie 发布 Odysseus 5/31）主导，中小号独立爆发空间被挤压。WebSearch + HN + Reddit + ThreadReaderApp 多轮扫描，仅提取到 2 条有名字可追溯的 mid-tier 候选（Aiswarya Sankar 数据帖、Ghita 概念铸造帖）；均标注 ⚠️（互动量未独立验证）。另有 1 条 Claude 宕机时期广泛流传的无署名引语，列为补充信号。如实汇报，不填充。
+
+直接可验证样本：3 条 KOL + 2 条 mid-tier 候选。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线（3 条）
+
+**A-W23-KOL-1 · @levie（Aaron Levie，Box CEO）⚠️ 2026-05-24（日期在 W22 窗口内，W22 未收录，首次入库）**
+
+- **粉丝量**：~300K+（已估算 KOL 级；Box CEO，行业知名度高）
+- **帖子 URL**：x.com/levie/status/2058582370253701432
+- **互动量**：310 replies / 941 RT / 7.1K QT / 2.1K bookmarks（已验证）
+- **帖子原文（节选）**：`"CEOs are uniquely prone to AI psychosis because they're sufficiently distant from the last mile of work that still has to happen to generate most value with AI. So when they play with AI, they see the happy path results, often not considering the next 10 or 20 things that have [to happen for it to deliver value]"`
+- **后续覆盖**：TechCrunch（5/27）、Fortune（5/29）、TechSpot、Yahoo Finance 等 8+ 媒体在 5 天内跟进；TechCrunch 在 5/31 发出"Making sense of the debate over AI psychosis"做二次诠释——标签本身成为新闻周期的主角
+- **钩子类型**：**标签铸造 × 内幕视角式**——用一个新词（"AI psychosis"）把已经存在但没有名字的现象命名；说话人是 CEO，有内部观察权；命名动作赋予他道德高地而非单纯批评
+- **Complication 句型**：`"CEOs are uniquely prone to [X] because they're sufficiently distant from [the last mile of work]."` ——不是"AI 太难用了"，而是"高管与现实的距离本身就是病因"；把结构性原因放在 complication 段，比情绪化批评有力 10 倍
+- **中段推进**：单线推进（病因定义 → 症状描述 → 结果：员工被裁，但 AI 尚未准备好承接这些工作）
+- **收尾形态**：**标签铸造式**——"AI psychosis" 在 7 天内脱离原帖在媒体生态里独立流通；TechCrunch 的"Making sense of the debate"本身就是标签存活的证据
+- **可复用模板**：`"[某类高管/角色] 对 [技术/工具] 有独特的 [病] 风险，因为他们与 [具体的下游工作] 之间有足够的距离。当他们接触它时，他们看到的是 [happy path]，而不是接下来的 [10-20 个障碍]。"`
+
+---
+
+**A-W23-KOL-2 · @itsolelehmann（Ole Lehmann，141.9K followers）⚠️ ~2026-05-27-28（日期在 W22 窗口内，W22 未收录，首次入库）**
+
+- **帖子 URL**：x.com/itsolelehmann/status/2059658734477963686
+- **互动量**：未独立验证
+- **帖子原文**：`"it's actually never been easier to be seen as a small creator modern algos serve every tweet to new eyes theoretically, your first post can reach a million people"`
+- **钩子类型**：**反共识自白式（算法信息差版）**——绝大多数"增长技巧"帖子的隐含前提是"增长很难"；这条帖把前提翻转：难度不是你以为的来源（粉丝数），真正的限制是别的东西（内容质量？分发策略？）。反转不说透，留给读者自填
+- **Complication 句型**：无显性冲突段——但隐含 complication 是"你以为要先有粉丝，其实算法现在已经不这么运作了"；空白比显性说出来更刺激
+- **中段推进**：无（两句极简帖）
+- **收尾形态**：无；开放式让读者自问"那我的第一帖为什么没有到达百万"
+- **可复用模板**：`"其实 [被认为很难的事] 从来没有像现在这么容易。现代 [系统/算法/工具] 会把 [产出] 送到新眼球面前。理论上，你的第一个 [X] 就能触达 [大数字]。"` ——反前提钩子：把所有人的隐含假设设为对手
+- **备注**：这条帖与 Ole Lehmann 在本账号体系中的一致定位（AI solopreneur 创作者赋能）高度吻合；属于他"内容飞轮"策略的组成部分，而非孤立爆款。对 Zico 的直接参考价值是**反前提钩子**这个结构，而非内容本身
+
+---
+
+**A-W23-KOL-3 · @swyx（Shawn Wang）~2026-06-02-03**
+
+- **粉丝量**：~100K+（AI/开发者内容知名账号，估算 KOL 级）
+- **帖子 URL**：x.com/swyx/status/2061256096719970337
+- **互动量**：未独立验证精确数字；帖子被 Gizmodo、Digg、DEV Community、多家科技博客引用，跨媒体传播确认
+- **帖子原文**：`"just a small zoom out on the vibe shift: in Feb 2025 @soumithchintala was talking about his dream of personal, local, private agents, most people didn't believe him. it's June 2026 and @pewdiepie has just released his vibecoded @opencode wrapper that is a complete personal AI [productivity suite including email, docs, and calendar]"`
+- **背景**：PewDiePie（Felix Kjellberg，YouTube 最大频道，111M+ 订阅者）于 2026-05-31 发布 Odysseus，一个 MIT 许可的开源、本地化 AI 工作空间，基于 OpenCode 构建，上线 4 天内达到 44,000 GitHub stars；HN 头版；100万+ views
+- **钩子类型**：**时代转折见证式（历史弧线 + 当下验证）**——用一个精确的"旧预言时刻"（Feb 2025，具体人名 soumithchintala）+ 一个精确的"验证时刻"（June 2026，具体行为人 PewDiePie）构建时间弧线。最关键的结构件是"most people didn't believe him"——把怀疑者的存在压入叙事，让验证时刻感觉不只是"成功了"，而是"他们错了"
+- **Complication 句型**：`"most people didn't believe him. [时间跳跃]. it's [现在] and [验证者]"` ——complication 是"主流怀疑"这一历史事实；用过去的怀疑对比现在的现实，不需要其他冲突
+- **中段推进**：无（两句话，时间弧线即是全部结构）
+- **收尾形态**：无明确收尾——PewDiePie + opencode 作为收尾本身就是超越预期的事实，不需要情绪句
+- **可复用模板**：`"just a small zoom out: in [时间节点 A]，[某人] 在说 [当时看起来荒诞的预言/愿景]，大多数人不信。now it's [时间节点 B]，[意外的验证者] 刚刚 [做了验证动作]. [不加任何评论，让事实说话]"`
+- **⭐ 结构洞察**：这是 sama 的"怀旧回望式"（A2，已记录）的主动版——sama 是被动等待历史时刻降临，swyx 是主动"框定"当下时刻属于哪条历史弧线。主动框定需要两个要件：① 可以具名的旧预言时刻（模糊预言不够，必须是"某人在某时说过的具体话"）；② 当下的验证者必须出人意料（如果是圈内人验证则价值折半；PewDiePie = 最意外的验证者）
+
+---
+
+#### Mid-tier outliers（重点信号）— ⚠️ 本期 mid-tier 侧弱，2 条候选 + 1 条无署名信号
+
+**A-W23-OT-1 · @Aiswarya_Sankar（Aiswarya Sankar，Entelligence AI 联合创始人兼 CEO）⚠️ ~2026-05-27-29**
+
+- **粉丝量**：未验证（startup founder 账号，估计 < 50K；帖子被 TechCrunch「Coders are refusing to work without AI」（5/29）和多个 AI 行业通讯引用，表明有机传播）
+- **互动量**：未验证精确数字
+- **帖子核心原文（转引）**：公司对 2,444 家企业的 token 支出分析显示：每花 1 美元在 AI token 上，只有 0.18 美元进入稳定生产功能；其余 0.82 美元分解为：$0.44 → 修复 AI 自己引入的 bug；$0.27 → 重写/返工（上下文遗漏）；$0.11 → review 摩擦 & 上下文切换。Sankar 总结：`"companies are spending 44% of their tokens on bug fixes that their AI generated"`
+- **钩子类型**：**企业数据揭示式（Data First-Mover）**——说话人是第一手数据持有者（自己公司的产品数据）；数据不是引用权威，而是自己采集；2,444 家企业的样本量让结论难以被"这只是个案"反驳。这是 W18 OT-1「发现式」钩子的企业版：把"可独立验证的精确细节"替换成"内部规模数据"
+- **Complication 句型**：`"companies are justified in questioning spending $100K on token spend when only $18K makes it to a stable prod feature."` ——把 ROI 翻译成老板能看懂的语言（100K → 18K）；不是"AI 有问题"，而是"这个数字本身就是辩护权"
+- **中段推进**：单线推进——总数据（44%）→ 细分拆解（四个成本桶）→ 具体名词铸造（tokenmaxxing）
+- **收尾形态**：概念铸造式——"tokenmaxxing"这个概念在这个数据帖中获得了数字背书，从 buzzword 升格为有量化根据的诊断词
+- **可复用模板**：`"我们分析了 [N] 家公司的 [指标] 数据，发现 [整体数字]。分解如下：[占比 A] → [去向 A]；[占比 B] → [去向 B]。结论：[一句量化 ROI 换算，让老板/非技术人也能看懂]。"`
+- **⭐ WHY 中小号（候选分析）**：① 数据来自自己产品（不是引用第三方，可信度来自身份而非机构名）；② 44% 是一个反直觉但可信的精确数字（不是 50%，更可信）；③ "$0.18 productive per $1"是最可截图、最可单独传播的子单元——TechCrunch 直接在文章开头引用了它
+
+---
+
+**A-W23-OT-2 · @ghita__ha（Ghita）⚠️ ~2026-05-26**
+
+- **粉丝量**：未验证
+- **互动量**：未验证
+- **帖子 URL**：x.com/ghita__ha/status/2059123876374921589
+- **帖子原文**：`"Prediction in 2026: we're going to go from tokenmaxxing to valuemaxxing. This means more efficient models both in terms of token cost but also token efficiency."`
+- **钩子类型**：**概念铸造式（对立演化）**——不批评 tokenmaxxing，而是预测它的下一阶段（valuemaxxing）；把现有 buzzword 的演化方向命名，给读者一个比现状更高级的词汇可以使用
+- **Complication 句型**：无显性冲突句——complication 隐含在"maxxing 概念的演化"这个框架里：如果你还在讲 tokenmaxxing，你已经落后了
+- **中段推进**：无（一句话帖）
+- **收尾形态**：无，预测自封闭
+- **可复用模板**：`"Prediction: we're going to go from [现有流行概念] to [下一级概念]. This means [一句话解释升级逻辑]."`
+- **⭐ WHY（候选分析）**：同一周有多个账号在用 tokenmaxxing 这个词，这条帖子通过引入 valuemaxxing 在概念战争中站到了更高的位置——**给已有概念命名其下一阶段，是建立预言者权威最低成本的操作**。缺点是太短，难以独立验证传播量；但如果这个词在后续讨论中被引用，则成为一种迟发型"概念贡献"帖
+- **⚠️ 不确定性**：粉丝数与互动量均未独立验证，待升级
+
+---
+
+**A-W23-补充信号 · Claude 宕机时期广泛流传引语（~2026-06-02，原始账号未确认）**
+
+- **互动量**：未验证；在 Thoughtworks 分析文章、多个工程师博客中被引用
+- **引语原文**：`"Claude is down. It's a nice reminder that the promised 10x productivity gains still have a single point of failure: someone else's status page."`
+- **背景**：2026-06-02，Anthropic Claude 全球宕机约 5 小时 45 分钟，影响 Opus 4.6、Claude API、Claude Code CLI；同日特朗普签署 AI 监管行政令
+- **钩子类型**：**讽刺对比式**——宕机事件本身是钩子，引语把"10x productivity gains"（AI 布道语言）和"someone else's status page"（基础设施现实）并置；用 AI 行业自身的承诺语言反讽其单点故障
+- **Complication 句型**：`"the promised [AI 行业大承诺] still have a single point of failure: [具体的技术依赖]."` ——complication 不来自外部事件，来自说话人把行业承诺与现实约束对齐这个动作
+- **收尾形态**：无，对比自封闭
+- **可复用模板**：`"[服务/工具] is down. 好提醒：[行业/产品的宏大承诺] 依然有一个单点故障：[具体的依赖层]。"`
+- **备注**：原帖账号未在任何媒体报道中被具名确认；保留为结构性信号参考，待有 Zico 手动确认后升级为正式样本
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本周（5/24–6/7）叙事重心：AI 生产力的"清算时刻"与 vibe shift 的双重验证**
+
+本窗口产生了两条平行但方向相反的叙事线：
+
+**Line 1 · 清算叙事**（技术乐观主义的代价）：
+- Aaron Levie："AI psychosis"——C 套高管与执行层的认知断裂已经有了名字
+- Aiswarya Sankar："$0.44 per $1 on bug fixes"——tokenmaxxing 的 ROI 负债第一次被量化成可截图的数字
+- Claude 宕机引语："single point of failure: someone else's status page"——基础设施依赖的荒诞被压缩成一句话
+- TechCrunch（5/29）："Coders are refusing to work without AI — and that could come back to bite them"——开发者依赖 = 潜在的行业脆弱性
+
+**Line 2 · vibe shift 验证叙事**（预言者被证明正确）：
+- swyx："Feb 2025 most people didn't believe soumithchintala"→"June 2026 PewDiePie shipped Odysseus with 44K stars in 4 days"——最意外的验证者
+
+两条叙事线共同指向同一个底层张力：**AI 工具使用已经普及到无法逆转（PewDiePie 都在 vibe code），而其代价结构（tokenmaxxing、单点故障、AI psychosis）也正在同步变得透明**。这是 AI 使用从"增长叙事"进入"成熟期叙事"的典型特征：好消息和坏消息开始同步被定价。
+
+| 模式 | 代表样本 | 核心机制 |
+|---|---|---|
+| **标签铸造 × 内幕视角式（确认）** | @levie AI psychosis | CEO 命名已存在的现象 → 标签 7 天内脱离原帖独立流通；媒体"making sense of"文章是标签存活的量化证据 |
+| **时代转折见证式（新变体）** | @swyx PewDiePie vibe shift | 旧预言 + 具名怀疑者 + 意外验证者 = 弧线帖；意外度越高，传播力越强；不加评论，让事实说话 |
+| **企业数据揭示式（新变体）** | @Aiswarya_Sankar 44% tokens | 自有产品数据 → 概念获得数字背书 → tokenmaxxing 从 buzzword 升格为可量化诊断词；$0.18/$1 是最强截图单元 |
+| **反前提钩子式（确认）** | @itsolelehmann small creator | 把所有人隐含的难度前提设为对手，不说理由，让读者自填"那我为什么没做到" |
+| **概念演化铸造式（⚠️ 候选）** | @ghita__ha valuemaxxing | 给现有概念命名其下一阶段 = 预言者权威最低成本获取方式；风险：太短，传播需要被更大号引用 |
+| **讽刺对比式（补充信号）** | Claude 宕机引语 | 用行业自身的承诺语言反讽具体依赖现实；complication 内嵌于对比，不需要叙述 |
+
+**🆕 新钩子变体建议补入 typology：**
+
+> **时代转折见证式（Historical Arc Witness）**：主动框定当下时刻属于哪条历史弧线。结构：`"[时间节点 A]，[具名人物] 说了 [当时看起来荒诞的预言]，大多数人不信。[时间跳跃]. [时间节点 B]，[意外的验证者] 做了 [验证动作]."` 关键要件：① 旧预言必须有具名来源（模糊的"有人说过"不够力）；② 验证者必须意外（越出圈、越非预期，弧线越强）；③ 帖子本身不加评论——评论是读者写的。护城河不是自己的洞察，而是找到了两个点、连上了弧线。
+
+> **企业数据揭示式（Enterprise Data First-Mover）**：自有产品或研究数据 + 反直觉精确数字 + 可换算成 CFO 语言的 ROI 表达。句式：`"我们分析了 [N] 家公司，发现每 [X]元 只有 [Y]元进入 [有价值产出]。其余 [Z]元去了 [具体浪费桶]。"` 关键：① N 足够大（让人无法说"只是个案"）；② 精确分数而非整数（$0.18 比 "18%" 更可截图）；③ 把技术语言翻译成老板语言（否则只在开发者圈流通，无法跨圈）。
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W23.md` 不存在。跳过。
+
+---
+
+### 本周 actionable
+
+1. **测试"时代转折见证式"**：下次遇到"某个一年前被怀疑的预言正在被意外验证"的时刻，用这个结构发帖：`"小 zoom out：[时间节点 A]，[具名人物] 说了 [X]，当时大多数人不信。[时间跳跃]。[时间节点 B]，[意外验证者] 刚刚 [做了 Y]。"` 不加评论。关键是找到"意外验证者"——越意外越好，PewDiePie 是教科书级的。这个结构的制造成本极低（就是选题眼力），但传播力很高（读者自己 pattern-match，自己分享）。
+
+2. **"企业数据揭示式"写法加入发现式钩子工具箱**：下次如果 Zico 接触到任何有样本量支撑的 AI ROI 数据（客户调研、工具使用数据、个人的 token 账单分析），把它翻译成"每 $1 只有 $X 真正到达 [目标]"的形式——这个分数格式是可截图的最小传播单元。不一定要 2,444 家公司；即使是 10 个团队的真实样本，只要方法论可信，也能启动传播。
+
+3. **"AI psychosis"标签已经过了传播期，但"AI psychosis 的中国版"还没被人写过**：Aaron Levie 的标签在英文 Twitter 上引爆，但中文创作者还没有对应的概念命名。建议 Zico 考虑用中文写一篇"AI 精神失调症：为什么决策者和执行层对 AI 的判断会出现如此大的偏差"——不是翻译 Levie 的帖子，而是用中文语境里的具体案例（中国企业的 AI 项目 vs 现实落地）重新锻造这个概念。窗口期：~2-3 周内（标签仍有热度，中文市场未被覆盖）。
