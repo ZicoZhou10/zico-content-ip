@@ -1,6 +1,7 @@
 ---
 date: 2026-06-08
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/041-ownership-capture-xhs.md
 ---
 
 # Today's Candidates
