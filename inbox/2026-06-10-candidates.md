@@ -1,6 +1,7 @@
 ---
 date: 2026-06-10
-status: pending_selection
+status: written
+selected: candidate 3 → drafts/042-adoption-goodhart-xhs.md
 ---
 
 # Today's Candidates
