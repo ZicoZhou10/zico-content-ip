@@ -1,6 +1,7 @@
 ---
 date: 2026-06-12
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/043-physical-agent-economy-xhs.md
 ---
 
 # Today's Candidates
