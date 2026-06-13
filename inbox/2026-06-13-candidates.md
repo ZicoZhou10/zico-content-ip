@@ -1,6 +1,7 @@
 ---
 date: 2026-06-13
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/044-agenda-switch-xhs.md
 ---
 
 # Today's Candidates
