@@ -1093,3 +1093,143 @@ X_MANUAL_SAMPLES=no（样本文件存在但行数 ≤ 10，跳过）。XHS_SAMPL
 2. **"企业数据揭示式"写法加入发现式钩子工具箱**：下次如果 Zico 接触到任何有样本量支撑的 AI ROI 数据（客户调研、工具使用数据、个人的 token 账单分析），把它翻译成"每 $1 只有 $X 真正到达 [目标]"的形式——这个分数格式是可截图的最小传播单元。不一定要 2,444 家公司；即使是 10 个团队的真实样本，只要方法论可信，也能启动传播。
 
 3. **"AI psychosis"标签已经过了传播期，但"AI psychosis 的中国版"还没被人写过**：Aaron Levie 的标签在英文 Twitter 上引爆，但中文创作者还没有对应的概念命名。建议 Zico 考虑用中文写一篇"AI 精神失调症：为什么决策者和执行层对 AI 的判断会出现如此大的偏差"——不是翻译 Levie 的帖子，而是用中文语境里的具体案例（中国企业的 AI 项目 vs 现实落地）重新锻造这个概念。窗口期：~2-3 周内（标签仍有热度，中文市场未被覆盖）。
+
+---
+
+## Week 2026-W24 · 自动提炼（2026-06-14）
+
+### 本周信号强度说明
+
+覆盖窗口：2026-06-01 至 2026-06-14（14 天）。X_MANUAL_SAMPLES=no（文件不存在）。XHS_SAMPLES=no（同上）。
+
+**本周核心主题："Token 清算周"**——6 月第一周，AI 支出从"增长叙事"全面切换到"成本危机叙事"。多个独立信号在同一周内同时浮出水面：Uber 4 个月烧完全年 AI 预算、微软撤销 Claude Code 许可证、$500M 匿名企业月账单、Sam Altman 公开承认成本问题、GitHub Copilot 切换 token 计费引发账单暴涨 25x。每条单独都是新闻，合并在一起，是行业经济学范式转换。
+
+**KOL 侧：中等**——3 条可日期验证的 KOL 结构性样本（Sam Altman 企业活动 6/2，Dario Amodei Bloomberg 专访 6/10，Ole Lehmann Hormozi memo ~6/7）。注意：6/1–6/7 与 W23 窗口（5/24–6/7）有重叠；W23 已记录的样本不重复提取；重叠期首次入库的样本标注 ⚠️。
+
+**Mid-tier 侧：弱**——本窗口被"Token 清算"宏大叙事主导，中小号独立爆发空间被压缩。找到 1 条可名字追溯的内容聚合账号样本（@AIHighlight，粉丝量未验证），以及"Tokenpocalypse"标签的社区草根起源（Reddit → TechCrunch 放大）。如实汇报，不填充。
+
+直接可验证样本：3 条 KOL + 1 条部分验证内容聚合账号 + 1 条社区标签信号。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线（3 条）
+
+**A-W24-KOL-1 · @sama（Sam Altman）⚠️ 2026-06-02（日期在 W23 窗口内，W23 未收录，首次入库）**
+
+- **量级**：OpenAI "Intelligence at Work" 企业活动现场陈述；Axios、Tom's Hardware、TheStreet、Memeburn、IndexBox 等 5+ 媒体同日覆盖；活动截图在 X 上广泛传播
+- **原话（节选）**：`"Our top internal token user now consumes approximately 100 billion tokens every month — that's about a million times more than six years ago. And that's not even the biggest external spender."` / `"AI cost management has become a huge issue — the second most common complaint we get from enterprise customers."` / 引用企业客户流行 meme：`"The company spent its entire 2026 budget in Q1. Can you make it more efficient?"`
+- **钩子类型**：🆕 **成本承认式（Cost Confession Hook）**——AI 平台 CEO 在自己产品的发布活动上公开承认"我们的工具让客户成本失控了"。不是外部批评，是自我承认。传播动力来自"连他都说了"的反预期效应：通常推销者只推销，不承认代价；这条颠覆了这一预期。与 W20/W22 的"叙事大翻转式"有别：那是观点/立场的公开翻转（"我上次说 X，现在说 Y"）；这是角色翻转——工具制造者同时扮演问题承认者。
+- **Complication 句型**：`"100 billion tokens every month — a million times more than six years ago. And not even the biggest external spender."` ——三层递进：内部之大（100B）→ 速度之快（百万倍增长）→ 外部更大（暗示规模远超想象）。每一层把上一层的冲击再放大一倍，且不需要读者做数学。
+- **中段推进**：无（活动语录帖，信息密集，无中段）
+- **收尾形态**：meme 引用式——把企业客户的自嘲 meme 作为收尾（"My company spent its entire 2026 budget in Q1"），把抽象的"成本问题"变成了一句任何人都能转发的口诀；帖子生命周期靠 meme 二次传播续命
+- **可复用模板**：`"我们最重量级的 [用户] 现在每 [周期] 消耗 [极端数字] [单位]. 比 [X] 年前增加了 [Y] 倍. 而这还不是全球最大的 [用户]."` ——三层递进 + 以客户/社区的自嘲 meme 收尾，把主动权交给读者
+- **备注**：背景是同日 Uber 预算耗尽新闻、微软撤销许可证、$500M 匿名账单同时在 X 上流传；Altman 的"成本是 huge issue"表态，在这个节点上产生了"AI 最大推销员自己也承认了"的叠加传播动力
+
+---
+
+**A-W24-KOL-2 · @DarioAmodei（Dario Amodei）2026-06-10（Bloomberg "The Circuit" 专访，Emily Chang 主持）**
+
+- **量级**：Bloomberg、TechCrunch、Yahoo Finance、NewsBreak、Storyboard18 等 5+ 媒体 6/10 同日跟进；TechCrunch 标题 "Anthropic's Dario Amodei has just one direct report" 成为 X 上独立传播单元
+- **原话**：`"I have one direct report. It's incredibly freeing."` ；其余 Anthropic 高管全部向联合创始人兼总裁 Daniela Amodei 汇报
+- **对比数字**：Sam Altman ≈ 6 个直属下属；Jensen Huang 数十个；Dario Amodei：1 个（首席参谋 Avital Balwit）
+- **钩子类型**：**反常识数字对比式（Structural Number Contrast）**——不是收入/用户数的数字反差，而是管理结构的数字反差；"接近 $1T 估值公司的 CEO，只有 1 个直属下属"的冲击来自两方向：① 结构的极端简化（1 vs 数十）；② 说话人身份的反差（AI 生死攸关时期的创业公司 CEO，通常被预期为高度活跃的管理者）
+- **Complication 句型**：`"I have one direct report. It's incredibly freeing."` ——两句话，零解释；complication 全由读者脑补："他怎么用 1 个下属管理快速增长的 AI 公司？" 隐性问题比显性问题传播力更强（读者必须自己 reply 来完成思考）
+- **中段推进**：无（专访语录帖，单句信息密集）
+- **收尾形态**：媒体标题传播式——TechCrunch 的"has just one direct report"标题成为 X 上独立传播单元（与 W22 Fortune "both walking back" 机制一致）；帖子生命周期靠媒体包装延续
+- **可复用模板**：`"[某人/某公司] 只有 [极端小数字] 个 [结构要素：下属/工具/团队成员]. [比较基准: 其他同类是多少]. [当事人反应: incredibly freeing / best decision]."`——极简自白 + 反常识结构披露；关键：正面情绪必须意外（通常预期"这很难"而不是"incredibly freeing"），反差才有力
+- **⭐ 结构洞察**：这是 W19 @dlimeng192048 "Boris Cherny 0 行手写代码"（W19-OT-2）的**管理结构版本**——两者共同机制是"绝对化声明（0行 / 1个）× 当事人权威 × 正面情绪化的意外反应"。绝对数字（0、1）比百分比更清晰，永远是更强的截图单元。
+
+---
+
+**A-W24-KOL-3 · @itsolelehmann（Ole Lehmann，141.9K followers）⚠️ ~2026-06-07（日期估算：LinkedIn "1 week ago"，在 W23 窗口内，W23 未收录，首次入库）**
+
+- **帖子 ID**：x.com/itsolelehmann/status/2062558255893954925
+- **量级**：互动量未独立验证；LinkedIn 同步帖"1 week ago"（从 June 14 倒推 ≈ June 7）；Alex Hormozi 本人粉丝规模数百万，名字权威免费借用
+- **帖子原文**：`"Leila and Alex Hormozi just wrote an internal memo to kill AI slop in their company. Here's what they said: ——————— 'I'm going to be direct: I am SO sick of reading AI slop. Especially in memos...'"` + memo 关键内容
+- **钩子类型**：**聚合蒸馏式 × 内幕特权式（Distillation + Insider Memo Frame）**——双重权威叠加：① 蒸馏了 Hormozi（数百万 X 关注者的创业 KOL）的内部文件；② "内部 memo"框架给读者"进入内部"的窥私感。与 Ole 的 Rogan 播客总结帖（W22，实时聚合公开内容）有本质区别：这次内容是"原本不对外的内部文件"，传播动力更强（"内部"→"公开"的信息不对称是额外的传播引擎）
+- **Complication 句型**：`"I am SO sick of reading AI slop. Especially in memos."` ——借用 Hormozi 的第一人称愤怒代替自己的观点；"Especially in memos"的具体场景限定比"in everything"精确 10 倍，读者对号入座速度更快；大写 SO 是情绪信号，不用情绪词，直接大写
+- **中段推进**：列表（memo 的识别 AI slop 的具体标准）——**参考产物型列表**：内容本身是工具性条目，不是 Ole 用列表推进论点；读者会截图保存整份清单
+- **收尾形态**：召唤式（隐性）——分享标准后，读者自然用来检查自己的写作；不需要显性 CTA
+- **可复用模板**：`"[知名人物] 刚写了一份内部 memo，要 kill 掉 [行业里人人痛恨但少有人公开点名的现象]. 原文: '[第一人称愤怒 + 具体场景限定].' ——[核心条目列表]"`
+- **⭐ WHY 工作**：三重驱动——① Hormozi 名字作为免费权威；② "internal memo" 框架提供特权感；③ "AI slop" 是让所有人点头但没人公开命名的痛点。三件同时成立，帖子同时触达"想改进写作"和"厌倦 AI 内容"两个独立受众。
+
+---
+
+#### Mid-tier outliers（重点信号）— 本期 1 条部分验证 + 1 条社区信号
+
+**A-W24-OT-1 · @AIHighlight（AI 内容聚合账号）⚠️ ~2026-06-02-03（⚠️ 粉丝量未验证，可能 > 50K）**
+
+- **粉丝量**：未独立验证；被"Future Stacked"账号列为推荐的 26 个顶级 AI 账号之一，定位为 AI tools & prompts 聚合账号；如粉丝量 > 50K 则不计入 mid-tier 信号，归入 KOL 邻近参考
+- **帖子 ID**：x.com/AIHighlight/status/2061389842445975973
+- **互动量**：未验证精确数字
+- **帖子原文（转引）**：`"🚨 Uber burned through its entire 2026 AI budget by mid-April. Four months. Gone. In December, Uber rolled out Claude Code to roughly 5,000 engineers. Internal adoption took off so fast that the company set up a leaderboard ranking teams by total AI tool usage. Per-engineer API spend: $500–$2,000/month."`
+- **钩子类型**：**数字加速度式 × 激励机制揭示式**——`"Four months. Gone."` 是本周最小的截图单元（比"burned through its budget"短、比"four months, completely exhausted"更快）；"leaderboard ranking teams by total AI tool usage" 是关键结构性细节——把"成本失控"重构为"激励设计失控"：不是用户的错，是系统的逻辑后果
+- **Complication 句型**：`"set up a leaderboard ranking teams by total AI tool usage"` ——一句话把"成本危机"升格为"系统设计问题"；读者的下一个思维动作是"我的公司有没有类似的漏洞"，这推动了转发行为（"我要让工程 VP 看到这个"）
+- **中段推进**：单线推进（部署规模 → 激励设计 → 成本结果）
+- **收尾形态**：无，数字自封闭
+- **可复用模板**：`"[公司] 在 [N] 个月内烧完了全年 [X 预算]. [N]. 没了. [部署规模]. 公司搭了一个 [激励机制：leaderboard/绩效指标]，导致 [量化结果]."`——关键：激励机制细节比纯数字更有"为什么"的解释力，且更容易被管理者层级转发
+- **⚠️ 备注**：@AIHighlight 粉丝量未独立确认 < 50K；如实为 KOL 级账号，本条降级为内容聚合公式参考（类似 W18 @om_patel5 的 ALL CAPS 三段式），不计入 mid-tier 结构信号。待 Zico 确认后更新。
+
+---
+
+**A-W24-社区信号 · "Tokenpocalypse"（Reddit 用户草根命名，2026-06-05-07）**
+
+- **来源**：GitHub Copilot 于 2026-06-01 切换 token 计费 → 重度用户账单暴涨 25x（$29 → ~$750）→ Reddit 开发者社区某用户命名 "Tokenpocalypse" → TechCrunch Equity 播客 6/7 采用该词 → Tom's Hardware 同日报道 Goldman Sachs "24x token demand by 2030"，为标签提供定量背书
+- **钩子类型**：🆕 **标签铸造式（社区草根版 / Bottom-Up Coinage）**——与 W23 Aaron Levie 的 "AI psychosis"（CEO 命名 → 媒体放大）相反的路径：社区草根命名 → 媒体引用 → 概念升格为行业词汇。差异：① 草根命名无说话人权威背书，传播速度较慢但更快成为公共品（任何人可无成本使用）；② CEO 命名绑定人名，有标签所有权；草根命名无所有权，反而传播阻力更低
+- **Complication 结构**：标签本身即 complication——"Tokenpocalypse" 把"价格调整"重新标注为"行业末日事件"，语气升级是信息本身；Goldman Sachs 24x 报告在同一周提供了数字背书，让"末日"感从情绪变成有定量预测托底的判断
+- **可复用洞察（给 Zico）**：标签命名权已被先行者拿走；但 **"给已有标签命名其下一阶段"** 的操作尚未发生——`"大家现在叫它 Tokenpocalypse. 但还没有一个词描述 [后 Tokenpocalypse 时代的新均衡]. 也许它应该叫 [新命名]."` ——在已有标签上叠加下一层概念，比争夺原始命名更快完成概念占位（参考 W23 @ghita__ha 的 tokenmaxxing → valuemaxxing 路径）
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本周（6/1–6/14）叙事重心：Token 清算周——AI 经济学的分水岭**
+
+本窗口是迄今为止观察到的"单主题密度最高的一周"。以下事件在 7 天内同时浮出水面：
+
+| 事件 | 日期 | 核心数字 |
+|---|---|---|
+| GitHub Copilot 切换 token 计费 | 6/1 | 账单暴涨 25x（$29→$750） |
+| Anthropic 秘密 IPO 申请 | 6/1 | $965B 估值，超越 OpenAI |
+| Sam Altman 企业活动 | 6/2 | 最高用户 100B token/月 |
+| Uber Claude Code 预算报道 | 6/2 | 4 个月烧完全年预算 |
+| 微软撤销 Claude Code 许可 | 6/2 | 每工程师/月 $500–$2,000 |
+| 匿名企业 $500M 月账单 | 6/1-2 | $500M/月，无上限 |
+| TechCrunch "token bill comes due" | 6/5 | — |
+| "Tokenpocalypse" 被 TechCrunch 引用 | 6/7 | — |
+| Goldman Sachs "24x token demand" | 6/7 | 到 2030 年 24 倍需求增长 |
+| Dario "1 direct report" | 6/10 | 1 vs Sam ≈6 vs Jensen 数十 |
+
+三条叙事线同时发生：**成本危机**（Uber / 微软 / $500M 账单）× **AI 平台的 IPO 前景**（Anthropic $965B）× **CEO 行为异常揭示**（Altman 承认成本问题 / Dario 只有 1 个直属下属）。这是 AI 使用从"增长驱动"进入"效率可量化"阶段的典型分水岭信号。
+
+| 模式 | 代表样本 | 核心机制 |
+|---|---|---|
+| **成本承认式（新变体）** | sama "100B tokens / huge issue" | AI 平台 CEO 主动承认工具导致成本失控；"连他都说了"反预期效应放大传播；meme 引用收尾让帖子超越新闻生命周期 |
+| **反常识数字对比式（新变体）** | Dario "1 direct report" | 结构数字（1 vs 数十）比规模数字更意外；正面情绪化反应（"incredibly freeing"）比解释更有传播力；媒体标题成为 X 传播单元 |
+| **聚合蒸馏式 × 内幕特权式（确认）** | Ole Lehmann Hormozi memo | "内部文件"框架 × KOL 名字权威 × 普遍痛点（AI slop）= 传播三件套；比公开内容聚合传播动力更强，因"内幕"感是额外引擎 |
+| **数字加速度式 × 激励机制揭示式（确认）** | @AIHighlight Uber leaderboard | "Four months. Gone." + 激励机制细节 = 极简冲击 + 系统洞察；激励机制比纯数字更有"为什么"解释力，更易被管理层转发 |
+| **标签铸造式（社区草根版，新路径）** | "Tokenpocalypse" | 草根命名 → 媒体引用 → 定量背书（Goldman Sachs 24x）→ 概念升格；与 CEO 命名路径相反，但传播终点相似 |
+
+**🆕 新钩子变体建议补入 typology：**
+
+> **成本承认式（Cost Confession）**：AI 工具/平台的创建者/CEO 在正式场合（发布会 / 投资者日 / 媒体采访）主动承认自己的产品导致了某种代价（成本超支 / 就业影响 / 使用成瘾）。不是外部批评，是内部承认。传播动力来自"连他都说了"的反预期效应——通常推销者只推销，不承认代价。句式：`"[产品] 最高用量的 [用户] 每月消耗 [极端数字]. 成本问题已经是我们接到的第 [N] 多投诉. 这比我们预计的来得快."` 护城河：说话人必须同时是推销者（有回避动机），承认才有可信度。中间加上客户 meme 引用作为收尾，把抽象问题变为人人可转发的口诀。
+
+> **反常识数字对比式（Structural Number Contrast）**：不比较规模数字（用户数 / ARR / 参数量），而是比较结构性数字（直属下属数 / 团队规模 / 使用工具数量）。当一个极端的结构数字（1 个直属下属）与 common sense 期望（$1T 公司 CEO 应有数十个汇报者）形成反差，冲击力不亚于市值数字。句式：`"[某人/某公司] 只有 [极端小数字] 个 [结构要素]. [比较基准：行业常规是多少]. [当事人反应：incredibly freeing / best decision]."` 关键：正面情绪的意外化（通常预期"这很难"而不是"很自由"）是真正的钩子——不是数字本身，而是当事人对极端数字的正面回应。
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W24.md` 不存在。跳过。
+
+---
+
+### 本周 actionable
+
+1. **"Token 清算"主题的中文 first-mover 窗口正在关闭**：本周 Tokenpocalypse 在英文 Twitter 和 TechCrunch 爆发，中文内容里还没有对应的原创命名和叙述框架。建议 Zico 在 7 天内写一篇用**数字加速度式**开头的稿子：`"Uber，4 个月。微软，4 个月。某家匿名企业，$5 亿，一个月。"` 中段：共同的激励机制设计错误（leaderboard 排名、无上限部署）；收尾：给这个现象命名一个中文标签（"Token 烧钱飞轮"或类似）。不是翻译英文新闻——是用中文命名一个英文已有但中文空缺的现象。窗口期还有约 1 周。
+
+2. **"成本承认式"素材雷达**：随着 Anthropic、OpenAI IPO 临近，会有更多 CEO 在媒体场合公开翻转"AI 必然带来 ROI"的叙事。下一次 AI 工具的创始人/CEO 在采访中承认了成本失控、负面效应或意外代价，在 24 小时内发帖：`"[某人] 刚在 [场合] 承认了一件 AI KOL 通常不说的事：[原话引用]."` 结构：说话人身份意外性 + 承认内容的颠覆性 + 原话直接引用（不转述）。不要等 48 小时——这类帖子的时效窗口比新闻报道更短。
+
+3. **"反常识数字对比式"加入开头工具箱**：Dario 的"1 个直属下属"模式直接迁移到任何"极端简化 / 极端专注"类选题。句式：`"[某人/某公司] 只有 [N]. [比较基准：行业常规]. [当事人情绪反应：incredibly freeing / best decision / nothing else matters]."` 三行即可成帖。核心测试：当事人的情绪反应是否意外——"这让我很自由"比"这很有挑战"传播力强 10 倍。匹配素材：下次遇到任何"故意不 scale 某个要素的创始人"（只有 1 款产品、只有 3 个客户、只用 1 个 AI 工具），优先试这个结构。
