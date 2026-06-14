@@ -1,6 +1,7 @@
 ---
 date: 2026-06-14
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/045-regulatory-trigger-xhs.md
 ---
 
 # Today's Candidates
