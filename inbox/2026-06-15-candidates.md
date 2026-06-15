@@ -1,6 +1,7 @@
 ---
 date: 2026-06-15
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/046-pricing-split-xhs.md
 ---
 
 # Today's Candidates
