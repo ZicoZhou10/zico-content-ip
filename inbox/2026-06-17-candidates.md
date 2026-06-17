@@ -1,6 +1,7 @@
 ---
 date: 2026-06-17
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/048-rich-restructuring-paradox-xhs.md
 ---
 
 # Today's Candidates
