@@ -1,6 +1,7 @@
 ---
 date: 2026-06-18
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/049-ai-toolchain-target-xhs.md
 ---
 
 # Today's Candidates
