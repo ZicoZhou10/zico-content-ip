@@ -1,6 +1,7 @@
 ---
 date: 2026-06-19
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/050-model-neutrality-bet-xhs.md
 ---
 
 # Today's Candidates
