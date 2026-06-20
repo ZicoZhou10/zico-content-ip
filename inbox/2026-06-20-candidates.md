@@ -1,6 +1,7 @@
 ---
 date: 2026-06-20
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/051-spatial-data-bet-xhs.md
 ---
 
 # Today's Candidates
