@@ -1,6 +1,7 @@
 ---
 date: 2026-06-21
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/052-trust-decoupling-xhs.md
 ---
 
 # Today's Candidates
