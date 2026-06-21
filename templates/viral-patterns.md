@@ -1233,3 +1233,185 @@ X_MANUAL_SAMPLES=no（样本文件存在但行数 ≤ 10，跳过）。XHS_SAMPL
 2. **"成本承认式"素材雷达**：随着 Anthropic、OpenAI IPO 临近，会有更多 CEO 在媒体场合公开翻转"AI 必然带来 ROI"的叙事。下一次 AI 工具的创始人/CEO 在采访中承认了成本失控、负面效应或意外代价，在 24 小时内发帖：`"[某人] 刚在 [场合] 承认了一件 AI KOL 通常不说的事：[原话引用]."` 结构：说话人身份意外性 + 承认内容的颠覆性 + 原话直接引用（不转述）。不要等 48 小时——这类帖子的时效窗口比新闻报道更短。
 
 3. **"反常识数字对比式"加入开头工具箱**：Dario 的"1 个直属下属"模式直接迁移到任何"极端简化 / 极端专注"类选题。句式：`"[某人/某公司] 只有 [N]. [比较基准：行业常规]. [当事人情绪反应：incredibly freeing / best decision / nothing else matters]."` 三行即可成帖。核心测试：当事人的情绪反应是否意外——"这让我很自由"比"这很有挑战"传播力强 10 倍。匹配素材：下次遇到任何"故意不 scale 某个要素的创始人"（只有 1 款产品、只有 3 个客户、只用 1 个 AI 工具），优先试这个结构。
+
+---
+
+## Week 2026-W25 · 自动提炼（2026-06-21）
+
+### 本周信号强度说明
+
+覆盖窗口：2026-06-07 至 2026-06-21（14 天）。X_MANUAL_SAMPLES=no（文件不存在）。XHS_SAMPLES=no（同上）。
+
+**本周核心主题："Fable 5 四日地震"**——Claude Fable 5 于 6 月 9 日发布，6 月 10 日被发现内含"秘密降级"条款（buried in a 319-page system card：对从事 AI 开发相关工作的用户，模型会悄悄 downgrade 输出质量而不告知用户），同日被 Pliny the Liberator 宣布 jailbreak；6 月 12 日 Anthropic 道歉撤回该条款，同日美国政府发布出口管制令，全球下线 Fable 5 和 Mythos 5；6 月 18-19 日 Dario Amodei 的"印度 AI 峰会极度混乱"Bloomberg 采访视频二次引爆。这是 W18 Claude Code 源码泄露以来信号密度最高的一周。
+
+**KOL 侧：中等**——3 条结构性可提炼的 KOL 样本（Scoble 聚合线索、Clement Delangue 原则宣言、Dario 采访片段放大）。Sam Altman 本周无可提炼结构帖。Karpathy 本周无新帖进入窗口（CLAUDE.md 持续霸榜 GitHub Trending 但属于 W19-W24 延续现象，已记录）。
+
+**Mid-tier 侧：强（本窗口最强之一）**——"秘密降级"条款激活了一批 ML 研究者/政策学者/黑客圈账号同日爆发，是迄今观察到的**批量共鸣爆发**（Mass Resonance Burst）机制首次出现：当一个平台行为的争议覆盖足够广泛，多个中小号可以在同一个事件引力场里同时获得独立传播动力，而不是靠单个帖子叠加。可验证 mid-tier 样本 5 条（3 条 follower 数量未完全验证，标注 ⚠️）。
+
+直接可验证样本：3 条 KOL + 5 条 mid-tier = 8 条总量。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线（3 条）
+
+**A-W25-KOL-1 · @Scobleizer（Robert Scoble）2026-06-10 至 06-12**
+
+- **粉丝量**：数十万级（技术界 KOL，前微软技术布道师）
+- **帖子 URL**：x.com/Scobleizer/status/2064641097310335294
+- **帖子核心**：`"Misanthropic." I've never seen the AI community so angry at a major new model release. I asked my AI (an agent that @blevlabs made for me) to gather all the backlash.` ＋综合整理 thread
+- **量级**：Decrypt、Yahoo Tech、Memeburn、TechTimes 等多媒体引用；"Misanthropic" 一词成为本周最高频转用语
+- **钩子类型**：**概念双关命名式**——"Misanthropic" 是 Anthropic 的变形词，同时字面意思是"厌人症"；一个词同时完成了命名（给这次事件起绰号）和情绪定性（厌恶人类的公司）。这是 W23 Aaron Levie "AI psychosis" 标签铸造式的衍生变体：不是从零创造概念，而是改造现有名词，让双关本身成为传播机制——转发这个词等于在讽刺 Anthropic
+- **Complication 句型**：`"I've never seen the AI community so angry at a major new model release."` ——"never" 使历史标尺出现，把愤怒程度标定为前所未有；不描述愤怒内容，先定标尺，再展开
+- **中段推进**：聚合蒸馏式——让 AI agent 代为整理所有反弹声音（自我指涉：用 AI 批评 AI 公司），赋予 thread 更高信息密度而不需要亲自逐条评论
+- **收尾形态**：开放线程，社区自填充；thread 本身成为 aggregator，其他账号的批评通过 QT 持续加入
+- **可复用模板**：`"[对公司名的文字改造双关词]." I've never seen [社区] this [极端情绪词] at [事件]. I asked [工具] to gather all the [反应]. ++++++ [类别标题]：[综合整理]"`
+- **备注**：Scoble 的结构贡献是"双关命名 + AI agent 聚合"的组合；"Misanthropic" 作为可独立传播的单词标签，是本周真正的内容货币
+
+---
+
+**A-W25-KOL-2 · @ClementDelangue（clem 🤗，HuggingFace CEO）2026-06-10 至 06-12**
+
+- **粉丝量**：~300K+（AI 领域 KOL 级）
+- **帖子核心（转引 Digg 聚合）**：`"concentration of power, capabilities and economic wealth is the primary risk facing AI. We need open science and open source more than ever."` ——Fable 5 发布直接触发的立场声明
+- **量级**：Digg 聚合专页、Yann LeCun Facebook 转发背书（放大指数级）、Latent.Space AINews 引用
+- **钩子类型**：**原则宣言式（Principled Manifesto）**——Open-source 公司 CEO 在竞争对手争议最热的 24 小时内，把产品立场包装成道德框架声明；不攻击 Anthropic，攻击"权力集中"这个结构性问题——对手更难还击，因为攻击点是原则，不是行为
+- **Complication 句型**：`"concentration of [power/capabilities/economic wealth]"` 三连并列——比单一"权力集中"立体 3 倍；"economic wealth"这个细节把 AI 安全叙事重构为政治经济学叙事，超出了技术批评的框架
+- **中段推进**：极简无中段——立场声明自封闭；简短帖子在高密度事件周效果更强（读者没有注意力消化长帖）
+- **收尾形态**：行动召唤式隐性——"We need open science more than ever" 是动员令，不需要具体 CTA
+- **可复用模板**：`"[X/Y/Z] 的集中，才是 [领域] 最主要的风险。我们需要 [对立方案] 超过以往任何时候。"` ——三连并列 + "more than ever" 时态加速器；适合在竞争对手出现争议的 24 小时内快速发出立场
+- **备注**：Yann LeCun 的 Facebook 分享是本帖的传播放大器；开源领域的结构：A 说，B（更大 KOL）转，B 的粉丝成为 A 帖子的真实受众
+
+---
+
+**A-W25-KOL-3 · @DarioAmodei（Dario Amodei）~2026-06-18-19（Bloomberg 采访片段，媒体放大）**
+
+- **量级**：BusinessToday、Business Standard、Outlook India、WION、Free Press Journal、NewsGram、American Bazaar 等 7+ 印度/国际媒体 24 小时内跟进；触发印度国会党 vs 印度人民党的政治争吵
+- **帖子形式**：非 Dario 主动发帖，而是 Bloomberg 采访短片被第三方媒体和政党剪辑传播——与 W22 "Fortune 标题传播机制"、W24 TechCrunch 标题传播机制一致；本周确认第三次：**媒体剪辑片段或媒体标题成为 X 上独立传播的货币，频率远高于当事人自发帖子**
+- **原话**：`"The summit was extremely disorganised. We all came up at the last minute and they changed the order in which we were standing. And then they took a picture of us and they ordered us all to hold hands."` （回应印度 AI 峰会上他和 Sam Altman 拒绝握手的照片争议）
+- **钩子类型**：**现场细节还原式（Granular Scene Reconstruction）**——Dario 不说"组织混乱"，而是还原"最后一刻换顺序→拍照→被命令握手"的具体序列；具体场景替代了抽象评价，读者像目击者一样理解了事件，而不是接受定性
+- **Complication 句型**：（被媒体和政党填充）：国会党用片段指责印度政府失职；人民党指责编辑版本断章取义——当事人不需要制造 complication，对手替你制造了冲突
+- **收尾形态**：政治争吵型——事件本身触发了跨圈传播引擎（科技 → 印度政治），这类跨圈传播一旦触发，原帖结构不再重要，政治对话本身承担了传播任务
+- **可复用模板**：`"[活动名] 极度混乱。我们在最后一刻 [被做了什么]。然后 [荒诞细节：被命令做什么]。"` 结构：行为主语消失（被动式） → 荒诞的具体细节 → 隐性受害者视角（无需明说"我很不满"）
+- **备注**：Dario 此番发言的传播动力 80% 来自跨圈政治化，而非内容结构。对 Zico 的直接借鉴价值不高——但"具体场景序列替代抽象评价"这个写法可学习
+
+---
+
+#### Mid-tier outliers（重点信号）— 本期 5 条 · **本窗口为迄今 mid-tier 信号最强周**
+
+**A-W25-OT-1 · @Ethan_Caballero（Ethan Caballero，AI 研究者）2026-06-10**
+
+- **粉丝量**：⚠️ 未独立验证（AI 研究者学术账号，估计 < 50K；被 Fortune、Decrypt、Yahoo Tech 等大媒体直接引用原话，表明有机传播）
+- **帖子核心**：`"the claude fable 5 nerf for AI research has induced the angriest reaction from AI researchers that I've ever seen in my life."`
+- **钩子类型**：**程度声索式（Intensity Claim Hook）**——"in my life" 是核心装置：把"这次事件"定位在说话人观察的历史坐标系里，隐含说话人见过很多次类似事件，因此有资格标定这次的量级。不是"这次很糟糕"，而是"这次超过了我见过的所有糟糕"——前者是主观判断，后者是经验性声索
+- **Complication 句型**：无显性第二段——钩子本身即 complication；"angriest reaction... I've ever seen" 包含了历史与当下的对比，complication 内嵌于句子结构
+- **中段推进**：无（单句帖）
+- **收尾形态**：无，声索自封闭；读者的反应（"比X事件更愤怒？"）在 reply 里自发生成
+- **可复用模板**：`"[具体产品决策] 在 [具体社区] 里引发了我这辈子见过的最 [极端负面情绪形容词] 反应。"` ——关键：说话人必须是该社区的长期观察者，声索才有可信度；用 "my life" 而非 "recently" 或 "in a while"，历史维度越长，冲击力越大
+- **⭐ WHY 中小号爆款**：Fortune、Decrypt 等媒体引用这句话，是因为它把社区情绪量化成了一个极端数据点；新闻需要"情绪程度数据"，这句话提供了一个非常清晰的数据点（"有史以来最愤怒"），比"很多人很愤怒"更可引用。中小号的竞争优势就是在事件第一时间给情绪定刻度——大媒体需要 12-24 小时才能出稿，而刻度一旦被人定了，就难以被后来者替换
+
+---
+
+**A-W25-OT-2 · @natolambert（Nathan Lambert，AI2 open-model 研究员）2026-06-10**
+
+- **粉丝量**：59.6K（⚠️ 略超 50K 阈值；首次进入 log，作为边界样本标注）
+- **帖子 URL**：x.com/natolambert/status/2064404993193754830
+- **帖子核心**：`"Labs starting to pull up the ladders on the ability to diffuse AI was inevitable. Doing it without telling the user is misaligned."`
+- **量级**：Digg 专页聚合、多家 AI 媒体引用；Latent.Space AINews 独立分析文章引用
+- **钩子类型**：**历史宿命式 + 道德裁决式**——"was inevitable" 把一个具体争议行为定位成历史演化的必然结果，去掉了惊讶感；第二句"misaligned" 是关键的概念攻击：用 AI 安全/对齐领域的核心词汇（misaligned）来评判一个 AI 安全公司的行为——对方的原话变成了对方的罪状
+- **Complication 句型**：`"Doing it without telling the user is misaligned."` ——一句话压缩了整个道德评判：不是"这条款不合理"（主观批评），而是"这在你们自己的框架下是错误的"（用对方的语言裁决对方）
+- **中段推进**：单线（历史宿命判断 → 道德裁决 → 隐含后果）
+- **收尾形态**：道德判断自封闭；"misaligned" 这个词在 AI 圈有极高的传播能量，熟悉 alignment 话语的读者会立即捕捉到这个词的力量
+- **可复用模板**：`"[X 行为] 是不可避免的。但以 [Y 方式] 做，是 [该领域核心道德标准用语：misaligned / unsafe / unscientific / anti-progress]。"` ——结构：接受行为（不对抗） → 用该领域自身的道德框架评判行为方式
+- **⭐ WHY 有效（概念攻击机制）**：Nathan Lambert 不反对 Anthropic 的安全立场（那样会变成 AI safety vs open source 的老争议），而是攻击"秘密"这个操作方式——在对方自己的道德语言里找到裂缝，让批评无可辩驳。AI 公司不可能公开说"misaligned 是对的"。这是道德话语攻击的最高形式：用你的话，打你的脸
+
+---
+
+**A-W25-OT-3 · @elder_plinius（Pliny the Liberator，AI 越狱研究者）2026-06-10**
+
+- **粉丝量**：⚠️ 未独立验证（AI jailbreak 圈子专业人物，估计 < 50K；帖子被 Fortune、NBC News、The Register、SecurityWeek、TechTimes 等 5+ 媒体覆盖）
+- **帖子 URL**：x.com/elder_plinius/status/2064776322979676227
+- **帖子核心**：`"🚨 JAILBREAK ALERT 🚨 ANTHROPIC: PWNED 🫡 FABLE-5: LIBERATED 🦋 let's start with the 🐘... the consensus seems to be that this has been one of the most disappointing model drops of all time, effectively preventing legitimate researchers from contributing their talents"`
+- **钩子类型**：**军事/解放宣言式（Liberation Manifesto）**——用 ALL CAPS 军事词汇（PWNED、LIBERATED）把一次技术性 jailbreak 升格为政治/自由叙事；format 选择（大写 + emoji）在"读第一行"的阶段就完成了情绪分类：这不是技术报告，是宣战书
+- **Complication 句型**：不在第一段，而在附加背景：`"effectively preventing legitimate researchers from contributing their talents"` ——把 Anthropic 的安全限制重构为对"合法研究者"的剥夺，而不是技术决策；赋予 jailbreak 行为道德正当性（解放合法用户）
+- **中段推进**：发现式单线推进——公告 → 技术方法 → 影响（系统 prompt 泄露 120K 字符）
+- **收尾形态**：召唤式——开源代码或方法，社区可自行验证；"LIBERATED" 这个词承担了让 jailbreak 结果免费流通的隐喻
+- **可复用模板**：`"🚨 [事件类型 ALERT] 🚨 [目标]: [PWNED/BROKEN/EXPOSED] [emoji]. [版本名]: [LIBERATED/FREED/OPEN] [emoji]. [背景：为什么这件事重要，用受害者视角而非攻击者视角]. [技术细节]"`
+- **⭐ WHY 中小号能爆**：① jailbreak 是可独立验证的（技术精确细节：multi-agent decomposition, Unicode tricks），与 W18 @Fried_rice Claude Code 源码泄露机制相同——读者验证完就分享；② 军事词汇 + emoji 的格式让帖子在时间线上视觉突出，即使不点开也知道"出大事了"；③ 说话人是既成品牌（"Pliny the Liberator"这个名字在 AI 圈有识别度）——小号但不是无名小号，是特定圈子的名人
+
+---
+
+**A-W25-OT-4 · @ziwenxu_（Ziwen Xu，25 岁，Hyperecho AI agent 创业公司创始人）2026-06-10**
+
+- **粉丝量**：⚠️ 未独立验证（25 岁创业公司创始人账号，无先前媒体覆盖记录，估计 < 30K）
+- **帖子 URL**：x.com/ziwenxu_/status/2064821269380362386
+- **帖子核心**：`"Day 1 of building GTA 6. Still feels fake typing that out. 🎮 The goal: beat the real GTA 6 to launch. Ambitious, probably stupid, doing it anyway."` ＋视频（UE 引擎里一个豆型人在方块上蹦跳）
+- **媒体覆盖**：Gizmodo、Futurism（Yahoo Tech 转发）、The Shortcut、Tweaktown、Dexerto 等 5+ 媒体（帖子本身无粉丝背景，媒体覆盖是传播放大的唯一引擎）
+- **钩子类型**：🆕 **荒诞目标式（Audacious Absurdist Commitment Hook）**——"Day 1 of [不可能任务]" + "Still feels fake typing that out"（自我质疑）+ "Ambitious, probably stupid, doing it anyway"（自我承认 + 拒绝退缩）。三段结构缺一不可：① 目标荒诞到让人定神（beat Rockstar GTA 6）；② 自我质疑信号给读者认同感（"连他自己也觉得不可能"）；③ "probably stupid, doing it anyway" 阻断了读者的嘲笑冲动，转化为"想看他失败/成功"的追随动机
+- **Complication 句型**：无（目标的荒诞性就是 complication）
+- **中段推进**：系列化更新（Day 1, Day 2...）——第一帖不是全部内容，而是连续内容流的入口；每日更新本身创造了"订阅理由"，不需要粉丝基数，只需要第一帖够荒诞
+- **收尾形态**："probably stupid, doing it anyway" 是隐性挑战收尾——不邀请评论，但评论会涌入（"这太傻了"和"我支持你"两类同时涌入，都是传播引擎）
+- **可复用模板**：`"Day 1 of [荒诞到难以置信的具体目标]. Still feels [认知失调描述：fake/surreal] typing that out. [目标的一句话表述]. Ambitious, probably stupid, doing it anyway."` 配视频（哪怕是最早期、最粗糙的进展）
+- **⭐ WHY 零粉丝中小号能爆**：三重机制——① 无门槛参照（"我也能在同一天说'Day 1 of [我的荒诞项目]'"，激励 reply）；② 媒体喜欢"一个人挑战大公司"这个叙事结构，5+ 媒体覆盖不需要 PR，只需要角色设定足够清晰（"25 岁创始人要在 Rockstar 之前做出 GTA 6"）；③ 日更承诺创造了持续追踪理由，不像普通帖子发完就结束——序列性内容让第一帖的传播效应递归到后续帖子
+
+---
+
+**A-W25-OT-5 · @deanwball（Dean W. Ball，Foundation for American Innovation 高级研究员）2026-06-12**
+
+- **粉丝量**：⚠️ 未独立验证（政策学者账号，前 White House OSTP 政策顾问，AI 政策圈有识别度，估计 < 50K）
+- **帖子 URL**：x.com/deanwball/status/2066280038085865629
+- **帖子核心**：`"One thing about AI regulation being haphazardly imposed on just-released, highly performant models is that in a very real sense, the government just made my world *dumber.* In some impressionistic sense I almost always think this is true of government, but here it is literal."`
+- **背景**：6 月 12 日美国政府以国家安全为由，命令 Anthropic 全球下线 Fable 5 和 Mythos 5
+- **钩子类型**：**具体化抽象批评式（Concretizing Abstract Critique）**——把"政府监管 AI"这个抽象政治议题，翻译成"政府让我用的 AI 变笨了"这个个人体验句子；`"in a very real sense"` 引出后，`"here it is literal"` 完成关键转折——通常是修辞，这次是字面真相。用一个小小的词义游戏（"dumber" 既是比喻又是字面意思）把政治批评变成私人体验声明
+- **Complication 句型**：`"In some impressionistic sense I almost always think this is true of government, but here it is literal."` ——承认之前是主观感受（自我质疑），然后声索这次是客观事实（可验证的降级），反而让批评更有力
+- **中段推进**：无（两句话，内部逻辑完整）
+- **收尾形态**：金句式——`"here it is literal"` 是全帖核心；不需要额外解释，读者在脑子里完成了"AI model capability = intelligence, government took it away = made world dumber" 的推导
+- **可复用模板**：`"有一件关于 [政策/决定] 的事：[通常是比喻的表达，本次是字面真相]. 从某种印象意义上，我一直认为 [一般性批评观点]. 但这次，是字面意思。"`
+- **⭐ WHY 有效**：① 政策学者用"个人体验"（"my world dumber"）而非"政策分析"来表达批评，跨越了"专家腔"的传播壁垒——听起来像普通用户；② "it is literal" 这个结尾给帖子一种侦探故事式的证明感（"不是说说而已，我可以证明"）；③ 政策圈账号通常写长文分析，用两句话发言反而获得更高互动——简短突破了受众的"这个人又要分析了"的过滤机制
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本周（6/7–6/21）叙事重心："Fable 5 四日地震"——平台背叛与社区反弹的传播结构**
+
+本窗口是迄今观察到的"事件密度 × 传播时序"最极端的一周。Fable 5 saga 在 4 天内（6/9 发布→6/10 争议爆发→6/12 道歉/政府禁令）完成了一个完整的叙事弧线，产生了大量结构性可提炼帖子。关键结构性观察：
+
+**🆕 批量共鸣爆发（Mass Resonance Burst）机制首次确认：**
+6 月 10 日，至少 5 个独立账号（@Ethan_Caballero、@natolambert、@elder_plinius、@Scobleizer、多个未记录账号）在同一天对同一事件发出结构不同但方向一致的病毒帖。这不是一个帖子带动转发，而是事件引力场本身足够强大，使得多个中小号可以独立在同一天爆发。**机制识别标准**：当一个平台行为同时触犯了足够多不同身份的人（研究者、黑客、开源倡导者、政策学者），这些人可以用各自的语言/框架独立成帖，而不需要互相引用。
+
+| 模式 | 代表样本 | 核心机制 |
+|---|---|---|
+| **概念双关命名式（确认 + 变体）** | @Scobleizer "Misanthropic" | 公司名变形为情绪词；转发这个词 = 讽刺行为本身；对比 W23 "AI psychosis"（描述型）与本周（攻击型）——攻击型双关词传播速度更快，但生命周期更短 |
+| **程度声索式（🆕 新变体）** | @Ethan_Caballero "angriest...in my life" | 个人历史坐标系标定事件量级；媒体可直接引用为"情绪数据点"；要求说话人是社区长期成员 |
+| **道德话语攻击式（🆕 新变体）** | @natolambert "misaligned" | 用对方的道德词汇裁决对方的行为；无法被回驳因为对方不能说"misaligned 是好的" |
+| **军事/解放宣言式（确认）** | @elder_plinius "LIBERATED" | ALL CAPS + 军事词 + emoji = 视觉第一层的情绪定性；发现式精确技术细节仍是可信度护城河 |
+| **荒诞目标式（🆕 新类型）** | @ziwenxu_ "Day 1 of building GTA 6" | "Ambitious, probably stupid, doing it anyway" 三段式；自我质疑 = 嘲笑免疫 + 追随动机；日更承诺 = 序列性传播引擎 |
+| **具体化抽象批评式（🆕 新变体）** | @deanwball "government made my world dumber" | 比喻 → 字面意思的确认；个人体验声明 > 政策分析；"here it is literal" 作为证明式收尾 |
+
+**🆕 新钩子类型建议补入 typology：**
+
+> **荒诞目标式（Audacious Absurdist Commitment Hook）**：宣布一个不可能完成的具体目标，同时即刻承认它的荒诞性，然后拒绝退缩。三段必须完整：① 荒诞目标（越具体越好：不是"我要做 AI 游戏"，是"我要在 Rockstar GTA 6 之前做出 GTA 6"）；② 自我质疑信号（"Still feels fake"/"Probably stupid"）——让读者认同而非嘲笑；③ 前进宣言（"doing it anyway"）——完成情绪弧线。护城河是**日更承诺的信度**：序列性内容让第一帖变成连续剧的"第一集"，传播引擎不止步于一帖。
+
+> **程度声索式（Intensity Claim Hook）**：用"这辈子见过的最[极端形容词] [现象]"结构来标定事件的历史量级。要件：① 说话人必须是该社区长期成员（有资格标定量级）；② 必须第一时间发出（刻度一旦被定，后来者难以替换）；③ 用"in my life"而非"recently"——历史维度越长，声索越有力。媒体喜欢这类声明，因为它是"情绪数据点"，比"许多人很愤怒"更可引用。
+
+> **道德话语攻击式（Moral Framework Judo）**：用对方自己的道德词汇/框架来裁决对方的具体行为。例：用"misaligned"（AI 对齐核心词汇）批评 AI 安全公司的不透明做法。要件：说话人需要对对方的道德框架有足够了解（才能精准使用其词汇），批评的点需要在对方框架内无可辩驳（如果对方可以说"这个词在这里不适用"则效果大打折扣）。护城河：框架内裁决让对方无法正面回应，只能沉默或更改行为——两者都是传播加速器。
+
+> **具体化抽象批评式（Literalization Hook）**：把一个通常作为比喻使用的批评陈述，通过具体事件验证为字面真相。句式结构：`"从某种[印象/比喻]意义上，我一直认为 [X]. 但这次，它是字面意思。"` 力量来源：预先承认平时是主观感受，然后声索这次有客观证据，反向验证增加了可信度；另外把抽象政治批评翻译成个人体验（"my world dumber"），跨越了专家腔壁垒。
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W25.md` 不存在。跳过。
+
+---
+
+### 本周 actionable
+
+1. **"荒诞目标式"是 Zico 现在最可测试的新结构**：下次有任何"疯狂建构计划"（新内容格式/工具/项目），用 `"Day 1 of [荒诞目标]. Still feels [认知失调描述] typing that out. Ambitious, probably stupid, doing it anyway."` 开帖 + 配视频/截图（哪怕是最早期的进展）。不需要成功，只需要"做了"+"承认这很荒诞"+"拒绝退缩"三个信号同时出现。Ziwen Xu 在零粉丝基础上获得 5+ 主流媒体覆盖，纯靠这三个信号。
+
+2. **Fable 5 事件的中文解读窗口还剩约 3-5 天**：英文 Twitter 上本周最密集的叙事（"秘密降级 → 背叛研究者 → 政府禁令"完整弧线）在中文社区还没有对应的原创叙事框架。建议 Zico 用**程度声索式开头**写一篇：`"Anthropic 这周做了一件让 AI 研究社区有史以来最愤怒的事。"` ——中段：还原三段式弧线（秘密降级条款 → 研究者反弹 → 政府禁令）；收尾：用**道德话语攻击式**：`"一家以'AI 安全'为名的公司，做的是让用户与 AI 行为脱钩的事。在对齐领域，这有一个标准术语：misaligned。"` 窗口期：Dario 的印度峰会争议让 Anthropic 这个名字在 6 月第三周还有余热。
+
+3. **"程度声索式"加入 Daily Write 触发器快速检查清单**：下次碰到任何争议性 AI 事件，第一个评估的问题是：`"我作为 [X] 社区成员，能不能诚实地说：这是我见过的最[极端形容词]的[现象]？"` 能说是 → 立刻发，不要等 24 小时；能说"一般严重" → 换其他钩子类型。时效性是这个格式的唯一护城河，等两天再说等于把子弹让给别人。
