@@ -1,6 +1,7 @@
 ---
 date: 2026-06-22
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/053-fable5-export-control-xhs.md
 ---
 
 # Today's Candidates
