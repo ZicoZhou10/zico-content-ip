@@ -1,6 +1,7 @@
 ---
 date: 2026-06-23
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/054-pipeline-monopoly-xhs.md
 ---
 
 # Today's Candidates
