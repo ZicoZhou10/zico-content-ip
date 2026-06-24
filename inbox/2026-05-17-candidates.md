@@ -1,6 +1,7 @@
 ---
 date: 2026-05-17
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/021-agent-metering-fork-xhs.md
 ---
 
 # Today's Candidates
