@@ -1,6 +1,7 @@
 ---
 date: 2026-06-26
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/057-behavioral-signature-xhs.md
 ---
 
 # Today's Candidates
