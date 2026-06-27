@@ -1,6 +1,7 @@
 ---
 date: 2026-06-27
-status: pending_selection
+status: written
+selected: candidate 3 → drafts/058-dual-clock-gap-xhs.md
 ---
 
 # Today's Candidates
