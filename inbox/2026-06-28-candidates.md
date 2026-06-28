@@ -1,6 +1,7 @@
 ---
 date: 2026-06-28
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/059-third-paradigm-xhs.md
 ---
 
 # Today's Candidates
