@@ -1,6 +1,7 @@
 ---
 date: 2026-05-11
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/017-xai-neocloud-xhs.md
 ---
 
 # Today's Candidates
