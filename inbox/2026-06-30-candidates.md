@@ -1,6 +1,7 @@
 ---
 date: 2026-06-30
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/061-trust-inheritance-trap-xhs.md
 ---
 
 # Today's Candidates
