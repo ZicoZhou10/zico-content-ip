@@ -1,6 +1,7 @@
 ---
 date: 2026-07-01
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/062-virbench-tool-gap-xhs.md
 ---
 
 # Today's Candidates
