@@ -1,6 +1,7 @@
 ---
 date: 2026-07-02
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/063-fable5-kill-switch-xhs.md
 ---
 
 # Today's Candidates
