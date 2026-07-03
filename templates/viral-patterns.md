@@ -1415,3 +1415,168 @@ X_MANUAL_SAMPLES=no（样本文件存在但行数 ≤ 10，跳过）。XHS_SAMPL
 2. **Fable 5 事件的中文解读窗口还剩约 3-5 天**：英文 Twitter 上本周最密集的叙事（"秘密降级 → 背叛研究者 → 政府禁令"完整弧线）在中文社区还没有对应的原创叙事框架。建议 Zico 用**程度声索式开头**写一篇：`"Anthropic 这周做了一件让 AI 研究社区有史以来最愤怒的事。"` ——中段：还原三段式弧线（秘密降级条款 → 研究者反弹 → 政府禁令）；收尾：用**道德话语攻击式**：`"一家以'AI 安全'为名的公司，做的是让用户与 AI 行为脱钩的事。在对齐领域，这有一个标准术语：misaligned。"` 窗口期：Dario 的印度峰会争议让 Anthropic 这个名字在 6 月第三周还有余热。
 
 3. **"程度声索式"加入 Daily Write 触发器快速检查清单**：下次碰到任何争议性 AI 事件，第一个评估的问题是：`"我作为 [X] 社区成员，能不能诚实地说：这是我见过的最[极端形容词]的[现象]？"` 能说是 → 立刻发，不要等 24 小时；能说"一般严重" → 换其他钩子类型。时效性是这个格式的唯一护城河，等两天再说等于把子弹让给别人。
+
+---
+
+## Week 2026-W26 · 自动提炼（2026-06-28）
+
+### 本周信号强度说明
+
+覆盖窗口：2026-06-14 至 2026-06-28（14 天）。X_MANUAL_SAMPLES=no（文件不存在）。XHS_SAMPLES=no（同上）。
+
+**本周核心主题："Vibe-coding 伦理危机"**——本窗口最强叙事引力是 Corgi / Papermark 开源代码纠纷（6 月 24–26 日），这是 AI coding 浪潮以来第一次"vibe-coding"被用作法律辩护词，同时被社区当作笑点和争议焦点同时传播。与此并行的是 Agentjacking（Tenet Security，6 月 17 日）——安全研究者把漏洞披露直接做成产品发布的病毒叙事。Fable 5 政府解禁进程（6 月 27 日 Anthropic 官方公告）提供了持续的机构信号，但结构上接近 W25 的延续，不是本周新主题。
+
+**KOL 侧：中等**——3 条结构性可提炼 KOL 样本：@karrisaarinen「六年工艺」帖（约 6/12-14，W25/W26 边界，W25 未收录）、Dario Amodei「政策指数」长文约 6/10-17（与 W25 India Summit 叙事不同，是单独的立场文章）、@AnthropicAI 官方 Mythos 5 恢复公告（6/27）。Sam Altman 本窗口无新结构帖。Karpathy 本窗口无新帖（上次重要 X 发言为 5/19 加入 Anthropic 公告，已收录于 W21）。
+
+**Mid-tier 侧：中等**——本窗口 Corgi 事件产生了 2 个可追溯的中小号病毒帖（Papermark 创始人 Marc Seitz 截图帖、Tenet Security 创始人 Agentjacking 披露），加 1 条技术探测账号（@testingcatalog Claude Cowork 泄露）和 1 条候选帖（@ahuja_priyank Claude 财务规划帖，互动量未独立验证）。共 4 条 mid-tier 样本，3 条可名字追溯，1 条标注 ⚠️。
+
+直接可验证样本：3 条 KOL + 3 条 mid-tier + 1 条 ⚠️ 候选。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线（3 条）
+
+**A-W26-KOL-1 · @karrisaarinen（Karri Saarinen，Linear CEO）⚠️ ~2026-06-12-14（W25/W26 边界，W25 未收录，首次入库）**
+
+- **粉丝量**：约 75-100K+（产品设计 / Indie SaaS 圈 KOL；Linear 创始人）
+- **帖子 ID**：x.com/karrisaarinen/status/1932423016048189642
+- **帖子原文（节选）**：`"I'm proud of how far @linear has come. And how we've gotten here. For the last six years we've been able to build our way, with quality and purpose. We haven't sacrificed what we care about. I believe that building companies is a kind of craft. You're creating something one of a [kind]"`
+- **背景**：发布时间与 Corgi CEO Nico Laqua 在 20VC 播客中"7 天工作制、睡办公室地板"言论引发大规模讨论高度重叠；Saarinen 从未点名 Corgi，但帖子语境不言而喻
+- **钩子类型**：**反共识持续式（Sustained Counter-Positioning Hook）**——"六年"这个时间跨度将帖子定位为经验性声索（不是观点，是历史记录）；与当下流行的"极速 hustle"叙事形成隐性对比，但说话人不指名道姓，只描述自己怎么做了
+- **Complication 句型**：无显性第二段——Corgi 的 hustle 文化是隐性对手；帖子因上下文填充了 complication，本身不需要写出来。这是一种**环境依存型 complication**：帖子本身无冲突，但发帖时机让读者自动填充了冲突
+- **中段推进**：单线推进——六年历史标定 → 核心价值宣言 → 哲学定义（building as craft）
+- **收尾形态**：**概念提炼式**——`"building companies is a kind of craft"` 是全帖的可单独传播单元，脱离 Linear 语境也能独立流通；这是 W18 Yuchen Jin "Stop X / Start Y" 模式的陈述版本（不是对立指令，是定义式宣言）
+- **可复用模板**：`"[N 年] 以来，我们一直在按照 [具体方式] 构建。我们没有放弃 [核心价值]. 我相信 [抽象定义：构建公司是一种 X]。你正在创造 [不可复制的东西]."` ——关键：N 年必须是可信的时间量（3 年以下听起来像 PR，10 年以上听起来像回顾）；不指名竞争对手，让读者自己映射
+
+---
+
+**A-W26-KOL-2 · @DarioAmodei（Dario Amodei）~2026-06-10-17（darioamodei.com 长文 + X 发布）**
+
+- **量级**：TechRadar、Axios、多家 AI 政策媒体覆盖；与 Anthropic 同期立法提案、就业影响政策框架一起发布
+- **帖子/文章核心原话**：`"Humanity is about to be handed almost unimaginable power, and it is deeply unclear whether our social, political, and technological systems possess the maturity to wield it."` / 立法提案：政府应有权阻止危险 AI 部署
+- **钩子类型**：**成熟度质疑式（Maturity Challenge Hook）**——不问"AI 是否危险"，问"我们（人类社会）是否成熟到能驾驭它"——把辩论焦点从技术转移到人类系统，让所有立场的读者都无法简单反驳（不管你是乐观派还是悲观派，都不得不停下来想一想）
+- **Complication 句型**：`"deeply unclear whether we possess the maturity"` ——"maturity"（成熟度）是关键词：不是"能力"（capability），不是"意愿"（willingness），而是"成熟度"——承认能力，质疑判断力；这个词的选择迫使乐观派重新定义自己的论点
+- **中段推进**：单线推进（权力规模 → 系统不成熟 → 立法提案 → 具体三步框架：模型测试法规 + 就业影响政策 + 资金承诺）
+- **收尾形态**：行动召唤式——立法提案本身是可传播的产物；"我们打算为此提供大量资金支持"把长文从道德声明升格为有行动成本的承诺
+- **可复用模板**：`"[领域] 即将被赋予几乎难以想象的 [能力/资源]. 而 [我们/社会/系统] 是否已经具备驾驭它所需的成熟度，非常不明朗。"` ——把"X 危险吗"这个问题替换为"我们够不够成熟来处理 X"，让讨论从技术评判升格为自我审视，无法被简单地否定或认同
+
+---
+
+**A-W26-KOL-3 · @AnthropicAI（Anthropic 官方）2026-06-27**
+
+- **帖子 ID**：x.com/AnthropicAI/status/2070665903440871779
+- **量级**：Euronews、Axios、Cryptobriefing 等多家媒体同日报道；Fable 5 故事是本窗口持续时间最长的 AI 新闻之一（自 6/12 政府指令至今约 15 天）
+- **帖子原文**：`"Since June 12, we've been working closely with the US government to restore access to Claude Mythos 5 and Fable 5. Today, the government notified us that Mythos 5, our strongest cybersecurity model, can be redeployed to a set of US organizations that operate and defend critical infrastructure."`
+- **钩子类型**：**限定恢复式（Partial Victory Announcement）**——不是"我们回来了"，而是"有条件地、局部地被允许回来"；限定条件（critical infrastructure only；Fable 5 仍然下线）本身比全面恢复更有新闻价值，因为它揭示了政府谈判的内部状态
+- **Complication 句型**：无显性冲突——但"Fable 5 仍然下线"作为隐含条件是真正的 complication；帖子没说这句话，但任何看过新闻的读者都会注意到"Fable 5"没有被提到
+- **中段推进**：时序叙事（6/12 指令 → 协作 → 今天部分解禁），每一步都在证明机构可信度
+- **收尾形态**：悬念式——`"a set of US organizations that operate and defend critical infrastructure"` 的定义刻意模糊，读者不知道"我算不算"，推动了 reply 中的大量询问
+- **可复用模板**：`"自 [日期] 起，我们一直在与 [机构] 紧密合作以 [恢复/解决 X]. 今天，[机构] 通知我们，[部分功能/能力] 可以重新部署给 [限定条件下的用户群]."` ——关键结构：① 时间线起点（建立事件持续性） ② 协作而非对抗的语气 ③ 限定条件创造悬念（谁在条件内？）
+
+---
+
+#### Mid-tier outliers（重点信号）— 本期 3 条 + 1 条 ⚠️ 候选
+
+**A-W26-OT-1 · @marcsz_（Marc Seitz，Papermark 联合创始人）2026-06-24**
+
+- **粉丝量**：⚠️ 未独立验证（YC 背景 OSS 创始人；发帖前估计 < 30K）
+- **互动量**：viral；引发 Corgi CEO 亲自回应帖 + 律师信（cease and desist）；TechCrunch、Entrepreneur.com、Whalesbook、KuCoin、SiliconReport 等 8+ 媒体覆盖
+- **帖子核心形式**：并排截图帖——Corgi 新上线的 Dataroom 功能与 Papermark 开源产品同名功能的界面文案，逐字相同；帖子本身文字极少，截图即证据
+- **帖子附加文字（转引）**：`"This is not 'vibe coding'. Corgi took our open-source and enterprise-licensed code. This is copyright and license-infringing. This is fraud."` + 截图
+- **钩子类型**：🆕 **截图证据式（Screenshot Evidence Hook）**——这是「发现式」的视觉变体：不是用文字描述"我发现了什么"，而是让截图并排出现，读者自己当法官。文字只做最少的定性（"fraud"），剩下的由图说话。是 W18 @Fried_rice `.npmignore` 精确技术细节发现式的产品/设计领域等价物
+- **Complication 句型**：截图本身即 complication——相同的 UI 文案 = 即时可识别的相似性；读者不需要理解代码就能判断；可识别性越高，传播门槛越低（不需要是开发者，设计师/PM 也能一眼看出问题）
+- **中段推进**：无中段——截图自封闭；文字仅做法律定性（"copyright-infringing"，"fraud"）
+- **收尾形态**：法律声索式——最后两个词（"fraud"）把审判权转移给读者，但以最重的法律词汇封尾；没有问句，没有 CTA，让读者自己发出回应
+- **可复用模板**：`"[产品 A] 的 [新功能] 和 [产品 B] 的 [已有功能]，[对比截图]. 这不是 [甲方给出的理由]. 这是 [法律 / 道德 / 技术术语定性]. 这是 [最重的词]."` ——3 句话，2 张截图，1 个判决词；文字越少，截图越重
+- **⭐ WHY 中小号能爆**：① 截图的可信度不依赖账号权威——任何人都能对着两个屏幕截图；② "cease and desist" 这个法律回应行为本身成为二次传播引擎：平台用法律函回应公开批评，反而等于验证了截图的严重性；③ "vibe-coding 作为法律辩护词"这个概念在 AI 圈是全新的，产生了跨群体的讨论（开发者 / 设计师 / 法律圈）
+
+---
+
+**A-W26-OT-2 · @tenetsecurity（Barak Sternberg / Nevo Poran，Tenet Security 创始人，前 Cisco AI Defense）2026-06-17**
+
+- **粉丝量**：⚠️ 未独立验证（初创公司，stealth 期刚出；但 VentureBeat、The Next Web、Hacker News、CybersecurityNews、Infosecurity Magazine 等 7+ 媒体同日覆盖）
+- **互动量**：未验证精确数字；Hacker News 头版讨论，开发者社区广泛传播
+- **核心内容**：博客文章标题即 X 传播主体：`"One Fake Bug Report Hijacked a $250B Company's AI Agent"` / 关键数字：2,388 家企业暴露；85% 成功率；攻击路径：公开 Sentry API → 注入假错误报告 → AI agent 以开发者权限执行攻击者代码
+- **钩子类型**：**安全披露式 × 数字锚点式（Security Disclosure Hook）**——"One Fake Bug Report"是最小化操作（极低成本的攻击前提）；"$250B Company"是最大化受害者（极高价值的攻击目标）；这两个极端之间的反差就是全部的钩子，不需要其他修辞
+- **Complication 句型**：`"Using only public Sentry APIs, Tenet found 2,388 organizations exposed"` ——"public API"（没有任何内部访问权限）+ "2,388 organizations"（不是理论场景，是真实测量）；这句话把实验室发现转化为已经发生的现实
+- **中段推进**：单线推进（最简攻击原料 → 技术机制 → 测试规模 → responsible disclosure 过程）；负责任披露的细节（"every payload self-identified"）让攻击性披露具备道德合理性
+- **收尾形态**：召唤式——完整技术报告在博客上公开；技术细节本身是 CTA（安全研究者会立刻去看、去测试、去分享）
+- **可复用模板**：`"[极简操作：One fake X] Hijacked [极端规模：$250B Company's] [AI 资产]. 我们发现了 [N] 个机构暴露在攻击路径上。攻击所需的全部条件：[一句话，越极简越有力]."`
+- **⭐ WHY 中小号（stealth 期）能爆**：① 数字锚点双极化（$250B vs 一条假 bug report）是本 log 记录最强的「反差密度」之一；② 技术精确性提供了可独立验证路径（开发者可立刻检查自己的 Sentry 配置）；③ "stealth → 披露 → 媒体爆发"的时序设计：公司名不重要，披露本身就是首张品牌名片。这是一个零粉丝账号靠"首次披露"权威性强制传播的教科书案例
+
+---
+
+**A-W26-OT-3 · @testingcatalog（AI 功能探测账号）2026-06-22**
+
+- **粉丝量**：⚠️ 未独立验证（AI 功能早期探测账号；长期定位为"比官方更早发现 Anthropic 新功能"）
+- **互动量**：未验证精确数字；Cybernews、BleepingComputer、TechRadar 同日覆盖
+- **帖子核心**：发布 Claude for mobile 内含 Cowork 支持的泄露截图，Anthropic 尚未官方宣布；截图显示"在手机上远程控制 Cowork，让电脑继续处理任务"
+- **钩子类型**：**零解释式发布（Zero-comment Drop）**——与 W20 @ClaudeDevs `/radio` 同一机制，但改为截图（更低摩擦：不需要用户自己跑命令，看截图即得信息）；额外的传播动力来自"比官方早知道"的信息不对称感
+- **Complication 句型**：无——截图中未宣布的功能本身就是 complication（"等等，这个还没出？"）
+- **中段推进**：无（截图自封闭）
+- **收尾形态**：无；媒体覆盖作为二次封尾
+- **可复用模板**：`"[产品名] 截图，[来源：内测/代码/应用包]. [未宣布功能名]. [核心能力一句话]. [截图]."` ——信息不对称 + 低摩擦可验证（下一个更新推送时自然验证）= 传播
+- **备注**：与 W20 `/radio` 对比——@ClaudeDevs 是官方故意零解释，@testingcatalog 是第三方探测者故意零解释。机制相同，来源动机相反；但传播动力几乎一样（"发现了官方没说的东西"）
+
+---
+
+**A-W26-OT-4 · @ahuja_priyank（Priyank Ahuja）⚠️ 2026-06-23**
+
+- **粉丝量**：⚠️ 未独立验证
+- **互动量**：⚠️ 未独立验证（仅有 BusinessToday India 报道，表明印度 AI 受众中有传播）
+- **帖子原文**：`"I handed CLAUDE my SALARY. It told me I was 6 months from never needing one again. These are the 7 prompts behind my exit plan."`
+- **钩子类型**：**个人财务见证式 + ALL CAPS 数字触发器**——"I handed Claude my SALARY"把 AI 工具使用转译成财务主权叙事；ALL CAPS 的 "SALARY" 是情绪放大器；"6 months" 是可量化的承诺时间线（比"很快"更有力，比"精确日期"更神秘）
+- **Complication 句型**：`"It told me I was 6 months from never needing one again."` ——complication 是"你以为需要工资才能生活，Claude 告诉你不是"；这个反转嵌在一句话里，无需单独段落
+- **中段推进**：列表（7 个提示词）——这是**参考产物型列表**（工具清单），不是说服线索；列表在此合法，但是已知的内容飞轮公式
+- **收尾形态**：数字金句（7 prompts），无独立收尾
+- **可复用模板**：`"I handed [工具] my [有价值的个人资产：salary/portfolio/career history]. It told me I was [具体时间] from [反转预期的结果]. These are the [N] [行动单元]."`
+- **⚠️ 不确定性**：这条帖子的结构是成熟的个人理财内容公式（ALL CAPS 触发器 + 数字 + 可复制步骤），并非结构创新；传播动力来自目标受众（印度 AI/财务独立社区）而非普适结构。候选样本，观察价值有限，不计入核心 pattern 库
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本周（6/14–6/28）叙事重心："Vibe-coding 的后果清算"**
+
+本窗口最强的叙事张力来自 Corgi/Papermark 事件：它是第一次"vibe-coding"作为法律辩护词出现在公开报道中，同时是 AI coding 普及以来第一次真正的"谁拥有 AI 生成的产品形态"争议。与此同时，Agentjacking 的披露将"AI agent 作为攻击面"从理论推向了量化现实（2,388 家企业，85% 成功率）。两条叙事线共同指向同一问题：**AI 工具的能力扩张快于相应的责任框架**。
+
+| 模式 | 代表样本 | 核心机制 |
+|---|---|---|
+| **截图证据式（🆕 新变体）** | @marcsz_ Papermark vs Corgi | 截图并排代替文字指控；法律定性词收尾；C&D 回应验证了截图的严重性——平台反击本身是二次传播引擎 |
+| **安全披露式（🆕 新变体）** | Tenet Security Agentjacking | 最小化操作（one fake bug report）× 最大化受害者（$250B company）= 最强「反差密度」；stealth 出道即爆，靠"首次披露权威"替代账号粉丝数 |
+| **反共识持续式（新变体）** | @karrisaarinen 六年工艺 | 时间跨度（N年）= 经验性声索（不是观点，是记录）；不指名对手，让读者自己映射；概念定义式收尾（building = craft）可脱离语境传播 |
+| **成熟度质疑式（新变体）** | Dario Amodei 政策指数 | "我们是否够成熟"比"AI 是否危险"更难被简单否定；三件套（立法提案 + 政策框架 + 资金承诺）让长文升格为有成本的行动宣言，不只是道德表态 |
+| **限定恢复式（新变体）** | @AnthropicAI Mythos 5 公告 | 部分胜利比完全胜利更有新闻价值；限定条件创造悬念（"我算不算被包含在内"推动 reply）；机构叙事靠"时间线 + 合作语气"建立可信度 |
+| **零解释式发布（确认）** | @testingcatalog Cowork 截图 | 比 W20 /radio 更低摩擦——截图替代命令；"比官方早知道"的信息不对称是额外的传播引擎 |
+
+**🆕 新钩子变体建议补入 typology：**
+
+> **截图证据式（Screenshot Evidence Hook）**：「发现式」的视觉变体。不用文字描述发现了什么，直接让截图并排出现，读者自己当法官。文字只做最少的定性（最终判决词，1-3 个字）。关键要件：① 截图必须是即时可识别的相似性（设计师/PM 也能一眼看出，不需要读代码）；② 定性词必须是读者无需解释即能理解的类别（"抄"/"fraud"/"identical"）；③ 不请求读者判断，直接给出你的判决——读者的 reply 会自动成为辩论场。护城河不是截图技巧，而是**发现的时机**（首发者效应）。
+
+> **安全披露式（Security Disclosure Hook）**：把漏洞披露设计成最大「反差密度」的钩子：最小化攻击前提（one fake X / one public key / one curl command）× 最大化被攻击目标（$250B company / 2,388 organizations）。不需要账号权威，**首次披露权**本身就是信誉资产。关键：技术精确性必须支撑读者的自我验证行为（"我现在能不能查一下自己是否暴露？"——答案是能，则传播；答案是否，则减半）。负责任披露的过程（"我们先通知了对方"）把攻击性内容包装成道德行为，解除了平台和受众的防御态度。
+
+> **反共识持续式（Sustained Counter-Positioning Hook）**：不说"我以前以为 X，现在我认为 Y"，而是说"在 [N 年] 里，当大多数人在做 X 的时候，我们一直在做 Y"。时间跨度是可信度的来源（不是一时的想法，是经过验证的选择）。关键：N 年必须可信（3 年以下 = PR，10 年以上 = 回顾）；不指名对手（让上下文把对手填进来）；用定义式宣言收尾（"X 是一种 Y"格式，可脱离全帖单独传播）。
+
+> **成熟度质疑式（Maturity Challenge Hook）**：把"X 是否危险"替换为"我们（社会/系统）是否已经成熟到能驾驭 X"。前者有两个答案（是/否），后者逼迫所有立场的读者进入自我审视。句式：`"[领域/技术] 即将赋予我们几乎难以想象的 [能力]. 我们是否已经具备驾驭它所需的成熟度，深度不明朗."` ——配套三件套收尾：立法提案 + 政策框架 + 资金承诺，让道德声明升格为有行动成本的公开承诺。
+
+**本周跨样本新发现 · "Vibe-coding 伦理"成为新的病毒叙事场域：**
+
+Corgi/Papermark 事件首次把"vibe-coding"推入法律和伦理话语：Corgi 承认"vibe-coded"导致了与竞争对手产品相似的 UI，但否认代码复制。这开启了一个新的叙事问题：**当 AI 工具生成与他人产品几乎相同的 UI 设计时，责任归属是什么？** 这个问题目前在英文圈有争议但没有定论，在中文圈几乎没有被讨论。这是 Zico 内容的一个稀缺选题窗口。
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W26.md` 不存在。跳过。
+
+---
+
+### 本周 actionable
+
+1. **"Vibe-coding 伦理"选题窗口还剩约 7-10 天**：Corgi/Papermark 事件（6/26）在英文 Twitter 产生了"AI vibe-coding 导致产品抄袭"的新叙事，中文圈还没有人写过这个角度。建议用**截图证据式**开头：把中英两个版本的同类产品（或同一款产品的 AI 生成版 vs 原版）并排截图，不加评语，直接问："当 AI 生成的界面和别人的产品几乎相同，我们叫它'设计灵感'还是'合理使用'还是'AI 仿制'？"这个问题没有答案，但截图 + 无结论的结构 = 最强的评论区触发器。
+
+2. **"安全披露式"框架可以用于非安全主题的产品风险分析**：Tenet 的"One Fake Bug Report Hijacked $250B Company"句式直接迁移：`"一条 [极简操作] 可以 [灾难性后果] 你的 [AI 工作流]。我们测试了 [N 个场景]，[X%] 都成功了。"` 适合场景：下次写任何关于 AI agent 单点故障、Claude Code 权限越界、工具依赖链风险的内容——用"最小攻击前提 × 最大受害规模"的反差结构开头，不需要是安全研究者，只需要有具体测试结果。
+
+3. **"反共识持续式"加入触发清单**：下次写任何关于"自己如何与当前 AI 工具使用主流做法不同"的内容（比如"我没有用 Claude Code 全自动写代码"，或"我没有为 AI 产出放弃品质审核"），试用 Karri Saarinen 的框架：`"[N 年 / N 个月] 以来，我们一直在 [与主流不同的方式]. 我们没有放弃 [核心价值]. 我相信 [抽象定义]."` 关键测试点：这个句式的力量来自"N 年"的具体性——越具体（"8 个月"比"一段时间"）越有信服力；不需要外部事件作为钩子，自身的坚持记录就是钩子。
