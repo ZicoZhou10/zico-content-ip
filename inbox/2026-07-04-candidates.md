@@ -1,6 +1,7 @@
 ---
 date: 2026-07-04
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/065-sovereignty-insurance-xhs.md
 ---
 
 # Today's Candidates
