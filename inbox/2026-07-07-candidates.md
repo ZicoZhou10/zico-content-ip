@@ -1,6 +1,7 @@
 ---
 date: 2026-07-07
-status: pending_selection
+status: written
+selected: candidate 3 → drafts/068-design-audit-xhs.md
 ---
 
 # Today's Candidates
