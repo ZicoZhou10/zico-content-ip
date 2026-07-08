@@ -1,6 +1,7 @@
 ---
 date: 2026-07-08
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/069-anti-measurement-effect-xhs.md
 ---
 
 # Today's Candidates
