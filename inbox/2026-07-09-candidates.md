@@ -1,6 +1,7 @@
 ---
 date: 2026-07-09
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/070-cost-routing-moat-xhs.md
 ---
 
 # Today's Candidates
