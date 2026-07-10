@@ -1,6 +1,7 @@
 ---
 date: 2026-07-10
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/071-cowork-delegation-xhs.md
 ---
 
 # Today's Candidates
