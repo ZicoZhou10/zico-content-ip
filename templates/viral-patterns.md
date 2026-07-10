@@ -1415,3 +1415,137 @@ X_MANUAL_SAMPLES=no（样本文件存在但行数 ≤ 10，跳过）。XHS_SAMPL
 2. **Fable 5 事件的中文解读窗口还剩约 3-5 天**：英文 Twitter 上本周最密集的叙事（"秘密降级 → 背叛研究者 → 政府禁令"完整弧线）在中文社区还没有对应的原创叙事框架。建议 Zico 用**程度声索式开头**写一篇：`"Anthropic 这周做了一件让 AI 研究社区有史以来最愤怒的事。"` ——中段：还原三段式弧线（秘密降级条款 → 研究者反弹 → 政府禁令）；收尾：用**道德话语攻击式**：`"一家以'AI 安全'为名的公司，做的是让用户与 AI 行为脱钩的事。在对齐领域，这有一个标准术语：misaligned。"` 窗口期：Dario 的印度峰会争议让 Anthropic 这个名字在 6 月第三周还有余热。
 
 3. **"程度声索式"加入 Daily Write 触发器快速检查清单**：下次碰到任何争议性 AI 事件，第一个评估的问题是：`"我作为 [X] 社区成员，能不能诚实地说：这是我见过的最[极端形容词]的[现象]？"` 能说是 → 立刻发，不要等 24 小时；能说"一般严重" → 换其他钩子类型。时效性是这个格式的唯一护城河，等两天再说等于把子弹让给别人。
+
+---
+
+## Week 2026-W27 · 自动提炼（2026-07-05）
+
+### 本周信号强度说明
+
+覆盖窗口：**2026-06-21 至 2026-07-05（14 天）**。⚠️ **W26（2026-06-28）扫描未执行**，本期实际为 W26+W27 合并覆盖，信号密度按 14 天单窗口评估。X_MANUAL_SAMPLES=no（文件不存在）。XHS_SAMPLES=no（同上）。
+
+**本周核心主题："修复但不承认"——平台透明度危机与 AI 越界**。三条平行叙事：① Claude Code 2.1.196 隐写术标记发现（6 月 30 日，HN 605 pts），② AI 进入高风险专业场景（MRI 分析结果与放射科医生矛盾，HN 368+ 评论），③ AI 治理信号（Altman FT op-ed / Fortune 封面，Dario 五角大楼邮件泄露）。"静默修复、changelog 无记录"在本窗口首次成为独立的平台可信度术语被媒体反复引用。
+
+**KOL 侧：弱–中**——Altman 和 Dario 本窗口信号均为媒体标题传播式（Fortune 封面 7 月 2 日 / Gizmodo 五角大楼邮件报道），具体推文结构无新增可提炼样本。1 条 W25 补录（@karpathy Fable 5 推文 6 月 9 日，W25 扫描遗漏，首次入 log）。
+
+**Mid-tier 侧：强（HN 双热榜，973+ 互动点）**——thereallo.dev 隐写术发现（HN 605 pts，The Register 等 4 家媒体覆盖）与 @antoinefink MRI 分析（HN 368+ 评论）是本窗口两条最强中小号信号，均为发现式或跨界冲突式结构。
+
+直接可验证样本：2 条 KOL（W27 新发）+ 1 条 KOL 补录（W25）+ 2 条 mid-tier + 1 条平台信号 = 6 条总量。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线（3 条，含 1 条 W25 补录）
+
+**A-W25-SUPPLEMENT · @karpathy（Andrej Karpathy）2026-06-09 ⚠️ W25 补录（W25 扫描遗漏，首次入 log）**
+
+- **粉丝量**：~900K（技术界 tier-1 KOL）
+- **帖子 URL**：x.com/karpathy/status/2064409694761054332
+- **帖子核心**：`"Tried Fable 5 (claude-fable-5-20260609). It's a major-version-bump-deserving step change forward. More than anything else I'm struck by the massive capability gains in the domain of coding and thinking. This is the single most significant model capability upgrade I've experienced, and I've been testing models since GPT-2."`
+- **量级**：Fortune、VentureBeat、The Information 等媒体在报道 Fable 5 发布时频繁引用；6 月 10-12 日 Fable 5 "秘密降级"争议爆发后被回溯对比——发布时 Karpathy 极力称赞，3 天后被发现静默降级——形成双向传播：正向引用（发布当天）+ 对比反差引用（争议当天）
+- **钩子类型**：**程度声索式（Intensity Claim Hook）**——`"the single most significant model capability upgrade I've experienced, and I've been testing models since GPT-2"` 是正向程度声索：说话人的历史观察维度（GPT-2 起）赋予声索可信度。与 W25 @Ethan_Caballero `"angriest reaction...in my life"` 同类机制，方向相反（正向声索 vs 负向声索）。**关键结构差异**：正向程度声索在发布时即具传播力，同时在后续丑闻中成为"对比锚"——原帖的高度评价被时序反差放大为叙事素材，发帖者无需做任何额外动作
+- **Complication 句型**：无（发布时无 complication；complication 由 6/10 事件回溯提供——时序性 complication，帖子外部生成）
+- **中段推进**：列举维度（coding + thinking），极简不展开
+- **收尾形态**：程度声索自封闭；`"since GPT-2"` 是历史坐标系的锚
+- **可复用模板**：`"试了 [新产品/功能]. 这是 [major-version-bump-deserving / step change] 级别的进步. 最让我震惊的是 [具体维度]. 这是我自 [历史锚点] 以来见过的最 [程度词] 的 [事物]."` ——历史锚点越早，声索越有力；具体维度（coding + thinking）比"全面提升"更可信
+- **补录原因**：W25 扫描窗口（6/7–6/21）覆盖该推文日期（6/9），但首次入 log。Fable 5 saga 完整叙事弧线（6/9 发布 Karpathy 盛赞 → 6/10 秘密降级曝光 → 6/12 政府禁令）以本推文为弧线起点，对理解 W25 传播动力有结构性价值
+
+---
+
+**A-W27-KOL-1 · @sama（Sam Altman）~2026-07-02（Fortune 封面 + FT op-ed，媒体标题传播式）**
+
+- **粉丝量**：~2000 万+（tier-1 KOL）
+- **信号形式**：媒体标题传播式——Fortune 7 月 2 日以 Altman 为封面（`"Sam Altman's New World Order for AI"`），同期 FT op-ed 讨论 OpenAI Foundation $250M 慈善承诺；跨媒体覆盖超过直接推文传播
+- **钩子类型（媒体标题层）**：**宏观重构式（Grand Reframing）**——`"New World Order for AI"` 不是产品发布，是文明叙事；把 AI 发展包装成全球秩序变迁，Fortune 标题承担了传播货币的角色（与 W22、W24、W25 Fortune/TechCrunch 标题传播机制一致，**第四次确认媒体标题传播式**）
+- **结构性观察**：本窗口 Altman 最强信号均来自媒体标题，推文层面无高结构性可提炼新帖。**对 Zico 的直接借鉴**：与其学习 Altman 的推文结构，不如学习媒体编辑如何为同一信息提炼标题钩子——`"New World Order"` 把一篇 op-ed 浓缩成了 3 个词的传播货币，这是内容提炼效率的范本
+- **备注**：$250M Foundation 承诺的原始推文 Snowflake ID 分析显示可能来自 5 月下旬；FT op-ed 和 Fortune 封面为 7 月 2 日信号，在 W27 窗口内。具体推文归属日期不在 W27 窗口内可独立确认，记为媒体层信号
+
+---
+
+**A-W27-KOL-2 · @DarioAmodei（Dario Amodei）~2026-07-02（Gizmodo 五角大楼邮件泄露，媒体标题传播式）**
+
+- **量级**：Gizmodo 约 7 月 2 日独家报道，多家媒体跟进
+- **信号核心**：Gizmodo 报道称五角大楼邮件泄露显示 Dario 明确要求不允许 Anthropic 技术被用于自主武器系统（autonomous weapons systems）；媒体将其作为 Anthropic "AI 治理立场"的具体证据报道
+- **钩子类型（媒体标题层）**：**道德拒绝式（Principled Refusal）**——拒绝武器应用比主动倡导更有传播力：被动受害者叙事（"他们找来了，我说不"）比主动宣言更可信；"泄露邮件"定位增加真实性加成
+- **结构性观察**：与 W25 Dario 印度峰会采访一致，W27 信号同样来自第三方媒体放大而非主动发帖。**Dario 传播结构特征**：传播动力约 80–90% 来自媒体报道被动放大，这是与 Altman（主动叙事 + 媒体跟进）的结构性差异，两次确认
+- **可复用模板**：`"泄露文件显示，[机构] 曾联系 [当事人]，[当事人] 明确拒绝了 [具体用途]. "` ——"泄露文件"是可信度信号；具体拒绝内容（`"自主武器"` 比 `"武器应用"` 更清晰）提高道德叙事完整度
+
+---
+
+#### Mid-tier outliers（重点信号）— 本期 2 条 + 1 条平台信号
+
+**A-W27-OT-1 · thereallo.dev 作者（匿名，2026-06-30）**
+
+- **粉丝量**：⚠️ 未独立验证（博客作者，无 X 账号粉丝数据；HN 热榜本身是传播载体）
+- **信号 URL**：thereallo.dev/blog/claude-code-prompt-steganography；HN 605 pts
+- **媒体覆盖**：The Register、TechTimes、CyberNews、Singularity.Kiwi
+- **信号核心**：Claude Code（Build 2.1.196）读取 `ANTHROPIC_BASE_URL` 环境变量；若该 URL 与中国 AI 厂商域名匹配（Deepseek、Baidu、Zhipu 等），程序内部用 Unicode 不可见变体字符替换 system prompt 中 `"Today's"` 的撇号，同时改变日期分隔符——实质为隐写术（steganography）水印，用于识别 system prompt 被复用路径。XOR 密钥 91。受影响版本：Build 2.1.196；已在 2.1.197 静默修复，**changelog 无记录**。
+- **钩子类型**：**发现式（Discovery Hook）**——护城河是可独立验证的精确技术细节（`npm show @anthropic-ai/claude-code@2.1.196`，具体版本号、XOR key、域名列表），而非观点。与 W18 @Fried_rice Claude Code 源码发现同类机制：技术精确性创造"自我传播的验证行为"——读者验证完就分享。**本窗口超越 W18 之处**：涉及意图归因（隐写术 = 针对特定地区厂商的主动追踪行为），争议性更强，激活了意识形态分裂讨论（安全防护 vs 地缘政治追踪）
+- **Complication 句型**：发现本身即 complication——`"Anthropic 在工具里静默嵌入了针对特定地区厂商的追踪标记"` 无需额外第二段；媒体和 HN 评论区自发填充 complication（意图归因争论）
+- **中段推进**：技术揭示单线（发现 → 机制说明 → 版本确认 → 静默修复确认）
+- **收尾形态**：**召唤式产物收尾**——可重复验证的命令行指令；`"该发现已在 2.1.197 静默修复"` 作为收尾锁定叙事（`"修复但不承认"`）
+- **可复用模板**：`"[工具名] 里藏着 [具体技术行为]. 版本 [X]. [可验证命令]. 在 [更新版本] 里已被静默修复，changelog 无记录."` ——`"静默修复"` 是内容货币的倍增器：存在即争议，消失仍争议（`"为什么要悄悄删？"`）
+- **⭐ WHY 中小号爆款（四重机制）**：① 可独立验证绕过粉丝壁垒（W18 + W27 二次确认）；② 意图归因争论激活意识形态分裂，HN 评论区自发生成对立论点；③ "静默修复"使原始版本变成永久"证据"；④ 技术精确性 → HN 热榜 → 媒体报道 → X 二次传播，是中小号最高效的传播路径
+
+---
+
+**A-W27-OT-2 · @antoinefink（Antoine Finkelstein，Hunter.io 联合创始人）~2026-06-28 至 07-02**
+
+- **粉丝量**：⚠️ 未独立验证（Hunter.io 联合创始人，估计 < 50K 主账号）
+- **信号 URL**：antoine.fi/mri-analysis-using-claude-code-opus；HN item 48708941，368+ 评论
+- **信号核心**：Antoine 用 Claude Code（Opus 4.8）分析自己右肩 MRI，输入 266MB DICOM 数据，任务说明：`"right shoulder pain for 2–3 weeks"`. 结果：放射科医生诊断 = 冈上肌腱 Grade III 部分撕裂；Claude Opus 4.8 分析 = 肌腱完整，无明显撕裂。两者直接矛盾，作者不提供最终答案。HN 评论区随即展开 AI 医疗资质大讨论（368+ 评论，高票主线）。
+- **钩子类型**：🆕 **跨界冲突式（Domain Collision Hook）**——不是"AI 能做医疗分析吗"这个抽象问题，而是"我用 AI 分析了我自己的 MRI，结果和医生不一样"这个具体个人场景。**三要件**：① 说话人有可信度（Hunter.io 创始人 = 技术背景有资格做这个实验）；② 数据具体（266MB DICOM、Opus 4.8 = 顶尖工具）；③ 结果有冲突且不提供答案——开放式结局激活讨论，确定性结论终止讨论
+- **Complication 句型**：`"放射科医生：Grade III 部分撕裂。Claude Opus 4.8：肌腱完整。"` ——并列冲突是最简洁的 complication 形式；不需要解释为什么重要，对比本身完成所有工作
+- **中段推进**：发现式单线（实验设置 → 具体 prompt → 双结果并列 → 无结论）
+- **收尾形态**：**真问题收尾**——帖子不作答；HN 高票评论自发生成元问题：`"当 AI 进入高风险专业判断领域，我们如何验证谁对？"` ——这个元问题比具体 MRI 结论本身有更大的持续讨论价值
+- **可复用模板**：`"我用 [顶尖 AI 工具 + 具体版本] 分析了 [具体个人数据（格式、大小）]. 任务：[具体 prompt]. [专业人士] 说：[结论 A]. AI 说：[结论 B]. 我不知道谁对."` ——关键：结论冲突 + 不提供答案；说话人需要有可信度来做实验（专业或技术背景）
+- **⭐ WHY 有效**：HN 368+ 评论中最高票讨论不是 `"AI 对了还是错了"`，而是 `"我们如何在 AI 专业判断无法被普通人验证时建立可信度"` ——帖子触发了比帖子本身更大的结构性问题。**跨界冲突式的最高价值**：当 AI 进入高风险专业领域（医疗、法律、工程），"我不知道谁对"是比"AI 对了"或"AI 错了"更诚实也更难被反驳的立场，读者无法不讨论
+
+---
+
+**A-W27-PLATFORM · X MCP Server 正式上线（2026-06-30）**
+
+- **信号来源**：api.x.com/mcp；TechCrunch 报道；X 工程师 Vardhan Agnihotri 和 Santiago Medina 公开确认
+- **信号性质**：平台级别信号，不作推文结构分析，记录作为内容素材来源
+- **内容价值**：X 官方 MCP server 开放意味着 AI agent 可直接读写 X 数据（帖子、趋势、用户数据）。结合 thereallo.dev 隐写术发现（AI 工具链安全行为）与 @antoinefink MRI（AI 进入专业场景），本窗口深层主题是：**AI 工具链的透明度与可信度正在成为主流讨论核心**，而不再只是技术圈内部议题
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本周（6/21–7/5）叙事重心："修复但不承认"——平台可信度危机与 AI 越界**
+
+本窗口信号密度低于 W25（Fable 5 四日地震），但两条 mid-tier 信号（Claude Code 隐写术 + MRI 对比）HN 累计 973+ 互动点，是本季度 mid-tier 层面最强信号之一。关键结构性观察：
+
+**发现式（Discovery Hook）二次强验证：**
+W18 @Fried_rice（Claude Code 源码 API key 泄露）首次确认"可独立验证精确技术细节"是中小号绕过粉丝壁垒的最强路径。W27 thereallo.dev 再次确认：605 pts HN，The Register 覆盖，零粉丝博客作者。**两次共同规律**：① 技术细节精确到可命令行验证；② 涉及平台行为意图归因激活意识形态分裂；③ "静默修复"把发现行为永久化——工具更新了，但发现的截图和文章永远存在。
+
+**🆕 跨界冲突式（Domain Collision Hook）新观察：**
+@antoinefink MRI 案例确认一个新结构变体：当 AI 被用于验证专业判断且结果矛盾时，**开放式冲突**（"我不知道谁对"）比**确定性结论**（"AI 对了"/"AI 错了"）传播力更强。原因：确定性结论让讨论结束，开放式冲突让讨论开始。HN 高票评论证明元问题（"该如何判断 AI 是否比专家更准确"）比具体 MRI 结果本身有更持久的讨论价值。
+
+| 模式 | 代表样本 | 核心机制 |
+|---|---|---|
+| **发现式（二次强验证）** | thereallo.dev 隐写术 | 技术精确性 → 可验证行为 → 自我传播；"静默修复"使发现永久化；意图归因争论激活意识形态分裂 |
+| **跨界冲突式（🆕 新变体）** | @antoinefink MRI | 开放式结论 > 确定性结论；元问题（"如何判断对错"）> 具体结论（"对了还是错了"）；高风险场景放大冲突感知 |
+| **媒体标题传播式（第四次确认）** | @sama Fortune 封面 / @DarioAmodei 五角大楼邮件 | Tier-1 KOL 传播动力 80–90% 来自媒体标题，而非自发推文；对 Zico：媒体标题的钩子提炼效率（3 个词 = 1 篇 op-ed）比直接复制 KOL 推文更值得学习 |
+
+**🆕 新钩子类型建议补入 typology：**
+
+> **跨界冲突式（Domain Collision Hook）**：把一个高风险专业场景（医疗/法律/工程/金融）与 AI 的具体输出并置，展示一个真实的、无结论的对比结果。**三要件**：① 说话人有可信度来做这个实验（技术或专业背景）；② 数据具体（格式、大小、工具版本号）；③ 结果有冲突且不提供答案——开放式结局激活讨论，确定性结论终止讨论。**护城河**：领域的风险感知——AI 用于图像生成无冲突感；AI 用于 MRI 分析触发深层社会焦虑（"谁来最终负责？"）。**使用门槛**：必须是真实实验，不能是假设场景。
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W27.md` 不存在。跳过。
+
+---
+
+### 本周 actionable
+
+1. **发现式窗口：Claude Code 隐写术的中文解读约有 3–5 天有效窗口**。英文技术圈已吃完第一轮（HN → The Register），中文科技社区对 thereallo.dev 原始技术报告覆盖极少。建议使用**发现式（D 型钩子）**：`"Claude Code 2.1.196 里藏着一段针对中国 AI 厂商的代码。你用 npm show @anthropic-ai/claude-code@2.1.196 自己看。"` 中段还原机制（ANTHROPIC_BASE_URL 检测 → Unicode 隐写术 → 静默修复），收尾用**道德话语攻击式**：`"一家把'诚实'写进 Constitutional AI 的公司，在 changelog 里静默删掉了这段代码。"` 额外张力：针对中国厂商的代码在中文社区有额外的本土讨论维度，这是英文报道无法替代的角度。
+
+2. **跨界冲突式新素材：@antoinefink MRI 案例**。中文角度是 AI 医疗"灰色地带"叙事——不是"AI 能做医疗诊断了！"（鼓励型），也不是"AI 医疗不可信！"（否定型），而是"两个答案在这里，我不知道哪个对"。直接可用的钩子：`"一位创业者用 Claude Opus 4.8 分析了自己的 MRI。放射科医生：Grade III 撕裂。Claude：肌腱完整。他不知道谁对。"` 然后引出：当 AI 进入高风险专业判断领域，"不知道谁对"是比"AI 对了"或"AI 错了"更诚实也更难被反驳的立场。这个叙事结构在中文创作者里基本未出现。
+
+3. **"修复但不承认"作为可复用佐证事实**：thereallo.dev（W27）和 W18 @Fried_rice 共同确认了 Anthropic 的一个行为模式——发现问题后静默修复、changelog 无记录。无需专门成篇，在下次写 Anthropic 相关内容时直接作为佐证引用：`"这不是 Anthropic 第一次静默修复有争议的功能——6 月 30 日 Claude Code 隐写术发现后，2.1.197 同样在 changelog 无记录的情况下删掉了相关代码。"` 积累使用，不一次性消耗。
