@@ -1,6 +1,7 @@
 ---
 date: 2026-07-11
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/072-product-as-proof-xhs.md
 ---
 
 # Today's Candidates
