@@ -1,6 +1,7 @@
 ---
 date: 2026-07-12
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/073-distribution-eats-model-xhs.md
 ---
 
 # Today's Candidates
