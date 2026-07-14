@@ -1415,3 +1415,182 @@ X_MANUAL_SAMPLES=no（样本文件存在但行数 ≤ 10，跳过）。XHS_SAMPL
 2. **Fable 5 事件的中文解读窗口还剩约 3-5 天**：英文 Twitter 上本周最密集的叙事（"秘密降级 → 背叛研究者 → 政府禁令"完整弧线）在中文社区还没有对应的原创叙事框架。建议 Zico 用**程度声索式开头**写一篇：`"Anthropic 这周做了一件让 AI 研究社区有史以来最愤怒的事。"` ——中段：还原三段式弧线（秘密降级条款 → 研究者反弹 → 政府禁令）；收尾：用**道德话语攻击式**：`"一家以'AI 安全'为名的公司，做的是让用户与 AI 行为脱钩的事。在对齐领域，这有一个标准术语：misaligned。"` 窗口期：Dario 的印度峰会争议让 Anthropic 这个名字在 6 月第三周还有余热。
 
 3. **"程度声索式"加入 Daily Write 触发器快速检查清单**：下次碰到任何争议性 AI 事件，第一个评估的问题是：`"我作为 [X] 社区成员，能不能诚实地说：这是我见过的最[极端形容词]的[现象]？"` 能说是 → 立刻发，不要等 24 小时；能说"一般严重" → 换其他钩子类型。时效性是这个格式的唯一护城河，等两天再说等于把子弹让给别人。
+
+---
+
+## Week 2026-W28 · 自动提炼（2026-07-12）
+
+### 本周信号强度说明
+
+覆盖窗口：2026-06-28 至 2026-07-12（14 天）。X_MANUAL_SAMPLES=no（文件不存在）。XHS_SAMPLES=no（同上）。注：W26 和 W27 本 log 无记录，本次扫描直接覆盖 14 天窗口。
+
+**本周核心主题："AI 价格战周"**——两大模型在 72 小时内连发（SpaceXAI Grok 4.5 于 7/8；OpenAI GPT-5.6 Sol 于 7/9），Tesla 将员工 AI 工具支出限额设为 $200/周（7/2 宣布，7/6 起生效，Grok 豁免），Musk 7/10 亲口承认 Grok 4.5 不如 Fable 5 但更便宜。三个相互强化的事件在同一窗口创造了"AI 经济学第二章"的叙事环境：成本成为模型选择的第一语言，能力退为次要条件。这是 W24 "Token 清算周"（企业成本危机）的续集，但叙事方向反转：W24 是被动的代价（Uber 4 个月烧完预算），W28 是主动的武器（Musk 用承认功能弱来推销价格优势）。
+
+**KOL 侧：中等**——3 条结构性可提炼样本（sama 亲子 + GPT-5.6 帖，Paul Graham 五年类比帖，Musk Grok 4.5 反认罪式推销两联体）。另有参考级 KOL 邻近样本：Tibo Sottiaux（OpenAI Head of ChatGPT，预计 > 50K followers）QT Anthropic 限额重置帖，三字："I smell fear"（44K likes / 435K views）——结构富集但不计入 mid-tier 信号。
+
+**Mid-tier 侧：弱至中**——本窗口由大叙事（价格战、Tesla 指令、Musk 承认）主导，中小号独立爆发空间受压。找到 3 条有名字可追溯的候选样本（@testingcatalog、@kimmonismus、@n0w00j）及 1 条跨平台 HN 博客信号（Alec Scollon 的 "LLM Burnout"）。mid-tier 粉丝数均未独立验证，标注 ⚠️。如实汇报，不填充。
+
+直接可验证样本：3 条 KOL + 3 条 mid-tier 候选 + 1 条补充信号 = 7 条总量。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线（3 条）
+
+**A-W28-KOL-1 · @sama（Sam Altman）2026-07-05**
+
+- **量级**：9,646 likes / 256 reposts / 1,027 replies / 1.2M+ views（已验证：digit.in、thehansindia、tonyreviewsthings、letsdatascience 等 4+ 媒体覆盖；Digg 独立聚合页）
+- **帖子原文**："our older kid put two words together for the first time and i am approximately as amazed by this cognitive feat as i am by GPT-5.6 discovering new math."
+- **背景**：帖子发出时 GPT-5.6 处于限量预览阶段（6/26 上线），官方没有公布"发现新数学"的正式说明，帖子本身是技术信号的隐性投放
+- **钩子类型**：**日常生活画面式（家庭场景版）**——把 AI 技术新闻（GPT-5.6 发现新数学）嵌入一个家庭私人里程碑（孩子说出第一个两词句）；不是发新闻，是并列两个"惊奇时刻"，让读者同时吃到情感与信息。是 W19 @sama "naptime + Codex" 帖（W19-KOL-3）的升级版：那条用"带孩子晒太阳"承载 Codex 自主性，这条用"孩子认知里程碑"承载未公开的模型能力信号。私人场景越亲密，技术信号的可信度越高（因为没有 PR 感）
+- **Complication 句型**：无显性第二段——冲突内嵌于并置：孩子的认知里程碑（两个词） vs AI 的认知里程碑（发现新数学）；冲突由读者完成：我为什么要对这两件事感到同等惊奇？批评者追问"GPT-5.6 发现了什么数学"——追问本身就是分发引擎
+- **中段推进**：无（单句帖）
+- **收尾形态**：无；帖子在并置中自封闭，读者完成情感计算
+- **可复用模板**：`"[个人生活里的某个认知/成长里程碑]. 这和 [AI/技术产品里的某个能力里程碑] 让我的惊奇程度大致相当。"` — 两件事体量必须不对称（孩子两个词 vs AI 发现数学），情绪必须等价（"approximately as amazed"），非对称等价是钩子的张力来源
+
+---
+
+**A-W28-KOL-2 · @paulg（Paul Graham，YC 联合创始人）2026-07-07**
+
+- **量级**：173 trending posts / 广泛 QT（已验证：帖子进入 X trending news card；explainx.ai 发表整篇分析文章）
+- **帖子 URL**：x.com/paulg/status/2074214198712680947
+- **帖子原文**："Imagine what it will be like if 5 years from now models have improved on Fable as much as Fable has improved on GPT3."
+- **背景**：Paul Graham 是在回复 YC 合伙人 @snowmaker（Jared Friedman）的"Fable is so insanely good. Deserves the hype"之后发布这条帖子的；帖子不是独立发帖，而是 YC 圈子内部讨论的一条 reply，但其传播远超原始线程
+- **钩子类型**：🆕 **预测性类比式（Predictive Analogy Hook）**——不做预测（不说"5 年后会怎样"），也不给数字，而是要求读者把"已知的历史跨越"投射到未来：你亲历过 GPT-3 → Fable 的跨越，现在把同等幅度的跨越投射到未来 5 年，结果自己算。Paul Graham 只提问，不给答案；回答者的脑补就是 QT/reply 的内容
+- **Complication 句型**：无显性 Complication——帖子本身即是 Complication：它把读者的现有认知框架（"Fable 已经很强"）设为起点，隐性对手是"你自己想象力的上限"；读者在脑内完成冲突（"如果再跨越那么多，那会是什么……？"），而不是从帖子的第二段读到冲突
+- **中段推进**：无（单句帖）
+- **收尾形态**：无；想象空间自封闭——这个类比没有正确答案，读者的各自答案就是 QT 区的内容
+- **可复用模板**：`"Imagine what it will be like if [N] years from now [某能力/工具/指标] has improved on [当前基准] as much as [当前基准] has improved on [过去基准]."` 中文版：`"如果接下来 [N] 年的进步幅度，和从 [过去基准] 到 [当前基准] 一样，[某事物] 会变成什么？"` — 不预测，只投射；答案权留给读者
+- **⭐ 结构洞察**：这是"数字加速度式"（W22，Cognition 13%→89%）的无数字版——加速度式靠精确数字触发"这会停在哪里"的焦虑；预测性类比式靠体感参照（"你知道 GPT-3 有多落后于 Fable"）激活同等焦虑，且因为没有数字，不会被理性化反驳（"但实际上进步率是衰减的"这种回应无法击中一个不含数字的类比）。结论：**无数字的惊叹有时比有数字的惊叹传播更广——因为留了空白给读者填充**
+
+---
+
+**A-W28-KOL-3 · @elonmusk（Elon Musk）2026-07-08–07-10（两联帖，构成完整叙事弧）**
+
+- **量级**：帖 #1（7/8）：TechCrunch、Axios、Decrypt、TheStreet 等 5+ 媒体同日覆盖；帖 #2（7/10）：Electrek、The Information、American Bazaar 等 4+ 媒体 7/10 覆盖
+- **帖子 #1 原文（7/8）**："an Opus-class model, but faster, more token-efficient and lower cost" ＋ "real-world usefulness, not benchmarks."（Grok 4.5 发布帖）
+- **帖子 #2 原文（7/10）**："In fairness, Fable is definitely better than Grok 4.5, but most tasks don't require Fable-level capability."（Tesla 内部指令曝光后在 X 上的公开回应）
+- **钩子类型（帖 #2，核心样本）**：🆕 **反认罪式自我推销（Concession Marketing Hook）**——推销者主动承认自家产品不如竞品（"Fable is definitely better"），然后用一句话重框需求定义（"most tasks don't require Fable-level capability"）。不同于 W24 "成本承认式"（Altman 承认 AI 让客户成本失控）：那是角色翻转（工具制造者承认代价）；这是**功能承认 + 市场定义重构**：承认功能差 → 但声明这不是你的真实需求 → 价格优势因此胜出
+- **Complication 句型（帖 #2）**：`"In fairness, [竞品] is definitely better than [我的产品]. But most [用户场景] don't require [竞品级别]."` ——让步先行（"In fairness"是关键词，让步显得主动而非被迫），然后重框市场定义；批评者无法再攻击已被承认的弱点，只能争论"重框是否成立"，而这个问题对推销者有利（因为价格差 60% 是事实）
+- **中段推进**：无（两条帖子各一句话，弧线在 48 小时内展开）
+- **收尾形态**：经济重构式——"most tasks don't require Fable-level capability"把竞争标准从"谁更聪明"切换到"谁的 ROI 更好"；等价于在棋盘上换了一个规则
+- **可复用模板**：`"说实话，[竞品/更强方案] 确实比 [我的产品/方案] 在 [能力词] 上更好。但大多数 [用户/场景] 做的 [任务] 并不需要 [竞品级别]. [我的方案] 在 [ROI/成本/速度] 上更胜一筹。"` — 关键：让步必须无条件（不加"但是"式的软化）；重框必须指向买家的真实使用场景，而非抽象的"够用"
+
+---
+
+#### Mid-tier outliers（重点信号）— 本期 3 条候选 + 1 条补充信号
+
+**A-W28-OT-1 · @testingcatalog（Testing Catalog，AI 新闻聚合账号）2026-07-09**
+
+- **粉丝量**：⚠️ 未独立验证（testingcatalog.com 有独立网站；账号出现在 AI 账号推荐榜单上，预计 < 50K，但无法确认）
+- **互动量**：⚠️ 未验证精确数字（帖子出现在多家媒体关于 Anthropic/OpenAI 竞争的"社区反应"段落中）
+- **帖子 URL**：x.com/testingcatalog/status/2075280099398537550
+- **帖子原文**："It happened exactly when it was meant to happen. Claude weekly limit has been reset so users can play with Fable 5 again, instead of testing GPT-5.6. Anthropic strikes back 👀"
+- **背景**：GPT-5.6 Sol 上线后 31 分钟内，Anthropic 无声明地重置了所有 Fable 5 用户的周使用上限；这条帖子是对该竞争性操作的即时战略解读
+- **钩子类型**：🆕 **竞争意图解读式（Competitive Intent Reading Hook）**——不报道事件本身（速度上无法超过官方公告），而是读取时间线背后的**战略意图**并命名它。"It happened exactly when it was meant to happen"是核心装置：把一个看起来是"用户福利"的举动（重置限额），重标注为"有预谋的竞争性反击"。确认感触发转发：读者第一反应是"对，这不是巧合"
+- **Complication 句型**：`"instead of testing [竞品]"` ——这五个词把 Anthropic 的动机显化：不是纯粹为了用户，是为了截流竞品试用流量；用户福利 vs 竞争动机并置，冲突内嵌
+- **中段推进**：无（两句话，竞争叙事自封闭）
+- **收尾形态**：👀 emoji 代替收尾文字——让读者感受到"幕后观察"的快感，emoji 是独立的"你看到了吗"信号
+- **可复用模板**：`"这件事发生的时机绝不是巧合。[看起来是用户福利的举动]，正好是 [对竞品威胁最大的时间点]。[公司] 在还击。"` — 不需要内部信息，只需把公开时间线排列并命名意图
+- **⭐ WHY 中小号能爆**：在 AI 大战密集的一周，大量账号在竞争"谁先解读这次战略动作"的首发权；testingcatalog 在 Anthropic 宣布后极短时间内抢到了诠释权——比大媒体快，比个人账号早。首发"竞争意图解读"是 AI 资讯中小号最可复制的爆款路径：不需要独家信息，只需要实时性 + 模式识别
+
+---
+
+**A-W28-OT-2 · @kimmonismus（Chubby♨️）2026-07-09**
+
+- **粉丝量**：⚠️ 未独立验证（多次出现在 AI 社区反应引用中，预计 < 50K）
+- **互动量**：⚠️ 未验证精确数字
+- **帖子 URL**：x.com/kimmonismus/status/2075280933452669000
+- **帖子原文**："What a move! Anthropic seriously waited until OpenAI released GPT-5.6 and the SuperApp before announcing they'd reset the weekly rates. That's a clear message to OpenAI."
+- **钩子类型**：**竞争意图解读式（OT-1 同型，惊叹语气版）**——与 @testingcatalog 几乎同时发了结构相同的帖子；区别：testingcatalog 用叙述语气（"It happened exactly when it was meant to happen"），kimmonismus 用惊叹语气（"What a move!"）。情绪信号更强，但叙事密度稍弱；两条帖子共同说明这个模板在同一事件中可被多个账号独立使用
+- **Complication 句型**：`"Anthropic seriously waited until [竞品动作] before [自己动作]."` ——"seriously waited" 把公司的等待行为人格化，商业竞争有了棋局感；读者想象的是两个决策者在下棋
+- **中段推进**：无（两句话）
+- **收尾形态**：强断言式——`"That's a clear message to OpenAI."` 绝对句（"clear"）比"我认为是"传播力强 10 倍
+- **可复用模板**：`"What a move. [公司 A] 认真地等到 [竞品 B 做了 X] 之后才宣布 [自己的 Y]. 这对 [竞品] 是个明确的信号。"`
+- **⭐ 本期观察**：testingcatalog 和 kimmonismus 在同一 31 分钟内发了结构几乎一样的帖子，说明"竞争意图解读式"不是创意操作，是可学习的**可重复模板**——不靠原创洞察，靠实时性 + 把时间线排列并命名战略意图。注意：两条都不需要任何内部消息，完全基于公开时间线
+
+---
+
+**A-W28-OT-3 · @n0w00j（账号未完整验证）⚠️ 2026-07-03**
+
+- **粉丝量**：⚠️ 未独立验证（账号出现在 explainx.ai 分析 Tesla 支出上限的报道中，被引用为代表性社区解读，预计 < 50K）
+- **互动量**：⚠️ 未验证
+- **帖子核心原文（转引自 explainx.ai 分析文章）**：`"$200/week ≈ four Claude Max subscriptions per month ($800/month). That is more than most companies give for AI tooling — but far below what unconstrained agent users burn."`
+- **背景**：Tesla 宣布 $200/周 AI 支出限额的当天（7/2），@n0w00j 把这个数字翻译成消费者可参照的坐标
+- **钩子类型**：🆕 **成本翻译式（Cost Translation Hook）**——不报道事件，不评价对错，只做一件事：把抽象的企业数字（$200/周）翻译成读者能与日常生活对比的现实坐标（四个 Claude Max 订阅 = $800/月）；信息增量来自翻译精度，而不是独家信息
+- **Complication 句型**：`"That is more than most companies give for AI tooling — but far below what unconstrained agent users burn."` ——矛盾并置：比大多数公司给的多；但比真正的 agent 重度用户少得多。读者立刻知道自己在哪个区间，这触发了回复行为（"我的公司怎么设限的？"）
+- **中段推进**：无（三行推进完整）
+- **收尾形态**：无，矛盾并置自封闭；读者自填"我每月 AI 支出在哪"
+- **可复用模板**：`"[$企业数字/时间单位] ≈ [N 个读者日常熟悉的消费参照物 (每月)]. 这比 [典型基准场景 A] 多——但比 [边界用户群 B] 少得多。"` — 关键：参照坐标必须是读者日常接触的产品/价格（"四个 Claude Max 订阅"比"$800/月"更直觉，因为订阅数量比金额更形象）
+- **⭐ WHY 候选爆款**：翻译操作本身成本极低，首发是唯一护城河——当天发（次日这个翻译已被 10 个账号做了，先发才有价值）。这也是本周 Tesla $200/周 这个数字被媒体广泛引用的原因之一：翻译版比原始数字更易截图
+
+---
+
+**A-W28-补充信号 · Alec Scollon（博客作者）2026-07-08**
+
+- **平台**：个人博客（alecscollon.com）→ Hacker News 前页（HN item #48839984）→ YouTube Shorts / LinkedIn / Devtalk 跨平台转发
+- **互动量**：HN 前页已验证（独立 HN item 编号可追溯）；跨平台传播确认
+- **文章标题**："I Think I Have LLM Burnout"
+- **结构提炼**：
+  - **钩子**：标题即反共识自白式——每天使用 LLM 的开发者说"我对 LLM 倦了"；说话人身份是核心可信度来源（不是批评者，是用户）
+  - **Complication**："the problem is repetition — LLMs write in the same style and make the same kinds of mistakes"——不是"LLM 变差了"，而是"重复毒性在积累"；complication 是隐性的积累代价，不是爆发性事件
+  - **中段**：单线推进——13 个重大 AI 事件在 29 天内发生（Grok 4.5、GPT-5.6、Fable 5……），每次都要重新评估工具、更新文档、重调成本模型；burnout 的来源不是模型质量，是**认知更新的速度超过人类处理带宽**
+  - **收尾**：未在搜索结果中提取到；HN 讨论中用户大量 +1 共鸣表明结尾有共振效果
+- **可复用模板（X 格式压缩版）**：`"我好像有 LLM 倦怠了。不是模型变差了。是每次更新，我要重新学、重新评估、重新决策。[N] 个重大事件，[M] 天。我的大脑跟不上这个速度了。"`
+- **⭐ 本期观察**：这篇博客在 Grok 4.5 + GPT-5.6 双发的 24 小时内发布，时机是叙事共振的关键——"AI 模型发了又发，我已经精疲力竭"在当天有极强的情绪共振。这是 W24 "Token 清算周"的情绪后继：W24 是成本失控（Uber 4 个月烧完预算），W28 是认知超载（开发者跟不上更新速度）。AI 行业的负面代价叙事正在从"钱"延伸到"人的认知带宽"
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本周（6/28–7/12）叙事重心："AI 价格战周"——模型竞争从能力比拼切换到经济学竞争**
+
+| 事件 | 日期 | 核心数字/信号 |
+|---|---|---|
+| Tesla $200/周 AI 限额（Grok 豁免） | 7/2–7/6 | 企业级 AI 支出管控首个大案例；员工偏好 Claude，Musk 强制切 Grok |
+| Sam Altman 亲子 + GPT-5.6 帖 | 7/5 | 9,646 likes / 256 RT / 1.2M views；私人场景承载未官宣技术信号 |
+| Paul Graham Fable vs GPT-3 五年帖 | 7/7 | 173 trending posts；单句无数字预测性类比帖 |
+| Grok 4.5 发布 | 7/8 | $2/$6 per M tokens vs Opus 4.8 的 $5/$25（便宜 60%） |
+| Alec Scollon "LLM Burnout" 博文 | 7/8 | HN 前页；13 个重大 AI 事件 / 29 天 = 认知超载叙事 |
+| GPT-5.6 Sol 发布 | 7/9 | 54% token efficiency vs 前代；三型号分层（Sol/Terra/Luna） |
+| Anthropic 31 分钟内重置 Fable 5 上限 | 7/9 | testingcatalog + kimmonismus 竞争意图解读双帖同日爆发 |
+| Tibo Sottiaux "I smell fear" | 7/9 | 44K likes / 435K views；OpenAI Head of ChatGPT 三字回击 |
+| Musk 承认 Grok 4.5 弱于 Fable 5 | 7/10 | "Fable is definitely better. But most tasks don't require it." |
+
+**本周标志性结构：**价格作为主动竞争武器（Musk 承认功能差 + 用价格重框）× 实时竞争意图解读（31 分钟内多个中小账号同步命名战略）× 认知疲劳叙事开始浮出（LLM burnout = AI 代价叙事的第三阶段：W24 钱，W28 人）
+
+| 模式 | 代表样本 | 核心机制 |
+|---|---|---|
+| **预测性类比式（🆕 新变体）** | @paulg Fable vs GPT-3 | 已知历史跨越 × 投射未来等量 = 无数字的震撼；不可证伪的类比 > 可被反驳的数字预测；答案权留给读者 |
+| **日常生活画面式（确认）** | @sama 亲子 + GPT-5.6 | 私人认知里程碑承载技术信号；不对称等价（孩子两个词 vs AI 发现数学）是张力来源；批评者的追问成为分发引擎 |
+| **反认罪式自我推销（🆕 新变体）** | @elonmusk Grok 4.5 两联帖 | 让步先行（"In fairness, 竞品更好"）→ 重框市场定义（"大多数任务不需要那个级别"）→ 批评者失去攻击点；两步弧线在 48 小时内获得双次媒体曝光 |
+| **竞争意图解读式（🆕 新变体）** | @testingcatalog / @kimmonismus | 排列时间线 → 命名战略意图 → 确认感触发转发；首发权是唯一护城河；同一模板在同一事件中被两个账号独立使用 |
+| **成本翻译式（🆕 新变体）** | @n0w00j Tesla $200 | 企业数字 → 消费者参照坐标 → 矛盾并置（比 A 多，比 B 少）；操作成本极低，时效是护城河 |
+| **LLM 倦怠反共识自白式（补充信号）** | Alec Scollon "LLM Burnout" | 重度用户说"倦了"；complication 是隐性的认知负担积累而非爆发事件；Grok+GPT 双发的时间背景强化了叙事共振 |
+
+**🆕 新钩子变体建议补入 typology：**
+
+> **预测性类比式（Predictive Analogy Hook）**：用"已知的历史跨越"投射"未来等量跨越会是什么"，不做预测，不给数字，只让读者把体感历史投影到未来。句式：`"Imagine what it will be like if [N] years from now [X] has improved on [当前基准] as much as [当前基准] has improved on [过去基准]."` 中文版：`"如果接下来 [N] 年的进步幅度，和从 [过去基准] 到 [当前基准] 一样，那 [具体事物] 会变成什么？"` 关键：① 历史基准必须是读者亲历过的（"GPT-3 的局限性"每个 AI 开发者有肌肉记忆）；② 不预测（不可证伪 = 不可被理性化反驳）；③ 答案权留给读者，QT 区自产内容。护城河：比"数字加速度式"（有数字可被争议）传播阻力更低；比"怀旧回望式"（被动等历史时刻）可主动构建。
+
+> **反认罪式自我推销（Concession Marketing Hook）**：推销者明确承认自家产品在某功能上不如竞品，然后立刻用一句话重框需求定义（"大多数人不需要那个级别"）。要件：① 让步必须无条件、放在第一句（不能在附加条款里软化，否则读者感受到虚情假意）；② 重框必须有经济支撑（价格差 60%、速度快 2x 等可量化优势）——纯"够用"没有说服力；③ 整体两句话，让步先行，重框随后。护城河：让步后，批评者无法再攻击已被承认的弱点，争论只能在"重框是否成立"上，而这个战场对承认者有利。适用条件：只有当让步是真实且公众已知时才有效——造假让步读者立刻识别，反效果。
+
+> **竞争意图解读式（Competitive Intent Reading Hook）**：不报道事件本身，而是排列时间线后命名背后的战略意图。句式：`"[事件] 发生的时机绝不是巧合。[公司] 等到 [对竞品最敏感的时间点] 才 [做了 X]。这是一个明确的信号。"` 要件：① 时间线必须真实可核查（"31 分钟后"比"不久后"有力 10 倍）；② 意图命名必须简洁且确定（"strikes back" > "可能在策略性回应"）；③ 必须在事件发生 30-60 分钟内发出，首发权决定谁的解读版本被引用。护城河：这是中小 AI 资讯账号最可学习的爆款路径——不需要独家信息，只需要实时性 + 把公开时间线排列并命名意图的能力。本周 testingcatalog 和 kimmonismus 在同一 31 分钟内独立使用相同模板，证明这是可标准化的操作。
+
+> **成本翻译式（Cost Translation Hook）**：把企业/媒体报道里的抽象数字（$200/week, $2/M tokens, 54% efficiency）翻译成读者日常生活能与之对比的具体坐标（几个 Claude Max 订阅 / 几个工程师月薪 / 一家初创公司的 compute budget 占比）。句式：`"[$企业数字] ≈ [N 个读者熟悉的消费者参照物 (月)]. 这比 [典型场景 A] 多——但比 [边界用户群 B] 少得多."` 要件：① 参照坐标必须是读者日常接触的产品（订阅数量比金额更直觉）；② 矛盾并置（多 vs 少）触发读者自定位，驱动回复；③ 当天发（次日该翻译已被多人完成，先发才有价值）。与"数字反差式"的区别：数字反差式靠两个原始数字的绝对对比（13% vs 89%）；成本翻译式靠把一个数字降维成日常坐标，让不关注 AI 价格的读者也能理解。
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W28.md` 不存在。跳过。
+
+---
+
+### 本周 actionable
+
+1. **"竞争意图解读式"是本周最可立刻复制的模板**：下次 AI 行业出现"A 公司的一个看上去是用户福利的操作，在时间上与 B 公司的重大发布高度重合"，在 30-60 分钟内发一条：`"[事件] 发生的时机不是巧合。[公司] 等到 [竞品时间点] 才 [做了 X]。这是 [一句话战略命名]。"` 不需要内部信息——公开时间线排列本身就是证据，读者自行完成推断。首发是唯一护城河；超过 60 分钟就把诠释权让给了别人。本周 testingcatalog 和 kimmonismus 证明这个模板可以被两个账号独立使用，且两条都传播——说明竞争意图解读的"真相"不是零和游戏，先发有优势但不独占。
+
+2. **"预测性类比式"是成本最低的震撼感钩子**：当 AI 行业出现新基准变化（新模型发布、旧模型被超越），不要分析新能力，问自己：`"如果接下来 [N] 年的进步幅度，和从 [旧基准] 到 [新基准] 一样，那 [某具体事物] 会变成什么？"` 不预测，只投射；答案权留给读者，QT 区自产内容。Paul Graham 这条帖子一句话进入 173 个 trending posts，零数据、零观点、零分析——问句本身是传播引擎。下次 Grok 5 或 GPT-6 发布时，直接套用这个结构。
+
+3. **"成本翻译"作为处理所有 AI 价格新闻的默认操作**：每当出现"$X per M tokens / $Y/week / Z% efficiency"类数字新闻，第一反应是找它的消费者参照坐标：几个 Claude Pro 订阅 / 几个开发者的月薪 / 一家创业公司 compute budget 的百分比。不需要其他观点，数字翻译 + 矛盾并置（比 A 多，比 B 少）就是一条完整帖子。本周 Tesla $200/周 案例说明：时效窗口是宣布当天，次日已无先发价值。GPT-5.6 Sol 的 54% efficiency 和 $5/$30 pricing、Grok 4.5 的 $2/$6 都还没有被中文创作者做过成本翻译——建议 Zico 在近两天内补上。
