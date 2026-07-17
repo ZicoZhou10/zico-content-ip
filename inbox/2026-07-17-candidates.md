@@ -1,6 +1,7 @@
 ---
 date: 2026-07-17
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/078-context-scarcity-end-xhs.md
 ---
 
 # Today's Candidates
