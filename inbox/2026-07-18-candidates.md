@@ -1,6 +1,7 @@
 ---
 date: 2026-07-18
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/079-agent-swarm-economics-xhs.md
 ---
 
 # Today's Candidates
