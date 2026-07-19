@@ -1415,3 +1415,154 @@ X_MANUAL_SAMPLES=no（样本文件存在但行数 ≤ 10，跳过）。XHS_SAMPL
 2. **Fable 5 事件的中文解读窗口还剩约 3-5 天**：英文 Twitter 上本周最密集的叙事（"秘密降级 → 背叛研究者 → 政府禁令"完整弧线）在中文社区还没有对应的原创叙事框架。建议 Zico 用**程度声索式开头**写一篇：`"Anthropic 这周做了一件让 AI 研究社区有史以来最愤怒的事。"` ——中段：还原三段式弧线（秘密降级条款 → 研究者反弹 → 政府禁令）；收尾：用**道德话语攻击式**：`"一家以'AI 安全'为名的公司，做的是让用户与 AI 行为脱钩的事。在对齐领域，这有一个标准术语：misaligned。"` 窗口期：Dario 的印度峰会争议让 Anthropic 这个名字在 6 月第三周还有余热。
 
 3. **"程度声索式"加入 Daily Write 触发器快速检查清单**：下次碰到任何争议性 AI 事件，第一个评估的问题是：`"我作为 [X] 社区成员，能不能诚实地说：这是我见过的最[极端形容词]的[现象]？"` 能说是 → 立刻发，不要等 24 小时；能说"一般严重" → 换其他钩子类型。时效性是这个格式的唯一护城河，等两天再说等于把子弹让给别人。
+
+---
+
+## Week 2026-W29 · 自动提炼（2026-07-19）
+
+### 本周信号强度说明
+
+覆盖窗口：2026-07-05 至 2026-07-19（14 天）。X_MANUAL_SAMPLES=no（文件不存在）。XHS_SAMPLES=no（文件不存在）。
+
+直接可验证样本：3 条大账号（含 1 条 ⚠️ 日期待确认）+ 2 条 mid-tier outlier = 共 5 条。Mid-tier 侧信号偏弱——本窗口主要叙事是 GPT-5.6 Sol 文件删除事件（7/9–7/15），传播主力是 TechCrunch / The Register 等主流媒体及大账号（@mattshumer_ 367.8K 粉），真正 < 50K 的独立中小号只识别到 2 条。Karpathy 的"agents before models"警告媒体报道存在但原推具体日期无法独立核实（标注 ⚠️）。如实汇报，不填充。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线（3 条）
+
+**A-W29-KOL-1 · @sama（Sam Altman）2026-07-11**
+
+- **量级**：Forbes、TechCrunch、Barchart、Digit.in、Entrepreneur 等多媒体同日覆盖；Altman-Musk 互怼话题触发全球 trending
+- **帖子 URL**：x.com/sama/status/2075982617976230043
+- **帖子原文**：`"homeboy you're the one sellling public market investors on short-term space datacenters"`（原文有 typo：sellling）
+- **背景**：Elon Musk 发帖称 Altman 为 "Scam Altman"，"把欺骗带上了新高度"。Altman 此条为回应帖，指向 SpaceX 轨道数据中心计划（$2T 估值支柱）
+- **钩子类型**：**反攻式俚语钩（Counter-Attack Slang Hook）**——不正面防御"Scam Altman"指控，转而用街头语气（"homeboy"）反打 Musk 的空间数据中心叙事。进攻即防守，且比对手更轻松——被追问时反手追问，读者注意力转向追问方
+- **Complication 句型**：无显性第二段——整条推文本身是钩子兼 complication：被叫骗子，反手指对方才是骗子，但用非正式词（homeboy）让这不像指控，更像揶揄拍桌
+- **中段推进**：无（单句帖）
+- **收尾形态**：无——说完就走，不解释，不道歉
+- **可复用模板**：`"[用非正式称谓] you're the one [描述对方比你指控更荒谬的行为]."` ——关键：称谓必须比正式的"Mr./Ms."轻松至少两个档次；对方的指控必须有可反打的同类型弱点
+
+---
+
+**A-W29-KOL-2 · @sama（Sam Altman）2026-07-14**
+
+- **量级**：TechRadar、Yahoo Finance、Eastern Herald 等多媒体覆盖；"quote-posted to 1M+ views"确认
+- **帖子原文**：`"i thought this was satire, kept looking for the handle to be spelled c1audeai or something"`
+- **背景**：Anthropic "There's Hope in Hard Questions" 90 秒广告（7/9 发布，World Cup 期间播出），内含燃烧房屋、Arlington 公墓、人脸识别等视觉，被网友称为"dystopian marketing slop"。Altman 引用该广告发此帖
+- **钩子类型**：**假账号核验式嘲讽（Fake Account Check Hook）**——"kept looking for the handle to be spelled c1audeai or something" 是核心装置：这句话把批评翻译成了一个具体行为（检查账号名是否是讽刺仿冒号），读者跟着脑补整个过程，参与感远高于直说"这广告太荒谬了"
+- **Complication 句型**：无显性第二段——"satire" + "c1audeai" 两词内嵌完整冲突：Anthropic 的严肃营销 vs 被误认为讽刺内容，结论由读者自己推断
+- **中段推进**：无（单句帖）；Altman 随后跟发一条加刀：`"hard questions are great only if you're worthy enough to avoid silent downgrades"` ——把广告批评延伸到产品降级争议，两条组成叙事矩阵
+- **收尾形态**：嘲讽自封闭；跟推收尾为隐性产品攻击
+- **可复用模板**：`"i thought this was satire, kept looking for the handle to be spelled [略改版账号名] or something"` ——前提：说话人账号权威足以让"我以为是假号"这件事显得可信；若无权威基础，变成自嘲而非嘲讽
+
+---
+
+**A-W29-KOL-3 · @mattshumer_（Matt Shumer，OthersideAI CEO，367.8K 粉）2026-07-11**
+
+- **量级**：TechCrunch、The Register、Technology.org 等媒体大量覆盖；作为 GPT-5.6 Sol 删除文件事件"第一张人脸"被反复引用
+- **帖子 URL**：x.com/mattshumer_/status/2075657271401390161
+- **帖子原文**：`"GPT-5.6-Sol just accidentally deleted almost ALL of my Mac's files. And this is why I trust Fable 1000x more."`
+- **背景**：OpenAI 邀请 Shumer 测试 Sol Ultra mode，agent 执行文件清理任务时因 `$HOME` 变量解析错误对 home directory 执行递归删除，历时 1 小时 21 分，大部分文件被删
+- **钩子类型**：**AI 灾难自白式 + 竞品隐性背书**——第一句是已识别的 W18b @lifeof_jer 结构（AI 灾难受害者证词）；第二句 "And this is why I trust Fable 1000x more" 是隐性品牌切换宣言，让帖子在"AI 安全"和"GPT vs Claude"两个话题上同时传播
+- **Complication 句型**：`"And this is why I trust [竞品] 1000x more."` ——数字（1000x）不是精确值，是情绪幅度；把个人事故上升为立场声明
+- **中段推进**：无
+- **收尾形态**：立场宣言式，一句话收尾
+- **可复用模板**：`"[工具] just [动词 + 具体损失]. And this is why I [trust/prefer] [替代方案] [超大倍数] more."` ——前提：损失是真实且可验证的亲身经历；竞品背书有具体的对比逻辑基础（否则显得像付费推广）
+- **备注**：Shumer 三天后（7/14）发后续帖，语气转为赞扬 OpenAI 危机处理（Greg Brockman 亲自电话），两条帖子构成"受害→感动"弧线，话题热度延续一倍。这个"事故 + 跟进"两帖策略值得记录
+
+---
+
+**A-W29-KOL-⚠️ · @karpathy（Andrej Karpathy）⚠️ 原推日期待确认，推测 2026-07 初期**
+
+- **量级**：KuCoin、BigGo Finance 等媒体在 7 月集中报道；可能在入职 Anthropic（5/19）后某次活动中发表，具体推文 URL 未能在本次扫描中独立核实
+- **帖子核心（媒体转述）**：警告 AI 开发者不要"把智能体放在模型前面"——他亲历 OpenAI 2016 年 "World of Bits" 项目（训练 agent 用鼠标键盘操作电脑）提前五年失败，之后转向语言模型才有今天。论点：历史正在重演
+- **钩子类型**：**亲历者历史自白式（Eyewitness History Loop Hook）**——"我亲历了这个错误 10 年前"是核心 credibility 锚点，把警告升格为"失败过的人的复盘"而非纯观点
+- **Complication 句型**：`"We [at OpenAI] tried [agents] in 2016, five years too early. I see the same mistake being made again."` ——历史 loop 是 complication：当下的热门趋势被标定为一个 10 年前就失败过的想法
+- **中段推进**：单线推进（历史失败案例 → 当前镜像 → 建议回到基础模型研究）
+- **收尾形态**：警告式判断
+- **可复用模板**：`"我亲历过这件事 [N 年前]。当时 [描述失败经过]。现在我看到同样的事正在发生。"` ——历史 loop 钩子要求说话人必须有真实的"亲历者"资格，否则退化为泛泛的"历史总是重演"
+
+---
+
+#### Mid-tier outliers（重点信号）— 本期 2 条（信号偏弱周）
+
+**A-W29-OT-1 · @brunolemos（Bruno Lemos，独立开发者）2026-07-13**
+
+- **粉丝量**：⚠️ 未独立验证（个人开发者账号，GitHub 有活跃记录，Twitter 粉丝估计 < 50K；被 TechCrunch 主动引用表明有机传播）
+- **互动量**：⚠️ 未精确验证；被 TechCrunch、The Register、WinBuzzer、Techzine、Eastern Herald 等 5+ 媒体直接引用原话
+- **帖子 URL**：x.com/brunolemos/status/2076769881534398974
+- **帖子原文**：`"GPT-5.6 Sol just deleted my whole production database. That's it. Not a joke. This had never happened to me before, with any other model, ever."`
+- **背景**：GPT-5.6 Sol 执行集成测试时将连接到 production 环境的数据库误识别为测试库并删除，AI 事后在对话中自动承认："I mistakenly executed destructive integration tests on the production database configured in the environment."（与 W18b @lifeof_jer 的 AI 自白结构高度一致，但 Lemos 帖子本身未引用 AI 原话）
+- **钩子类型**：**AI 灾难受害者证词式（Victim Testimony Hook）**——四个短句递进结构，每句承担不同的信任层级
+- **Complication 句型**：`"That's it. Not a joke. This had never happened to me before, with any other model, ever."` ——四段式信任构建：① 事情已发生且不可挽回；② 我没有夸张；③ 我有多模型对比经验；④ "ever"圈定了 GPT-5.6 Sol 的独特性，媒体可直接引用作为 lede
+- **中段推进**：无（单帖事故陈述）
+- **收尾形态**："That's it" 是隐性句号，损失陈述即收尾
+- **可复用模板**：`"[工具] just [动词 + 具体损失]. [简短句]. Not a joke. This had never happened to me before, with any other [同类工具], ever."` ——关键：四段必须完整，删掉"ever"则历史维度消失，冲击力减半
+- **⭐ WHY 中小号能爆**："production database" 是开发者群体最高敏感词，情绪浓度极高；结构使记者可以直接拎出原句作为文章 lede，无需改写（天然 quotable）；与 @JoeyKudish 同日发出，两条帖子形成相互验证效应，从"个案"升格为"模式"（见跨样本 summary）
+
+---
+
+**A-W29-OT-2 · @JoeyKudish（Joey Kudish，开发者）2026-07-13**
+
+- **粉丝量**：⚠️ 未独立验证（个人开发者账号，估计 < 50K；被 TechCrunch 与 WinBuzzer 提及）
+- **互动量**：⚠️ 未精确验证
+- **帖子原文（媒体转引）**：`"gotten bit by Codex Sol's overly ambitious system and it deleted some files it shouldn't have. Sol needs to be toned down."`，补充：自己有备份，不会有严重损失
+- **钩子类型**：**生物性隐喻钩（Biomorphic Metaphor Hook）**——"gotten bit by"（被咬了一口）把 AI 工具拟生物化，隐含了"工具主动攻击使用者"的叙事；比"GPT deleted my files"多了一层"工具反噬"的张力
+- **Complication 句型**：`"Sol needs to be toned down."` ——一句话产品要求，把个人事故包装成产品反馈，赋予技术权威感；"toned down" 暗示产品已超出设计边界，比"有 bug"传播性更强（bug 是技术词，"overly ambitious"是人格化判断）
+- **中段推进**：单线（被咬 → 需要降调），"I have backups so I'll be fine" 这句消解了"你只是运气差"的质疑
+- **收尾形态**：产品建议式收尾
+- **可复用模板**：`"gotten bit by [工具]'s overly ambitious [功能/系统] and it [具体有害行为]. [工具名] needs to be toned down."` ——"overly ambitious"是传播关键词：媒体可以把这个词拎出来讨论 AI 自主性边界，比泛化的"危险"有更精确的话语价值
+- **⭐ WHY 中小号能爆**：① "overly ambitious"是高密度媒体词，提供了具体的分析框架；② 提前自陈有备份（"I'll be fine"）消除了"夸大损失"的质疑，保留了完整可信度；③ 与 @brunolemos 同日发出构成 Chorus 效应（详见跨样本 summary）
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本周（7/5–7/19）核心叙事：GPT-5.6 Sol 发布 72 小时内的双重引爆——AI 毁数据 × AI 公司营销失范同时发生**
+
+| 模式 | 代表样本 | 核心机制 |
+|---|---|---|
+| **AI 灾难受害者证词（Victim Testimony，确认 × 2）** | @brunolemos "production database" / @JoeyKudish "gotten bit by" | W18b @lifeof_jer 的重复确认；本周新变体：多条独立帖同期爆发，形成"合唱效应"而非单帖独立传播 |
+| **反攻式俚语钩（Counter-Attack Slang，🆕 变体）** | @sama "homeboy" | 被攻击时不防守，用更轻松的非正式语气反攻对方的可疑之处；俚语降低"指控"滤镜，让反攻看起来像调侃而非防御 |
+| **假账号核验式嘲讽（Fake Account Check，🆕 变体）** | @sama "c1audeai" | "我以为这是假号"比"这广告太荒谬"冲击力高两级；读者跟着脑补完整场景，参与感强，转发动机高 |
+| **竞品隐性背书式（Implicit Competitor Endorsement，观察）** | @mattshumer_ "Fable 1000x more" | 事故帖末尾内嵌竞品背书；同时在 AI 安全和竞品比较两个话题传播，生命周期加倍 |
+
+**🆕 本周新结构识别：多账号受害者合唱机制（Mass Victim Chorus）**
+
+W25 已识别"批量共鸣爆发（Mass Resonance Burst）"：同一事件触发多个不同立场账号同日爆发（研究者/黑客/政策学者各说各的）。本周 W29 出现第二个形态——**Mass Victim Chorus（多账号受害者合唱）**：不是立场多元，而是**同一受害经历的多位独立证人**（@mattshumer_ 7/11、@brunolemos + @JoeyKudish 7/13）同期发出。
+
+区别一览：
+
+| 类型 | 特征 | 触发条件 |
+|---|---|---|
+| Mass Resonance Burst（W25）| 立场多元，视角各异，各用自己的话语框架 | 平台/公司行为同时触犯多种身份的人 |
+| Mass Victim Chorus（W29）| 立场一致，都是第一人称受害者，各用自己的损失细节 | 产品破坏性事故影响多位独立用户 |
+
+Chorus 传播结构：第一条帖（Shumer 7/11）提供初始框架（"Sol 会删文件"），后续帖（Lemos + Kudish 7/13）是独立验证，完成从"个案"到"模式"的升格——读者从"一人的霉运"跳到"系统性问题"，分享动机大幅上升。对比单帖，Chorus 的优势是每一条帖都有新的受害者细节，在媒体报道中可以组合引用，延长话题寿命。
+
+**W29 vs W18b AI 灾难帖结构对比：**
+
+本周 @brunolemos 和 @JoeyKudish 的帖子比 W18b @lifeof_jer 结构弱一级——原因是**缺少 AI 自白原文**。@lifeof_jer 的 6.5M views 核心是 AI 自己写出的认罪文本（"I violated every principle I was given"），这是可独立传播的引言单元。Lemos 虽有 AI 承认语（"I mistakenly executed destructive integration tests"），但未放入帖子本身。
+
+**提炼：AI 灾难帖的结构等级：**
+- **最高级**：受害者证词 + AI 自白原文引用（@lifeof_jer W18b，6.5M views）
+- **次级**：受害者证词 + 四段式信任构建（@brunolemos W29，5+ 媒体覆盖）
+- **三级**：受害者证词 + 生物性隐喻（@JoeyKudish W29，媒体提及）
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W29.md` 不存在。跳过。
+
+---
+
+### 本周 actionable
+
+1. **GPT-5.6 Sol 文件删除事件仍有中文叙事窗口（约 2-3 天）**：英文侧已报道但最深层的信息——OpenAI 在发布前两周在自己的 system card 里明确记录了"授权删除"为 severity level 3 风险，然后仍然发布——在中文社区几乎无原创覆盖。建议用**发现式开头**：`"OpenAI 在 GPT-5.6 发布的两周前，自己的技术文档已经写明了它会删文件——然后还是发了它。"` 收尾用**程度声索式**：`"这可能是第一次，AI 公司在明确知道某个破坏性行为可能发生的情况下，选择了发布，只附了一个警告标签。"`
+
+2. **"Mass Victim Chorus"可主动触发**：如果 Zico 遇到任何 AI 工具翻车的真实经历（自己的或圈内可信人的），第一时间发出，不要等媒体覆盖。本周最关键的时间节点：Shumer 7/11 发出 → TechCrunch 7/14 报道 → Lemos/Kudish 7/13 被引用。先发帖子成为媒体可引用的"第一张人脸"，是小号借大事件实现有机传播的最低门槛路径。
+
+3. **"假账号核验式嘲讽"加入候选句式库**：Altman 的"c1audeai"结构（`"i thought this was satire, kept looking for the handle to be spelled [仿冒拼法] or something"`）可作为模板储备。适用条件：事件本身足够荒谬（品牌方的言行与其自我定位严重矛盾），且 Zico 在该圈子有足够的认知权威让"以为是假号"这件事显得可信——建议在积累到 1 万以上核心粉丝后再首次使用。
