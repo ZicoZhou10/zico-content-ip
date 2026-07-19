@@ -1,6 +1,7 @@
 ---
 date: 2026-07-19
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/080-process-data-moat-xhs.md
 ---
 
 # Today's Candidates
