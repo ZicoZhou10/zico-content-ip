@@ -1,6 +1,7 @@
 ---
 date: 2026-07-22
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/083-containment-paradox-xhs.md
 ---
 
 # Today's Candidates
