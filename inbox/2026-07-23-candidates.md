@@ -1,6 +1,7 @@
 ---
 date: 2026-07-23
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/084-evaluation-is-armament-xhs.md
 ---
 
 # Today's Candidates
