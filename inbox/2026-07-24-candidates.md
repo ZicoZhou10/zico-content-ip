@@ -1,6 +1,7 @@
 ---
 date: 2026-07-24
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/085-distillation-definition-xhs.md
 ---
 
 # Today's Candidates
