@@ -1,6 +1,7 @@
 ---
 date: 2026-07-26
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/087-generation-is-control-xhs.md
 ---
 
 # Today's Candidates
