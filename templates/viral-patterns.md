@@ -1566,3 +1566,163 @@ Chorus 传播结构：第一条帖（Shumer 7/11）提供初始框架（"Sol 会
 2. **"Mass Victim Chorus"可主动触发**：如果 Zico 遇到任何 AI 工具翻车的真实经历（自己的或圈内可信人的），第一时间发出，不要等媒体覆盖。本周最关键的时间节点：Shumer 7/11 发出 → TechCrunch 7/14 报道 → Lemos/Kudish 7/13 被引用。先发帖子成为媒体可引用的"第一张人脸"，是小号借大事件实现有机传播的最低门槛路径。
 
 3. **"假账号核验式嘲讽"加入候选句式库**：Altman 的"c1audeai"结构（`"i thought this was satire, kept looking for the handle to be spelled [仿冒拼法] or something"`）可作为模板储备。适用条件：事件本身足够荒谬（品牌方的言行与其自我定位严重矛盾），且 Zico 在该圈子有足够的认知权威让"以为是假号"这件事显得可信——建议在积累到 1 万以上核心粉丝后再首次使用。
+
+---
+
+## Week 2026-W30 · 自动提炼（2026-07-26）
+
+### 本周信号强度说明
+
+覆盖窗口：2026-07-12 至 2026-07-26（14 天）。X_MANUAL_SAMPLES=no（文件不存在）。XHS_SAMPLES=no（文件不存在）。
+
+与 W29（07-05 至 07-19）存在 7 天重叠期（07-12 至 07-19）；重叠期内已在 W29 记录的样本（@sama homeboy 7/11、@sama c1audeai 7/14、@mattshumer_ 7/11、@brunolemos 7/13、@JoeyKudish 7/13）不重复提取。本期新增样本：2 条未被 W29 捕获的 7/12–19 期间样本 + 5 条 7/20–26 期间样本 = **7 条总样本（3 KOL 基线 + 4 mid-tier outlier）**。信号质量中等偏强——多条样本已获 Fortune、Yahoo Finance、The Decoder、BigGo 等主流媒体独立核实。X_MANUAL_SAMPLES=no，WebSearch 侧独立运行。
+
+---
+
+### A · X 提炼
+
+#### KOL 基线（3 条）
+
+**A-W30-KOL-1 · @sama（Sam Altman）2026-07-13**
+
+- **量级**：The Decoder、NationPress、College Recruiter、Glen Rhodes 分析文章等多家覆盖；具体 RT/like 数未验证
+- **帖子 URL**：x.com/sama/status/2076036901824532530
+- **帖子原文**：`"so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact. it is possible this direction keeps going!"`
+- **背景**：Altman 在 2025–2026 年初多次公开警告 AI 对白领就业的毁灭性影响（"10-20% unemployment"预测）；此帖为 CEO 对自身过去立场的公开反转，次日 Anthropic 首席经济学家 McCrory 亦发文援引内部数据呼应（见 OT-2）
+- **钩子类型**：🆕 **自我反转式（Self-Contradiction Pivot）**——`"this was not what I expected"` 六个词是关键装置：说话人公开承认自己的预测被现实证伪。与反共识自白式（对手是他人共识）的关键区别：对手是说话人自己的过去发言，心理成本更高，读者对其真实性判断的门槛更低。媒体覆盖不需要说话人提供额外框架——"CEO 改口"本身就是 lede
+- **Complication 句型**：`"this was not what I expected"` 内嵌三层信息：① 结果与预测相反；② 说话人之前有过明确预测（暗含）；③ 说话人现在公开修正。无需第二段铺垫，句子本身就是 complication
+- **中段推进**：无（单句帖）
+- **收尾形态**：开放式判断——`"it is possible this direction keeps going!"` 不断言，留尾巴给读者脑补
+- **可复用模板**：`"so far at least, i'm pretty sure [颠覆预期的结论]. this was not what i expected--although i was [描述自己原本的立场]. i thought by this level of [指标/能力] we'd have seen [预期结果]. it is possible this direction keeps going!"` ——结构：现实观察 → 承认预期落空 → 留开放结尾
+
+---
+
+**A-W30-KOL-2 · @sama（Sam Altman）2026-07-14**
+
+- **量级**：Axios 独家覆盖（"Sam Altman warns of 'hiccups' with new flagship GPT-5.6 Sol"）；CryptoBriefing、MLQ News、IBTimes 等多家跟进；具体 RT/like 数未验证
+- **帖子核心**：`"the inference team has done heroic work to be able to support demand... we are going to move mountains to continue to scale, but it is possible there are some hiccups soon"`
+- **背景**：GPT-5.6 Sol 于 7/9 发布，一周内需求远超基础设施承载量，服务出现中断；此帖为 CEO 先于用户抱怨而主动发出的预警；与同日在社区流传的"c1audeai" 嘲讽帖（已在 W29 记录）为不同帖子
+- **钩子类型**：**预防式需求背书（Preemptive Demand Frame）**——把即将发生的基础设施故障重框为"需求太强导致服务器扛不住"而非"服务出了问题"。结构顺序关键：`"heroic work"` 先于 `"hiccups"` 出现——英雄叙事为副作用铺垫，而非事后道歉
+- **Complication 句型**：`"it is possible there are some hiccups soon"` ——用 hedge 语气（"it is possible"）把问题承认变成温和预测，维护了发言人的主动性（预告比事后解释的舆论杀伤力低一个档次）
+- **中段推进**：无
+- **收尾形态**：前进宣言式——`"move mountains"` 是修辞中的力量感收尾，让帖子在承认问题的同时维持了势头感
+- **可复用模板**：`"the [团队] has done heroic work to be able to support [需求/成就]. We are going to move mountains to continue to scale, but it is possible there are some [轻量级问题词汇: hiccups/bumps/delays] soon."` ——顺序：先赞团队 → 隐性承认问题 → 前进宣言（问题只是副作用，不是主语）
+
+---
+
+**A-W30-KOL-3 · @JensenHuang（Jensen Huang，NVIDIA CEO）2026-07-24**
+
+- **量级**：首发 20 分钟内 10K+ 关注，1 小时内 100K+，后达 890K+；3M+ views（Fortune 核实）；Fortune、HotHardware、geo.tv、GamesBeat、KuCoin、36kr 等多家媒体覆盖；联署方包括 Microsoft、Meta、IBM、Dell、HuggingFace、a16z、YC、Mistral、Perplexity 等 25 家公司
+- **帖子核心**：`"AI will transform every industry, power every company, and be built by every country. Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty."`
+- **背景**：Huang 在此帖之前从未拥有 X 账号；首帖即联署 "Open Weights and American AI Leadership" 公开信，Anthropic、OpenAI、Google **未**签署；同日恰逢 Karpathy bio 变化引发传言（见 OT-4），两事件在叙事上相互强化
+- **钩子类型**：🆕 **首发宣言式（Debut Manifesto）**——平台首帖不做自我介绍、不热身，直接是政策宣言。三重放大机制：① 重量级人物首次入驻平台本身即新闻，天然初始注意力；② 内容是政策立场而非个人动态，媒体可接力报道（unlike 日常 tweet，政策 tweet 有新闻价值周期）；③ **"不在名单上"比"在名单上"更有传播价值**——Anthropic/OpenAI/Google 的缺席让每一家媒体都要写一遍 "big 3 did not sign"
+- **Complication 句型**：`"Open models strengthen safety and cybersecurity"` ——把"开放"与"安全"并列，直接颠覆了"闭源 = 更安全"的潜台词（即 Anthropic 的核心立场）；一句话内嵌了整个行业立场辩论的双方
+- **中段推进**：三连排比——`"will transform every... power every... be built by every..."`——地理/行业/主体全覆盖，句式上不留反驳空间
+- **收尾形态**：政策宣言——`"sovereignty"` 是对华盛顿政策受众的精准词汇，让帖子在科技圈和政策圈同时传播
+- **可复用模板**：`"[重大领域] will transform every [X]. Open [版本/路径] strengthens [对方叙事核心价值词: safety/innovation/sovereignty]. [Open] enables [正面后果]. [Closed] risks [反面后果]."` ——结构：全覆盖主张 → 用对方的核心词汇站到对方那一边 → 暗示对立面是危险的
+
+---
+
+#### Mid-tier outliers（重点信号）— 本期 4 条
+
+**A-W30-OT-1 · @zodchiii（darkzodchi，AI 内容聚合账号）2026-07-20**
+
+- **粉丝量**：⚠️ 未独立验证（AI 内容聚合账号；Garry Tan〈YC CEO，700K+ 粉〉转发为主要放大器；估计 < 30K）
+- **互动量**：⚠️ 未精确验证；Bloomberg、VentureBeat 覆盖原始素材，Garry Tan RT 表明有机传播
+- **帖子 URL**：x.com/zodchiii/status/2079182515462369399
+- **帖子原文**：`"The creator of Claude Code, Boris Cherny: 'Every night I have hundreds, sometimes thousands of agents running 5, 10, 20 hours. That's just how engineering is done now.' Bloomberg just gave him an hour to unpack it: not better prompts, but loops."`
+- **背景**：Bloomberg 于 7/20 发布 Boris Cherny 访谈（"The Creator of Claude Code on the Hottest Piece of Software in the World"）；@zodchiii 从长访谈中提取了单句最极端的数字引言；Garry Tan RT 触发 YC 社群的二次传播
+- **钩子类型**：**概念提炼式 + 极端数字锁定**——从长访谈提取一句包含三个极端数字的引言：`"hundreds, sometimes thousands of agents"（数量）+ "5, 10, 20 hours"（时长）+ "every night"（频率）`。"every night" 把极端变成惯例，是二次放大装置
+- **Complication 句型**：`"not better prompts, but loops"` ——两词否定当前主流认知（大多数用户关注 better prompts），然后给出替代范式。Stop X / Start Y 的两词压缩版
+- **中段推进**：无（单句摘要 + 外链）
+- **收尾形态**：链接 CTA（Bloomberg 文章）
+- **可复用模板**：`"[权威人物头衔]，[人名]：'[含极端数字的引文，每个数字都比读者预期高 10x].' [媒体] just gave [him/her] an hour to unpack it: not [读者已知的做法], but [更底层范式]."`
+- **⭐ WHY 中小号能爆**：① "thousands of agents / 20 hours / every night" 三数字堆叠，每个单独都够极端，三个一起让读者感到自己在对的跑道上但落后了几个数量级；② "not prompts, but loops" 提供即时可分享的认知框架切换，读者可以把这句话转发给别人说"你关注错了方向"；③ Garry Tan RT = YC 掌门人背书，把聚合内容的代表性锚定在顶级 VC 的判断层
+
+---
+
+**A-W30-OT-2 · @PeterMcCrory（Peter McCrory，Anthropic 首席经济学家）2026-07-24**
+
+- **粉丝量**：⚠️ 未独立验证（学术型经济学家，Anthropic 内部职位；估计 < 10K；Fortune、Yahoo Finance、BigGo、Storyboard18 四家媒体独立覆盖，传播触达远超粉丝数上限）
+- **帖子 URL**：x.com/PeterMcCrory/status/2079979513719431208
+- **帖子核心**：长文 X essay，基于 Anthropic 内部 18 个月经济学研究，结论：AI 对美国劳动力市场无显著负面影响；unemployment 4.2%（接近 full employment）；高 AI 暴露度职位 vs 低暴露度职位 unemployment 率无显著差异
+- **背景**：Dario Amodei 2025–2026 年初多次公开预测 AI 将引发"white-collar bloodbath"（10–20% unemployment）；此文为 Anthropic 内部数据专家对自家 CEO 公开叙事的实证反驳；与次日 @pmddomingos 的裁决引用帖（OT-3）形成传播接力
+- **钩子类型**：🆕 **公司内部异见式（Company Insider Dissent Hook）**——公司内部职能专家用内部数据公开否认 CEO 的核心对外叙事。四要件：① 说话人有公司头衔（内部可信度）；② 数据来自内部研究（外部无法独立验证，反而增加了神秘感）；③ 结论与 CEO 立场明确矛盾（无模糊空间）；④ 发布看起来是个人主动发出，而非公司统一口径。媒体无法抵抗：既可以写"公司改口"，又可以写"CEO 与内部专家不一致"
+- **Complication 句型**：数据本身即 complication——媒体替 McCrory 写出了冲突句（"Anthropic's top economist counters CEO's grim forecast"）；帖子内部无需显性对比，**18 个月 × 内部数据 × Dario 的已知立场**三者并置已足够
+- **中段推进**：数据单线推进——unemployment 4.2% → job openings ≈ 失业人数 → prime-age employment 多年高点 → 高暴露 vs 低暴露职位 unemployment 无差异 → `"at least not yet"` 单一对冲词收束
+- **收尾形态**：数据谨慎式——`"at least not yet"` 是全文唯一 hedge，保留了诚实度而不过度主张
+- **可复用模板**：`"[N] 个月/年的内部数据，结论是：[明确与主流/权威叙事相反的结论]. [数据1]. [数据2]. [数据3]. [至少目前如此]."` ——要件：必须是内部数据（CEO 也能引外部数据，内部数据才是不对等的信息优势）；对冲词最多一个
+- **⭐ WHY 零粉丝中小号获 Fortune 级覆盖**：媒体需要一个"用公司内部数据结束上半年 AI 就业恐慌热度"的叙事锚点；McCrory 提供的是不可替代的内部数据——任何外部分析师都无法复制这个数据优势。**关键：内部数据让帖子绕过了"又一个人在争论 Dario 是对是错"的舆论噪音，直接进入不可辩驳的实证层**
+
+---
+
+**A-W30-OT-3 · @pmddomingos（Pedro Domingos，ML 教授，《主算法》作者）2026-07-25**
+
+- **粉丝量**：⚠️ 未独立验证（ML 学术账号，知名 AI 怀疑论者，估计 < 50K；帖子被多家报道 McCrory essay 的媒体分析文章引用为"最具代表性的外部反应"）
+- **帖子 URL**：x.com/pmddomingos/status/2080743783118020903
+- **帖子原文**：`"Anthropic's own head of economics says Dario was flat-out wrong about AI decimating jobs in the near term:"`（配外链 McCrory essay）
+- **钩子类型**：🆕 **裁决引用式（Verdict-by-Citation）**——说话人不提供新论据，而是宣告"内部审判结果已经出来了"。关键词序设计：`Anthropic's own`（归属：对方内部）→ `head of economics`（专业权威）→ `says Dario was`（引用语气，说话人退后）→ `flat-out wrong`（最强程度词）→ `about [具体主张]`（范围限定，不是全盘否定）
+- **Complication 句型**：`"flat-out wrong"` ——不是"questioned"、"contradicted"、"offered alternative data"，是"flat-out wrong"。程度词选择决定了帖子是否可被媒体直接引用作 lede：这句话可以被整个复制进标题，无需改写
+- **中段推进**：无（单句帖 + 外链）
+- **收尾形态**：引用自封闭，冒号 + 外链让读者知道证据在下一跳，不是说话人的推断
+- **可复用模板**：`"[Company]'s own [insider title with relevant domain expertise] says [CEO/target] was flat-out wrong about [specific claim]:"` 配外链。词序：own（归属强调）→ 头衔（专业相关性）→ flat-out wrong（无 hedge 的极端程度词）→ colon（外链 = 证据，我不补充）
+- **⭐ WHY 有效**：Domingos 长期批评 AI 炒作，其个人观点已被市场"定价"（他的支持者会同意，反对者会忽视）；但此帖**他不提供自己的观点，只引用对方内部证人**——读者不需要相信 Domingos，只需要相信 Anthropic 自己的首席经济学家。裁决引用式的核心：**说话人的可信度不影响传播力，被引用的内部证人的可信度才重要**——只要内部证人够权威，外部评论者的粉丝数就不影响传播效率
+
+---
+
+**A-W30-OT-4 · @LLMJunky（am.will，AI 观察者）2026-07-26**
+
+- **粉丝量**：⚠️ 未独立验证（AI 观察者类账号；估计 < 20K；帖子引发 36kr、BigGo 独立报道及 Karpathy 本人两条 reply，表明有机传播触达大幅超出粉丝数）
+- **帖子 URL**：x.com/LLMJunky/status/2081114803834376218
+- **帖子原文**：`"Did Karpathy remove Anthropic from bio? Or was it not there. [截图]"`
+- **后续**：Karpathy 以两条 reply 否认：① `"weird misinformation to find circling on twitter, no"` ② `"I thought the way to announce such a thing was not to change your bio but to post the 10 paragraph essay that I just shared with the team"`；36kr、BigGo Finance 等媒体发出完整报道
+- **背景**：7/24 Jensen Huang 发布开源 AI 公开信，Anthropic 不在签名方；7/26 同日 Karpathy bio 被发现无 Anthropic 字样。两事件叙事上相互强化（"Karpathy 是否因 Anthropic 的闭源立场离职"），尽管实际可能无关
+- **钩子类型**：🆕 **信号发现式（Signal Spotting Hook）**——在公开场合（Twitter bio/关注列表/产品页面）发现公开可验证的信号变化，以**问句而非断言**发帖，配截图。与 W18 @Fried_rice "发现式"（技术层：npm .map 文件）的区别：信号发现式在社会/公开层（任何关注此人者都可见），无需技术知识，验证时间接近 0
+- **Complication 句型**：`"Or was it not there"` ——这是全帖最关键的六个字：说话人没有说"Karpathy 离职了"（那是结论），而是问"这个信号曾经存在过吗"——把实际判断权交给读者，激活了社区的**集体记忆与验证行为**
+- **中段推进**：无（问题句 + 截图）
+- **收尾形态**：无，问句自封闭，答案在 reply 里自然生成
+- **可复用模板**：`"Did [知名人物] remove [公开可观察的信号: bio 词条/产品功能/定价页元素/关注列表] from [位置]? Or was it not there. [截图]"` ——要件：截图（验证成本降为 0）；问题句而非断言（降低断言风险，把发现行为分享给读者）
+- **⭐ WHY 中小号能爆**：① 截图让验证成本为 0，所有人成为共同目击者；② "Or was it not there" 激活记忆比对行为（我记不记得 Karpathy bio 里有没有 Anthropic？）；③ **背景噪音叙事化**：7/24 大型开源信发布且 Anthropic 缺席，给 bio 变化提供了现成的叙事脚手架——即使两事件实际无关，读者的叙事本能会把它们连接起来，传播能量是两事件的乘积而非之和
+
+---
+
+#### 本周 X 侧提炼（跨样本 summary）
+
+**本周（7/12–7/26）叙事重心：AI 就业叙事的公开断裂——CEO 预测、内部数据、市场现实三者首次同框**
+
+本窗口是今年首次出现"主流科技媒体叙事自我修正"的结构密集期：7/13 Altman 公开推翻自己的就业预测；7/24 Anthropic 内部经济学家用内部数据反驳 Dario；7/24 Jensen Huang 以首帖入场并将 Anthropic 置于立场对立面；7/26 Karpathy bio 事件将 Anthropic 的闭源立场再次推到舆论中心。四个事件在叙事上互相引力，但结构上各自独立——这是"背景事件引力场"而非"单一新闻波浪"。
+
+| 模式 | 代表样本 | 核心机制 |
+|---|---|---|
+| **自我反转式（🆕 新类型）** | @sama 7/13 "net job-creating" | CEO 公开承认自己预测被证伪；`"this was not what I expected"` 六字是传播装置；媒体的 lede 不需要说话人提供框架，"CEO 改口"就是 lede |
+| **公司内部异见式（🆕 新类型）** | @PeterMcCrory 7/24 | 公司内部数据专家用内部研究公开否认 CEO 叙事；内部数据创造了外部分析师无法复制的不对等信息优势；媒体需要这个结构来完成"AI 泡沫降温"叙事 |
+| **裁决引用式（🆕 新变体）** | @pmddomingos 7/25 "flat-out wrong" | 说话人不提供论据，只宣告审判结果；引用对象的可信度 > 说话人自身可信度；"flat-out wrong" 是 lede 级程度词 |
+| **首发宣言式（🆕 新变体）** | @JensenHuang 7/24 | 重量级人物首帖不做自我介绍，直接是政策宣言；"缺席者名单"（Anthropic/OpenAI/Google）比"出席者名单"传播价值更高 |
+| **信号发现式（🆕 确认变体）** | @LLMJunky 7/26 Karpathy bio | 发现式的社会层变体：公开信号变化（bio/关注列表）+ 问句 + 截图；验证时间 0 = 传播速度最大化；背景噪音叙事化将两个独立事件的能量相乘 |
+| **预防式需求背书（确认）** | @sama 7/14 Sol hiccups | 把基础设施故障预告重框为需求太强的证明；"heroic team" 先于 "hiccups" 出现是结构关键 |
+
+**🆕 四个新类型/变体建议补入 typology：**
+
+> **自我反转式（Self-Contradiction Pivot）**：说话人公开承认自己的过去预测/立场被现实证伪，用 `"this was not what I expected"` 等句式标定。必要条件：说话人在帖子里显性承认之前有过明确预期（否则退化为普通信息分享）。与反共识自白式的区别：对手是说话人自己的过去发言，而非他人共识；心理成本更高，读者信任门槛更低。媒体的 lede 由"CEO 改口"这个事实本身提供，说话人不需要额外框架。
+
+> **公司内部异见式（Company Insider Dissent Hook）**：公司内部职能专家（economist / safety researcher / product lead）用内部积累数据公开否认 CEO 的核心对外叙事。四要件：① 公司头衔（内部可信度）；② 内部数据（外部无法独立验证，反而增加不对等感）；③ 结论与 CEO 立场明确矛盾（无模糊空间）；④ 发布看起来是个人主动而非公司口径。媒体无法抵抗：既可写"公司改口"，又可写"CEO 与专家不一致"，两角度都是可发布新闻。护城河：内部数据的不可复制性。
+
+> **裁决引用式（Verdict-by-Citation Hook）**：外部评论者不提供自己的论据，只宣告内部审判结果。句式：`"[Company]'s own [专业相关头衔] says [target] was flat-out wrong about [claim]:"` 关键词序：own（归属）→ 头衔（相关性）→ flat-out/completely wrong（无 hedge 极端程度词）→ colon（外链=证据，我不补充）。说话人可信度不影响传播力——引用对象的可信度才重要。
+
+> **信号发现式（Signal Spotting Hook）**：在公开场合（bio/关注列表/产品页/定价页）发现公开可验证的信号变化，以问句而非断言发帖，配截图。`"Did [X] remove [signal] from [place]? Or was it not there."` 截图是免验证成本的核心工具。与技术发现式（W18）的区别：无需技术知识，验证时间接近 0，门槛更低，传播速度更快。背景叙事强化机制：独立事件若处于同一叙事引力场，能量相乘而非相加。
+
+---
+
+### B · 小红书提炼 · 本周无样本（已跳过）
+
+`raw/viral-samples-xhs/2026-W30.md` 不存在。跳过。
+
+---
+
+### 本周 actionable
+
+1. **"自我反转式"是下一篇内容最高优先级测试**：如果 Zico 在过去内容中有过明确的判断/预测（AI 产品、某工具的使用方式、某趋势的走向），现在是否有新证据推翻它？如果有：`"[N 周/月]前我说了 [X]。我错了。[新数据/经历]。我现在认为 [Y]。"` ——比"大多数人都说 X 但实际上是 Y"有力一个量级，因为读者见过你的过去发言，这个反转的真实成本是可见的。不需要戏剧化，只需要你有真实的改变。
+
+2. **McCrory/McCrory 事件的中文叙事窗口（约 24-48 小时）**：Fortune 7/24 文章刚出，中文社区仍在追 Karpathy bio 传言，这篇的真正结构还没有被中文原创处理。建议用**内部异见式**开头：`"Anthropic 自己的首席经济学家，用公司内部 18 个月的数据，说 Dario 的预测错了。"` 中段：三条数据（unemployment 4.2% / job openings ≈ 失业人数 / 高低暴露度职位无差异）。收尾用**裁决引用式**句式：`"这不是外部批评者说的。这是 Anthropic 内部的人，用 Anthropic 内部的数据说的。"` 窗口期以 Fortune 7/24 为起点，约 2 天内仍有信息差。
+
+3. **"缺席者名单"加入 Daily Write 触发器清单**：Jensen Huang 首帖的最大传播引擎不是他说了什么，而是 Anthropic/OpenAI/Google 没有签名。对未来内容的启示：当一个重要信号出现时（产品发布/政策表态/公开信/行业奖项），**谁缺席比谁出席更有新闻价值**。建议在 Daily Write 流程里加一个检查问题：`"这件事里，谁'应该'在但不在？那个空位说明了什么？"`
