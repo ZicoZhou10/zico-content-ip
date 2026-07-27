@@ -1,6 +1,7 @@
 ---
 date: 2026-07-27
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/088-health-compliance-void-xhs.md
 ---
 
 # Today's Candidates
