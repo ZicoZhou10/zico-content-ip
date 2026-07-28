@@ -1,6 +1,7 @@
 ---
 date: 2026-07-28
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/089-compute-guarantee-power-xhs.md
 ---
 
 # Today's Candidates
