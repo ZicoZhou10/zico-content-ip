@@ -1,6 +1,7 @@
 ---
 date: 2026-07-31
-status: pending_selection
+status: written
+selected: candidate 2 → drafts/092-ai-attribution-gap-xhs.md
 ---
 
 # Today's Candidates
