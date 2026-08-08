@@ -1,6 +1,7 @@
 ---
 date: 2026-04-29
-status: pending_selection
+status: written
+selected: candidate 1 → drafts/010-philosophy-inflection-xhs.md
 ---
 
 # Today's Candidates
